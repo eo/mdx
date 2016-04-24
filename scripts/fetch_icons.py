@@ -52,8 +52,6 @@ def normalize_icons_data(icons_data):
     for icon_dict in icons_data['icons']:
         icon = OrderedDict()
         icon['name'] = icon_dict['name']
-        icon['keywords'] = ' '.join(icon_dict['keywords'])
-        icon['file'] = icon_dict['id']
         icon['codepoint'] = icon_dict['codepoint']
 
         icon_group = group_id_map[icon_dict['group_id']]

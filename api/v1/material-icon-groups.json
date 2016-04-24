@@ -4,1298 +4,866 @@
     "icons": [
       {
         "name": "3d rotation",
-        "keywords": "action 3d rotation",
-        "file": "ic_3d_rotation",
         "codepoint": "E84D"
       },
       {
         "name": "accessibility",
-        "keywords": "action accessibility",
-        "file": "ic_accessibility",
         "codepoint": "E84E"
       },
       {
         "name": "accessible",
-        "keywords": "action accessible",
-        "file": "ic_accessible",
         "codepoint": "E914"
       },
       {
         "name": "account balance",
-        "keywords": "action account balance",
-        "file": "ic_account_balance",
         "codepoint": "E84F"
       },
       {
         "name": "account balance wallet",
-        "keywords": "action account balance wallet",
-        "file": "ic_account_balance_wallet",
         "codepoint": "E850"
       },
       {
         "name": "account box",
-        "keywords": "action account box",
-        "file": "ic_account_box",
         "codepoint": "E851"
       },
       {
         "name": "account circle",
-        "keywords": "action account circle",
-        "file": "ic_account_circle",
         "codepoint": "E853"
       },
       {
         "name": "add shopping cart",
-        "keywords": "action add shopping cart",
-        "file": "ic_add_shopping_cart",
         "codepoint": "E854"
       },
       {
         "name": "alarm",
-        "keywords": "action alarm",
-        "file": "ic_alarm",
         "codepoint": "E855"
       },
       {
         "name": "alarm add",
-        "keywords": "action alarm add",
-        "file": "ic_alarm_add",
         "codepoint": "E856"
       },
       {
         "name": "alarm off",
-        "keywords": "action alarm off",
-        "file": "ic_alarm_off",
         "codepoint": "E857"
       },
       {
         "name": "alarm on",
-        "keywords": "action alarm on",
-        "file": "ic_alarm_on",
         "codepoint": "E858"
       },
       {
         "name": "all out",
-        "keywords": "action all out",
-        "file": "ic_all_out",
         "codepoint": "E90B"
       },
       {
         "name": "android",
-        "keywords": "action android",
-        "file": "ic_android",
         "codepoint": "E859"
       },
       {
         "name": "announcement",
-        "keywords": "action announcement",
-        "file": "ic_announcement",
         "codepoint": "E85A"
       },
       {
         "name": "aspect ratio",
-        "keywords": "action aspect ratio",
-        "file": "ic_aspect_ratio",
         "codepoint": "E85B"
       },
       {
         "name": "assessment",
-        "keywords": "action assessment",
-        "file": "ic_assessment",
         "codepoint": "E85C"
       },
       {
         "name": "assignment",
-        "keywords": "action assignment",
-        "file": "ic_assignment",
         "codepoint": "E85D"
       },
       {
         "name": "assignment ind",
-        "keywords": "action assignment ind",
-        "file": "ic_assignment_ind",
         "codepoint": "E85E"
       },
       {
         "name": "assignment late",
-        "keywords": "action assignment late",
-        "file": "ic_assignment_late",
         "codepoint": "E85F"
       },
       {
         "name": "assignment return",
-        "keywords": "action assignment return",
-        "file": "ic_assignment_return",
         "codepoint": "E860"
       },
       {
         "name": "assignment returned",
-        "keywords": "action assignment returned",
-        "file": "ic_assignment_returned",
         "codepoint": "E861"
       },
       {
         "name": "assignment turned in",
-        "keywords": "action assignment turned in",
-        "file": "ic_assignment_turned_in",
         "codepoint": "E862"
       },
       {
         "name": "autorenew",
-        "keywords": "action autorenew",
-        "file": "ic_autorenew",
         "codepoint": "E863"
       },
       {
         "name": "backup",
-        "keywords": "action backup",
-        "file": "ic_backup",
         "codepoint": "E864"
       },
       {
         "name": "book",
-        "keywords": "action book",
-        "file": "ic_book",
         "codepoint": "E865"
       },
       {
         "name": "bookmark",
-        "keywords": "action bookmark",
-        "file": "ic_bookmark",
         "codepoint": "E866"
       },
       {
         "name": "bookmark border",
-        "keywords": "action bookmark border",
-        "file": "ic_bookmark_border",
         "codepoint": "E867"
       },
       {
         "name": "bug report",
-        "keywords": "action bug report",
-        "file": "ic_bug_report",
         "codepoint": "E868"
       },
       {
         "name": "build",
-        "keywords": "action build",
-        "file": "ic_build",
         "codepoint": "E869"
       },
       {
         "name": "cached",
-        "keywords": "action cached",
-        "file": "ic_cached",
         "codepoint": "E86A"
       },
       {
         "name": "camera enhance",
-        "keywords": "action camera enhance",
-        "file": "ic_camera_enhance",
         "codepoint": "E8FC"
       },
       {
         "name": "card giftcard",
-        "keywords": "action card giftcard",
-        "file": "ic_card_giftcard",
         "codepoint": "E8F6"
       },
       {
         "name": "card membership",
-        "keywords": "action card membership",
-        "file": "ic_card_membership",
         "codepoint": "E8F7"
       },
       {
         "name": "card travel",
-        "keywords": "action card travel",
-        "file": "ic_card_travel",
         "codepoint": "E8F8"
       },
       {
         "name": "change history",
-        "keywords": "action change history",
-        "file": "ic_change_history",
         "codepoint": "E86B"
       },
       {
         "name": "check circle",
-        "keywords": "action check circle",
-        "file": "ic_check_circle",
         "codepoint": "E86C"
       },
       {
         "name": "chrome reader mode",
-        "keywords": "action chrome reader mode",
-        "file": "ic_chrome_reader_mode",
         "codepoint": "E86D"
       },
       {
         "name": "class",
-        "keywords": "action class",
-        "file": "ic_class",
         "codepoint": "E86E"
       },
       {
         "name": "code",
-        "keywords": "action code",
-        "file": "ic_code",
         "codepoint": "E86F"
       },
       {
         "name": "compare arrows",
-        "keywords": "action compare arrows",
-        "file": "ic_compare_arrows",
         "codepoint": "E915"
       },
       {
         "name": "copyright",
-        "keywords": "action copyright",
-        "file": "ic_copyright",
         "codepoint": "E90C"
       },
       {
         "name": "credit card",
-        "keywords": "action credit card",
-        "file": "ic_credit_card",
         "codepoint": "E870"
       },
       {
         "name": "dashboard",
-        "keywords": "action dashboard",
-        "file": "ic_dashboard",
         "codepoint": "E871"
       },
       {
         "name": "date range",
-        "keywords": "action date range",
-        "file": "ic_date_range",
         "codepoint": "E916"
       },
       {
         "name": "delete",
-        "keywords": "action delete",
-        "file": "ic_delete",
         "codepoint": "E872"
       },
       {
         "name": "delete forever",
-        "keywords": "action delete forever",
-        "file": "ic_delete_forever",
         "codepoint": "E92B"
       },
       {
         "name": "description",
-        "keywords": "action description",
-        "file": "ic_description",
         "codepoint": "E873"
       },
       {
         "name": "dns",
-        "keywords": "action dns",
-        "file": "ic_dns",
         "codepoint": "E875"
       },
       {
         "name": "done",
-        "keywords": "action done",
-        "file": "ic_done",
         "codepoint": "E876"
       },
       {
         "name": "done all",
-        "keywords": "action done all",
-        "file": "ic_done_all",
         "codepoint": "E877"
       },
       {
         "name": "donut large",
-        "keywords": "action donut large",
-        "file": "ic_donut_large",
         "codepoint": "E917"
       },
       {
         "name": "donut small",
-        "keywords": "action donut small",
-        "file": "ic_donut_small",
         "codepoint": "E918"
       },
       {
         "name": "eject",
-        "keywords": "action eject",
-        "file": "ic_eject",
         "codepoint": "E8FB"
       },
       {
         "name": "euro symbol",
-        "keywords": "action euro symbol",
-        "file": "ic_euro_symbol",
         "codepoint": "E926"
       },
       {
         "name": "event",
-        "keywords": "action event",
-        "file": "ic_event",
         "codepoint": "E878"
       },
       {
         "name": "event seat",
-        "keywords": "action event seat",
-        "file": "ic_event_seat",
         "codepoint": "E903"
       },
       {
         "name": "exit to app",
-        "keywords": "action exit to app",
-        "file": "ic_exit_to_app",
         "codepoint": "E879"
       },
       {
         "name": "explore",
-        "keywords": "action explore",
-        "file": "ic_explore",
         "codepoint": "E87A"
       },
       {
         "name": "extension",
-        "keywords": "action extension",
-        "file": "ic_extension",
         "codepoint": "E87B"
       },
       {
         "name": "face",
-        "keywords": "action face",
-        "file": "ic_face",
         "codepoint": "E87C"
       },
       {
         "name": "favorite",
-        "keywords": "action favorite",
-        "file": "ic_favorite",
         "codepoint": "E87D"
       },
       {
         "name": "favorite border",
-        "keywords": "action favorite border",
-        "file": "ic_favorite_border",
         "codepoint": "E87E"
       },
       {
         "name": "feedback",
-        "keywords": "action feedback",
-        "file": "ic_feedback",
         "codepoint": "E87F"
       },
       {
         "name": "find in page",
-        "keywords": "action find in page",
-        "file": "ic_find_in_page",
         "codepoint": "E880"
       },
       {
         "name": "find replace",
-        "keywords": "action find replace",
-        "file": "ic_find_replace",
         "codepoint": "E881"
       },
       {
         "name": "fingerprint",
-        "keywords": "action fingerprint",
-        "file": "ic_fingerprint",
         "codepoint": "E90D"
       },
       {
         "name": "flight land",
-        "keywords": "action flight land",
-        "file": "ic_flight_land",
         "codepoint": "E904"
       },
       {
         "name": "flight takeoff",
-        "keywords": "action flight takeoff",
-        "file": "ic_flight_takeoff",
         "codepoint": "E905"
       },
       {
         "name": "flip to back",
-        "keywords": "action flip to back",
-        "file": "ic_flip_to_back",
         "codepoint": "E882"
       },
       {
         "name": "flip to front",
-        "keywords": "action flip to front",
-        "file": "ic_flip_to_front",
         "codepoint": "E883"
       },
       {
         "name": "g translate",
-        "keywords": "action translate",
-        "file": "ic_g_translate",
         "codepoint": "E927"
       },
       {
         "name": "gavel",
-        "keywords": "action gavel",
-        "file": "ic_gavel",
         "codepoint": "E90E"
       },
       {
         "name": "get app",
-        "keywords": "action get app",
-        "file": "ic_get_app",
         "codepoint": "E884"
       },
       {
         "name": "gif",
-        "keywords": "action gif",
-        "file": "ic_gif",
         "codepoint": "E908"
       },
       {
         "name": "grade",
-        "keywords": "action grade",
-        "file": "ic_grade",
         "codepoint": "E885"
       },
       {
         "name": "group work",
-        "keywords": "action group work",
-        "file": "ic_group_work",
         "codepoint": "E886"
       },
       {
         "name": "help",
-        "keywords": "action help",
-        "file": "ic_help",
         "codepoint": "E887"
       },
       {
         "name": "help outline",
-        "keywords": "action help outline",
-        "file": "ic_help_outline",
         "codepoint": "E8FD"
       },
       {
         "name": "highlight off",
-        "keywords": "action highlight off",
-        "file": "ic_highlight_off",
         "codepoint": "E888"
       },
       {
         "name": "history",
-        "keywords": "action history",
-        "file": "ic_history",
         "codepoint": "E889"
       },
       {
         "name": "home",
-        "keywords": "action home",
-        "file": "ic_home",
         "codepoint": "E88A"
       },
       {
         "name": "hourglass empty",
-        "keywords": "action hourglass empty",
-        "file": "ic_hourglass_empty",
         "codepoint": "E88B"
       },
       {
         "name": "hourglass full",
-        "keywords": "action hourglass full",
-        "file": "ic_hourglass_full",
         "codepoint": "E88C"
       },
       {
         "name": "http",
-        "keywords": "action http",
-        "file": "ic_http",
         "codepoint": "E902"
       },
       {
         "name": "https",
-        "keywords": "action https",
-        "file": "ic_https",
         "codepoint": "E88D"
       },
       {
         "name": "important devices",
-        "keywords": "action important devices",
-        "file": "ic_important_devices",
         "codepoint": "E912"
       },
       {
         "name": "info",
-        "keywords": "action info",
-        "file": "ic_info",
         "codepoint": "E88E"
       },
       {
         "name": "info outline",
-        "keywords": "action info outline",
-        "file": "ic_info_outline",
         "codepoint": "E88F"
       },
       {
         "name": "input",
-        "keywords": "action input",
-        "file": "ic_input",
         "codepoint": "E890"
       },
       {
         "name": "invert colors",
-        "keywords": "action invert colors",
-        "file": "ic_invert_colors",
         "codepoint": "E891"
       },
       {
         "name": "label",
-        "keywords": "action label",
-        "file": "ic_label",
         "codepoint": "E892"
       },
       {
         "name": "label outline",
-        "keywords": "action label outline",
-        "file": "ic_label_outline",
         "codepoint": "E893"
       },
       {
         "name": "language",
-        "keywords": "action language",
-        "file": "ic_language",
         "codepoint": "E894"
       },
       {
         "name": "launch",
-        "keywords": "action launch",
-        "file": "ic_launch",
         "codepoint": "E895"
       },
       {
         "name": "lightbulb outline",
-        "keywords": "action lightbulb outline",
-        "file": "ic_lightbulb_outline",
         "codepoint": "E90F"
       },
       {
         "name": "line style",
-        "keywords": "action line style",
-        "file": "ic_line_style",
         "codepoint": "E919"
       },
       {
         "name": "line weight",
-        "keywords": "action line weight",
-        "file": "ic_line_weight",
         "codepoint": "E91A"
       },
       {
         "name": "list",
-        "keywords": "action list",
-        "file": "ic_list",
         "codepoint": "E896"
       },
       {
         "name": "lock",
-        "keywords": "action lock",
-        "file": "ic_lock",
         "codepoint": "E897"
       },
       {
         "name": "lock open",
-        "keywords": "action lock open",
-        "file": "ic_lock_open",
         "codepoint": "E898"
       },
       {
         "name": "lock outline",
-        "keywords": "action lock outline",
-        "file": "ic_lock_outline",
         "codepoint": "E899"
       },
       {
         "name": "loyalty",
-        "keywords": "action loyalty",
-        "file": "ic_loyalty",
         "codepoint": "E89A"
       },
       {
         "name": "markunread mailbox",
-        "keywords": "action markunread mailbox",
-        "file": "ic_markunread_mailbox",
         "codepoint": "E89B"
       },
       {
         "name": "motorcycle",
-        "keywords": "action motorcycle",
-        "file": "ic_motorcycle",
         "codepoint": "E91B"
       },
       {
         "name": "note add",
-        "keywords": "action note add",
-        "file": "ic_note_add",
         "codepoint": "E89C"
       },
       {
         "name": "offline pin",
-        "keywords": "action offline pin",
-        "file": "ic_offline_pin",
         "codepoint": "E90A"
       },
       {
         "name": "opacity",
-        "keywords": "action opacity",
-        "file": "ic_opacity",
         "codepoint": "E91C"
       },
       {
         "name": "open in browser",
-        "keywords": "action open in browser",
-        "file": "ic_open_in_browser",
         "codepoint": "E89D"
       },
       {
         "name": "open in new",
-        "keywords": "action open in new",
-        "file": "ic_open_in_new",
         "codepoint": "E89E"
       },
       {
         "name": "open with",
-        "keywords": "action open with",
-        "file": "ic_open_with",
         "codepoint": "E89F"
       },
       {
         "name": "pageview",
-        "keywords": "action pageview",
-        "file": "ic_pageview",
         "codepoint": "E8A0"
       },
       {
         "name": "pan tool",
-        "keywords": "action pan tool",
-        "file": "ic_pan_tool",
         "codepoint": "E925"
       },
       {
         "name": "payment",
-        "keywords": "action payment",
-        "file": "ic_payment",
         "codepoint": "E8A1"
       },
       {
         "name": "perm camera mic",
-        "keywords": "action perm camera mic",
-        "file": "ic_perm_camera_mic",
         "codepoint": "E8A2"
       },
       {
         "name": "perm contact calendar",
-        "keywords": "action perm contact calendar",
-        "file": "ic_perm_contact_calendar",
         "codepoint": "E8A3"
       },
       {
         "name": "perm data setting",
-        "keywords": "action perm data setting",
-        "file": "ic_perm_data_setting",
         "codepoint": "E8A4"
       },
       {
         "name": "perm device information",
-        "keywords": "action perm device information",
-        "file": "ic_perm_device_information",
         "codepoint": "E8A5"
       },
       {
         "name": "perm identity",
-        "keywords": "action perm identity",
-        "file": "ic_perm_identity",
         "codepoint": "E8A6"
       },
       {
         "name": "perm media",
-        "keywords": "action perm media",
-        "file": "ic_perm_media",
         "codepoint": "E8A7"
       },
       {
         "name": "perm phone msg",
-        "keywords": "action perm phone msg",
-        "file": "ic_perm_phone_msg",
         "codepoint": "E8A8"
       },
       {
         "name": "perm scan wifi",
-        "keywords": "action perm scan wifi",
-        "file": "ic_perm_scan_wifi",
         "codepoint": "E8A9"
       },
       {
         "name": "pets",
-        "keywords": "action pets",
-        "file": "ic_pets",
         "codepoint": "E91D"
       },
       {
         "name": "picture in picture",
-        "keywords": "action picture in picture",
-        "file": "ic_picture_in_picture",
         "codepoint": "E8AA"
       },
       {
         "name": "picture in picture alt",
-        "keywords": "action picture in picture alt",
-        "file": "ic_picture_in_picture_alt",
         "codepoint": "E911"
       },
       {
         "name": "play for work",
-        "keywords": "action play work",
-        "file": "ic_play_for_work",
         "codepoint": "E906"
       },
       {
         "name": "polymer",
-        "keywords": "action polymer",
-        "file": "ic_polymer",
         "codepoint": "E8AB"
       },
       {
         "name": "power settings new",
-        "keywords": "action power settings new",
-        "file": "ic_power_settings_new",
         "codepoint": "E8AC"
       },
       {
         "name": "pregnant woman",
-        "keywords": "action pregnant woman",
-        "file": "ic_pregnant_woman",
         "codepoint": "E91E"
       },
       {
         "name": "print",
-        "keywords": "action print",
-        "file": "ic_print",
         "codepoint": "E8AD"
       },
       {
         "name": "query builder",
-        "keywords": "action query builder",
-        "file": "ic_query_builder",
         "codepoint": "E8AE"
       },
       {
         "name": "question answer",
-        "keywords": "action question answer",
-        "file": "ic_question_answer",
         "codepoint": "E8AF"
       },
       {
         "name": "receipt",
-        "keywords": "action receipt",
-        "file": "ic_receipt",
         "codepoint": "E8B0"
       },
       {
         "name": "record voice over",
-        "keywords": "action record voice over",
-        "file": "ic_record_voice_over",
         "codepoint": "E91F"
       },
       {
         "name": "redeem",
-        "keywords": "action redeem",
-        "file": "ic_redeem",
         "codepoint": "E8B1"
       },
       {
         "name": "remove shopping cart",
-        "keywords": "action remove shopping cart",
-        "file": "ic_remove_shopping_cart",
         "codepoint": "E928"
       },
       {
         "name": "reorder",
-        "keywords": "action reorder",
-        "file": "ic_reorder",
         "codepoint": "E8FE"
       },
       {
         "name": "report problem",
-        "keywords": "action report problem",
-        "file": "ic_report_problem",
         "codepoint": "E8B2"
       },
       {
         "name": "restore",
-        "keywords": "action restore",
-        "file": "ic_restore",
         "codepoint": "E8B3"
       },
       {
         "name": "restore page",
-        "keywords": "action restore page",
-        "file": "ic_restore_page",
         "codepoint": "E929"
       },
       {
         "name": "room",
-        "keywords": "action room",
-        "file": "ic_room",
         "codepoint": "E8B4"
       },
       {
         "name": "rounded corner",
-        "keywords": "action rounded corner",
-        "file": "ic_rounded_corner",
         "codepoint": "E920"
       },
       {
         "name": "rowing",
-        "keywords": "action rowing",
-        "file": "ic_rowing",
         "codepoint": "E921"
       },
       {
         "name": "schedule",
-        "keywords": "action schedule",
-        "file": "ic_schedule",
         "codepoint": "E8B5"
       },
       {
         "name": "search",
-        "keywords": "action search",
-        "file": "ic_search",
         "codepoint": "E8B6"
       },
       {
         "name": "settings",
-        "keywords": "action settings",
-        "file": "ic_settings",
         "codepoint": "E8B8"
       },
       {
         "name": "settings applications",
-        "keywords": "action settings applications",
-        "file": "ic_settings_applications",
         "codepoint": "E8B9"
       },
       {
         "name": "settings backup restore",
-        "keywords": "action settings backup restore",
-        "file": "ic_settings_backup_restore",
         "codepoint": "E8BA"
       },
       {
         "name": "settings bluetooth",
-        "keywords": "action settings bluetooth",
-        "file": "ic_settings_bluetooth",
         "codepoint": "E8BB"
       },
       {
         "name": "settings brightness",
-        "keywords": "action settings brightness",
-        "file": "ic_settings_brightness",
         "codepoint": "E8BD"
       },
       {
         "name": "settings cell",
-        "keywords": "action settings cell",
-        "file": "ic_settings_cell",
         "codepoint": "E8BC"
       },
       {
         "name": "settings ethernet",
-        "keywords": "action settings ethernet",
-        "file": "ic_settings_ethernet",
         "codepoint": "E8BE"
       },
       {
         "name": "settings input antenna",
-        "keywords": "action settings input antenna",
-        "file": "ic_settings_input_antenna",
         "codepoint": "E8BF"
       },
       {
         "name": "settings input component",
-        "keywords": "action settings input component",
-        "file": "ic_settings_input_component",
         "codepoint": "E8C0"
       },
       {
         "name": "settings input composite",
-        "keywords": "action settings input composite",
-        "file": "ic_settings_input_composite",
         "codepoint": "E8C1"
       },
       {
         "name": "settings input hdmi",
-        "keywords": "action settings input hdmi",
-        "file": "ic_settings_input_hdmi",
         "codepoint": "E8C2"
       },
       {
         "name": "settings input svideo",
-        "keywords": "action settings input svideo",
-        "file": "ic_settings_input_svideo",
         "codepoint": "E8C3"
       },
       {
         "name": "settings overscan",
-        "keywords": "action settings overscan",
-        "file": "ic_settings_overscan",
         "codepoint": "E8C4"
       },
       {
         "name": "settings phone",
-        "keywords": "action settings phone",
-        "file": "ic_settings_phone",
         "codepoint": "E8C5"
       },
       {
         "name": "settings power",
-        "keywords": "action settings power",
-        "file": "ic_settings_power",
         "codepoint": "E8C6"
       },
       {
         "name": "settings remote",
-        "keywords": "action settings remote",
-        "file": "ic_settings_remote",
         "codepoint": "E8C7"
       },
       {
         "name": "settings voice",
-        "keywords": "action settings voice",
-        "file": "ic_settings_voice",
         "codepoint": "E8C8"
       },
       {
         "name": "shop",
-        "keywords": "action shop",
-        "file": "ic_shop",
         "codepoint": "E8C9"
       },
       {
         "name": "shop two",
-        "keywords": "action shop two",
-        "file": "ic_shop_two",
         "codepoint": "E8CA"
       },
       {
         "name": "shopping basket",
-        "keywords": "action shopping basket",
-        "file": "ic_shopping_basket",
         "codepoint": "E8CB"
       },
       {
         "name": "shopping cart",
-        "keywords": "action shopping cart",
-        "file": "ic_shopping_cart",
         "codepoint": "E8CC"
       },
       {
         "name": "speaker notes",
-        "keywords": "action speaker notes",
-        "file": "ic_speaker_notes",
         "codepoint": "E8CD"
       },
       {
         "name": "speaker notes off",
-        "keywords": "action speaker notes off",
-        "file": "ic_speaker_notes_off",
         "codepoint": "E92A"
       },
       {
         "name": "spellcheck",
-        "keywords": "action spellcheck",
-        "file": "ic_spellcheck",
         "codepoint": "E8CE"
       },
       {
         "name": "star rate",
-        "keywords": "action star rate",
-        "file": "ic_star_rate",
         "codepoint": "E8CF"
       },
       {
         "name": "stars",
-        "keywords": "action stars",
-        "file": "ic_stars",
         "codepoint": "E8D0"
       },
       {
         "name": "store",
-        "keywords": "action store",
-        "file": "ic_store",
         "codepoint": "E8D1"
       },
       {
         "name": "subject",
-        "keywords": "action subject",
-        "file": "ic_subject",
         "codepoint": "E8D2"
       },
       {
         "name": "supervisor account",
-        "keywords": "action supervisor account",
-        "file": "ic_supervisor_account",
         "codepoint": "E8D3"
       },
       {
         "name": "swap horiz",
-        "keywords": "action swap horiz",
-        "file": "ic_swap_horiz",
         "codepoint": "E8D4"
       },
       {
         "name": "swap vert",
-        "keywords": "action swap vert",
-        "file": "ic_swap_vert",
         "codepoint": "E8D5"
       },
       {
         "name": "swap vertical circle",
-        "keywords": "action swap vertical circle",
-        "file": "ic_swap_vertical_circle",
         "codepoint": "E8D6"
       },
       {
         "name": "system update alt",
-        "keywords": "action system update alt",
-        "file": "ic_system_update_alt",
         "codepoint": "E8D7"
       },
       {
         "name": "tab",
-        "keywords": "action tab",
-        "file": "ic_tab",
         "codepoint": "E8D8"
       },
       {
         "name": "tab unselected",
-        "keywords": "action tab unselected",
-        "file": "ic_tab_unselected",
         "codepoint": "E8D9"
       },
       {
         "name": "theaters",
-        "keywords": "action theaters",
-        "file": "ic_theaters",
         "codepoint": "E8DA"
       },
       {
         "name": "thumb down",
-        "keywords": "action thumb down",
-        "file": "ic_thumb_down",
         "codepoint": "E8DB"
       },
       {
         "name": "thumb up",
-        "keywords": "action thumb up",
-        "file": "ic_thumb_up",
         "codepoint": "E8DC"
       },
       {
         "name": "thumbs up down",
-        "keywords": "action thumbs up down",
-        "file": "ic_thumbs_up_down",
         "codepoint": "E8DD"
       },
       {
         "name": "timeline",
-        "keywords": "action timeline",
-        "file": "ic_timeline",
         "codepoint": "E922"
       },
       {
         "name": "toc",
-        "keywords": "action toc",
-        "file": "ic_toc",
         "codepoint": "E8DE"
       },
       {
         "name": "today",
-        "keywords": "action today",
-        "file": "ic_today",
         "codepoint": "E8DF"
       },
       {
         "name": "toll",
-        "keywords": "action toll",
-        "file": "ic_toll",
         "codepoint": "E8E0"
       },
       {
         "name": "touch app",
-        "keywords": "action touch app",
-        "file": "ic_touch_app",
         "codepoint": "E913"
       },
       {
         "name": "track changes",
-        "keywords": "action track changes",
-        "file": "ic_track_changes",
         "codepoint": "E8E1"
       },
       {
         "name": "translate",
-        "keywords": "action translate",
-        "file": "ic_translate",
         "codepoint": "E8E2"
       },
       {
         "name": "trending down",
-        "keywords": "action trending down",
-        "file": "ic_trending_down",
         "codepoint": "E8E3"
       },
       {
         "name": "trending flat",
-        "keywords": "action trending flat",
-        "file": "ic_trending_flat",
         "codepoint": "E8E4"
       },
       {
         "name": "trending up",
-        "keywords": "action trending up",
-        "file": "ic_trending_up",
         "codepoint": "E8E5"
       },
       {
         "name": "turned in",
-        "keywords": "action turned in",
-        "file": "ic_turned_in",
         "codepoint": "E8E6"
       },
       {
         "name": "turned in not",
-        "keywords": "action turned in not",
-        "file": "ic_turned_in_not",
         "codepoint": "E8E7"
       },
       {
         "name": "update",
-        "keywords": "action update",
-        "file": "ic_update",
         "codepoint": "E923"
       },
       {
         "name": "verified user",
-        "keywords": "action verified user",
-        "file": "ic_verified_user",
         "codepoint": "E8E8"
       },
       {
         "name": "view agenda",
-        "keywords": "action view agenda",
-        "file": "ic_view_agenda",
         "codepoint": "E8E9"
       },
       {
         "name": "view array",
-        "keywords": "action view array",
-        "file": "ic_view_array",
         "codepoint": "E8EA"
       },
       {
         "name": "view carousel",
-        "keywords": "action view carousel",
-        "file": "ic_view_carousel",
         "codepoint": "E8EB"
       },
       {
         "name": "view column",
-        "keywords": "action view column",
-        "file": "ic_view_column",
         "codepoint": "E8EC"
       },
       {
         "name": "view day",
-        "keywords": "action view day",
-        "file": "ic_view_day",
         "codepoint": "E8ED"
       },
       {
         "name": "view headline",
-        "keywords": "action view headline",
-        "file": "ic_view_headline",
         "codepoint": "E8EE"
       },
       {
         "name": "view list",
-        "keywords": "action view list",
-        "file": "ic_view_list",
         "codepoint": "E8EF"
       },
       {
         "name": "view module",
-        "keywords": "action view module",
-        "file": "ic_view_module",
         "codepoint": "E8F0"
       },
       {
         "name": "view quilt",
-        "keywords": "action view quilt",
-        "file": "ic_view_quilt",
         "codepoint": "E8F1"
       },
       {
         "name": "view stream",
-        "keywords": "action view stream",
-        "file": "ic_view_stream",
         "codepoint": "E8F2"
       },
       {
         "name": "view week",
-        "keywords": "action view week",
-        "file": "ic_view_week",
         "codepoint": "E8F3"
       },
       {
         "name": "visibility",
-        "keywords": "action visibility",
-        "file": "ic_visibility",
         "codepoint": "E8F4"
       },
       {
         "name": "visibility off",
-        "keywords": "action visibility off",
-        "file": "ic_visibility_off",
         "codepoint": "E8F5"
       },
       {
         "name": "watch later",
-        "keywords": "action watch later",
-        "file": "ic_watch_later",
         "codepoint": "E924"
       },
       {
         "name": "work",
-        "keywords": "action work",
-        "file": "ic_work",
         "codepoint": "E8F9"
       },
       {
         "name": "youtube searched for",
-        "keywords": "action youtube searched",
-        "file": "ic_youtube_searched_for",
         "codepoint": "E8FA"
       },
       {
         "name": "zoom in",
-        "keywords": "action zoom in",
-        "file": "ic_zoom_in",
         "codepoint": "E8FF"
       },
       {
         "name": "zoom out",
-        "keywords": "action zoom out",
-        "file": "ic_zoom_out",
         "codepoint": "E900"
       }
     ]
@@ -1305,26 +873,18 @@
     "icons": [
       {
         "name": "add alert",
-        "keywords": "alert add alert",
-        "file": "ic_add_alert",
         "codepoint": "E003"
       },
       {
         "name": "error",
-        "keywords": "alert error",
-        "file": "ic_error",
         "codepoint": "E000"
       },
       {
         "name": "error outline",
-        "keywords": "alert error outline",
-        "file": "ic_error_outline",
         "codepoint": "E001"
       },
       {
         "name": "warning",
-        "keywords": "alert warning",
-        "file": "ic_warning",
         "codepoint": "E002"
       }
     ]
@@ -1334,482 +894,322 @@
     "icons": [
       {
         "name": "add to queue",
-        "keywords": "av add to queue",
-        "file": "ic_add_to_queue",
         "codepoint": "E05C"
       },
       {
         "name": "airplay",
-        "keywords": "av airplay",
-        "file": "ic_airplay",
         "codepoint": "E055"
       },
       {
         "name": "album",
-        "keywords": "av album",
-        "file": "ic_album",
         "codepoint": "E019"
       },
       {
         "name": "art track",
-        "keywords": "av art track",
-        "file": "ic_art_track",
         "codepoint": "E060"
       },
       {
         "name": "av timer",
-        "keywords": "av av timer",
-        "file": "ic_av_timer",
         "codepoint": "E01B"
       },
       {
         "name": "branding watermark",
-        "keywords": "av branding watermark",
-        "file": "ic_branding_watermark",
         "codepoint": "E06B"
       },
       {
         "name": "call to action",
-        "keywords": "av call to action",
-        "file": "ic_call_to_action",
         "codepoint": "E06C"
       },
       {
         "name": "closed caption",
-        "keywords": "av closed caption",
-        "file": "ic_closed_caption",
         "codepoint": "E01C"
       },
       {
         "name": "equalizer",
-        "keywords": "av equalizer",
-        "file": "ic_equalizer",
         "codepoint": "E01D"
       },
       {
         "name": "explicit",
-        "keywords": "av explicit",
-        "file": "ic_explicit",
         "codepoint": "E01E"
       },
       {
         "name": "fast forward",
-        "keywords": "av fast forward",
-        "file": "ic_fast_forward",
         "codepoint": "E01F"
       },
       {
         "name": "fast rewind",
-        "keywords": "av fast rewind",
-        "file": "ic_fast_rewind",
         "codepoint": "E020"
       },
       {
         "name": "featured play list",
-        "keywords": "av featured play list",
-        "file": "ic_featured_play_list",
         "codepoint": "E06D"
       },
       {
         "name": "featured video",
-        "keywords": "av featured video",
-        "file": "ic_featured_video",
         "codepoint": "E06E"
       },
       {
         "name": "fiber dvr",
-        "keywords": "av fiber dvr",
-        "file": "ic_fiber_dvr",
         "codepoint": "E05D"
       },
       {
         "name": "fiber manual record",
-        "keywords": "av fiber manual record",
-        "file": "ic_fiber_manual_record",
         "codepoint": "E061"
       },
       {
         "name": "fiber new",
-        "keywords": "av fiber new",
-        "file": "ic_fiber_new",
         "codepoint": "E05E"
       },
       {
         "name": "fiber pin",
-        "keywords": "av fiber pin",
-        "file": "ic_fiber_pin",
         "codepoint": "E06A"
       },
       {
         "name": "fiber smart record",
-        "keywords": "av fiber smart record",
-        "file": "ic_fiber_smart_record",
         "codepoint": "E062"
       },
       {
         "name": "forward 10",
-        "keywords": "av forward 10",
-        "file": "ic_forward_10",
         "codepoint": "E056"
       },
       {
         "name": "forward 30",
-        "keywords": "av forward 30",
-        "file": "ic_forward_30",
         "codepoint": "E057"
       },
       {
         "name": "forward 5",
-        "keywords": "av forward",
-        "file": "ic_forward_5",
         "codepoint": "E058"
       },
       {
         "name": "games",
-        "keywords": "av games",
-        "file": "ic_games",
         "codepoint": "E021"
       },
       {
         "name": "hd",
-        "keywords": "av hd",
-        "file": "ic_hd",
         "codepoint": "E052"
       },
       {
         "name": "hearing",
-        "keywords": "av hearing",
-        "file": "ic_hearing",
         "codepoint": "E023"
       },
       {
         "name": "high quality",
-        "keywords": "av high quality",
-        "file": "ic_high_quality",
         "codepoint": "E024"
       },
       {
         "name": "library add",
-        "keywords": "av library add",
-        "file": "ic_library_add",
         "codepoint": "E02E"
       },
       {
         "name": "library books",
-        "keywords": "av library books",
-        "file": "ic_library_books",
         "codepoint": "E02F"
       },
       {
         "name": "library music",
-        "keywords": "av library music",
-        "file": "ic_library_music",
         "codepoint": "E030"
       },
       {
         "name": "loop",
-        "keywords": "av loop",
-        "file": "ic_loop",
         "codepoint": "E028"
       },
       {
         "name": "mic",
-        "keywords": "av mic",
-        "file": "ic_mic",
         "codepoint": "E029"
       },
       {
         "name": "mic none",
-        "keywords": "av mic none",
-        "file": "ic_mic_none",
         "codepoint": "E02A"
       },
       {
         "name": "mic off",
-        "keywords": "av mic off",
-        "file": "ic_mic_off",
         "codepoint": "E02B"
       },
       {
         "name": "movie",
-        "keywords": "av movie",
-        "file": "ic_movie",
         "codepoint": "E02C"
       },
       {
         "name": "music video",
-        "keywords": "av music video",
-        "file": "ic_music_video",
         "codepoint": "E063"
       },
       {
         "name": "new releases",
-        "keywords": "av new releases",
-        "file": "ic_new_releases",
         "codepoint": "E031"
       },
       {
         "name": "not interested",
-        "keywords": "av not interested",
-        "file": "ic_not_interested",
         "codepoint": "E033"
       },
       {
         "name": "note",
-        "keywords": "av note",
-        "file": "ic_note",
         "codepoint": "E06F"
       },
       {
         "name": "pause",
-        "keywords": "av pause",
-        "file": "ic_pause",
         "codepoint": "E034"
       },
       {
         "name": "pause circle filled",
-        "keywords": "av pause circle filled",
-        "file": "ic_pause_circle_filled",
         "codepoint": "E035"
       },
       {
         "name": "pause circle outline",
-        "keywords": "av pause circle outline",
-        "file": "ic_pause_circle_outline",
         "codepoint": "E036"
       },
       {
         "name": "play arrow",
-        "keywords": "av play arrow",
-        "file": "ic_play_arrow",
         "codepoint": "E037"
       },
       {
         "name": "play circle filled",
-        "keywords": "av play circle filled",
-        "file": "ic_play_circle_filled",
         "codepoint": "E038"
       },
       {
         "name": "play circle outline",
-        "keywords": "av play circle outline",
-        "file": "ic_play_circle_outline",
         "codepoint": "E039"
       },
       {
         "name": "playlist add",
-        "keywords": "av playlist add",
-        "file": "ic_playlist_add",
         "codepoint": "E03B"
       },
       {
         "name": "playlist add check",
-        "keywords": "av playlist add check",
-        "file": "ic_playlist_add_check",
         "codepoint": "E065"
       },
       {
         "name": "playlist play",
-        "keywords": "av playlist play",
-        "file": "ic_playlist_play",
         "codepoint": "E05F"
       },
       {
         "name": "queue",
-        "keywords": "av queue",
-        "file": "ic_queue",
         "codepoint": "E03C"
       },
       {
         "name": "queue music",
-        "keywords": "av queue music",
-        "file": "ic_queue_music",
         "codepoint": "E03D"
       },
       {
         "name": "queue play next",
-        "keywords": "av queue play next",
-        "file": "ic_queue_play_next",
         "codepoint": "E066"
       },
       {
         "name": "radio",
-        "keywords": "av radio",
-        "file": "ic_radio",
         "codepoint": "E03E"
       },
       {
         "name": "recent actors",
-        "keywords": "av recent actors",
-        "file": "ic_recent_actors",
         "codepoint": "E03F"
       },
       {
         "name": "remove from queue",
-        "keywords": "av remove from queue",
-        "file": "ic_remove_from_queue",
         "codepoint": "E067"
       },
       {
         "name": "repeat",
-        "keywords": "av repeat",
-        "file": "ic_repeat",
         "codepoint": "E040"
       },
       {
         "name": "repeat one",
-        "keywords": "av repeat one",
-        "file": "ic_repeat_one",
         "codepoint": "E041"
       },
       {
         "name": "replay",
-        "keywords": "av replay",
-        "file": "ic_replay",
         "codepoint": "E042"
       },
       {
         "name": "replay 10",
-        "keywords": "av replay 10",
-        "file": "ic_replay_10",
         "codepoint": "E059"
       },
       {
         "name": "replay 30",
-        "keywords": "av replay 30",
-        "file": "ic_replay_30",
         "codepoint": "E05A"
       },
       {
         "name": "replay 5",
-        "keywords": "av replay",
-        "file": "ic_replay_5",
         "codepoint": "E05B"
       },
       {
         "name": "shuffle",
-        "keywords": "av shuffle",
-        "file": "ic_shuffle",
         "codepoint": "E043"
       },
       {
         "name": "skip next",
-        "keywords": "av skip next",
-        "file": "ic_skip_next",
         "codepoint": "E044"
       },
       {
         "name": "skip previous",
-        "keywords": "av skip previous",
-        "file": "ic_skip_previous",
         "codepoint": "E045"
       },
       {
         "name": "slow motion video",
-        "keywords": "av slow motion video",
-        "file": "ic_slow_motion_video",
         "codepoint": "E068"
       },
       {
         "name": "snooze",
-        "keywords": "av snooze",
-        "file": "ic_snooze",
         "codepoint": "E046"
       },
       {
         "name": "sort by alpha",
-        "keywords": "av sort by alpha",
-        "file": "ic_sort_by_alpha",
         "codepoint": "E053"
       },
       {
         "name": "stop",
-        "keywords": "av stop",
-        "file": "ic_stop",
         "codepoint": "E047"
       },
       {
         "name": "subscriptions",
-        "keywords": "av subscriptions",
-        "file": "ic_subscriptions",
         "codepoint": "E064"
       },
       {
         "name": "subtitles",
-        "keywords": "av subtitles",
-        "file": "ic_subtitles",
         "codepoint": "E048"
       },
       {
         "name": "surround sound",
-        "keywords": "av surround sound",
-        "file": "ic_surround_sound",
         "codepoint": "E049"
       },
       {
         "name": "video call",
-        "keywords": "av video call",
-        "file": "ic_video_call",
         "codepoint": "E070"
       },
       {
         "name": "video label",
-        "keywords": "av video label",
-        "file": "ic_video_label",
         "codepoint": "E071"
       },
       {
         "name": "video library",
-        "keywords": "av video library",
-        "file": "ic_video_library",
         "codepoint": "E04A"
       },
       {
         "name": "videocam",
-        "keywords": "av videocam",
-        "file": "ic_videocam",
         "codepoint": "E04B"
       },
       {
         "name": "videocam off",
-        "keywords": "av videocam off",
-        "file": "ic_videocam_off",
         "codepoint": "E04C"
       },
       {
         "name": "volume down",
-        "keywords": "av volume down",
-        "file": "ic_volume_down",
         "codepoint": "E04D"
       },
       {
         "name": "volume mute",
-        "keywords": "av volume mute",
-        "file": "ic_volume_mute",
         "codepoint": "E04E"
       },
       {
         "name": "volume off",
-        "keywords": "av volume off",
-        "file": "ic_volume_off",
         "codepoint": "E04F"
       },
       {
         "name": "volume up",
-        "keywords": "av volume up",
-        "file": "ic_volume_up",
         "codepoint": "E050"
       },
       {
         "name": "web",
-        "keywords": "av web",
-        "file": "ic_web",
         "codepoint": "E051"
       },
       {
         "name": "web asset",
-        "keywords": "av web asset",
-        "file": "ic_web_asset",
         "codepoint": "E069"
       }
     ]
@@ -1819,302 +1219,202 @@
     "icons": [
       {
         "name": "business",
-        "keywords": "communication business",
-        "file": "ic_business",
         "codepoint": "E0AF"
       },
       {
         "name": "call",
-        "keywords": "communication call",
-        "file": "ic_call",
         "codepoint": "E0B0"
       },
       {
         "name": "call end",
-        "keywords": "communication call end",
-        "file": "ic_call_end",
         "codepoint": "E0B1"
       },
       {
         "name": "call made",
-        "keywords": "communication call made",
-        "file": "ic_call_made",
         "codepoint": "E0B2"
       },
       {
         "name": "call merge",
-        "keywords": "communication call merge",
-        "file": "ic_call_merge",
         "codepoint": "E0B3"
       },
       {
         "name": "call missed",
-        "keywords": "communication call missed",
-        "file": "ic_call_missed",
         "codepoint": "E0B4"
       },
       {
         "name": "call missed outgoing",
-        "keywords": "communication call missed outgoing",
-        "file": "ic_call_missed_outgoing",
         "codepoint": "E0E4"
       },
       {
         "name": "call received",
-        "keywords": "communication call received",
-        "file": "ic_call_received",
         "codepoint": "E0B5"
       },
       {
         "name": "call split",
-        "keywords": "communication call split",
-        "file": "ic_call_split",
         "codepoint": "E0B6"
       },
       {
         "name": "chat",
-        "keywords": "communication chat",
-        "file": "ic_chat",
         "codepoint": "E0B7"
       },
       {
         "name": "chat bubble",
-        "keywords": "communication chat bubble",
-        "file": "ic_chat_bubble",
         "codepoint": "E0CA"
       },
       {
         "name": "chat bubble outline",
-        "keywords": "communication chat bubble outline",
-        "file": "ic_chat_bubble_outline",
         "codepoint": "E0CB"
       },
       {
         "name": "clear all",
-        "keywords": "communication clear all",
-        "file": "ic_clear_all",
         "codepoint": "E0B8"
       },
       {
         "name": "comment",
-        "keywords": "communication comment",
-        "file": "ic_comment",
         "codepoint": "E0B9"
       },
       {
         "name": "contact mail",
-        "keywords": "communication contact mail",
-        "file": "ic_contact_mail",
         "codepoint": "E0D0"
       },
       {
         "name": "contact phone",
-        "keywords": "communication contact phone",
-        "file": "ic_contact_phone",
         "codepoint": "E0CF"
       },
       {
         "name": "contacts",
-        "keywords": "communication contacts",
-        "file": "ic_contacts",
         "codepoint": "E0BA"
       },
       {
         "name": "dialer sip",
-        "keywords": "communication dialer sip",
-        "file": "ic_dialer_sip",
         "codepoint": "E0BB"
       },
       {
         "name": "dialpad",
-        "keywords": "communication dialpad",
-        "file": "ic_dialpad",
         "codepoint": "E0BC"
       },
       {
         "name": "email",
-        "keywords": "communication email",
-        "file": "ic_email",
         "codepoint": "E0BE"
       },
       {
         "name": "forum",
-        "keywords": "communication forum",
-        "file": "ic_forum",
         "codepoint": "E0BF"
       },
       {
         "name": "import contacts",
-        "keywords": "communication import contacts",
-        "file": "ic_import_contacts",
         "codepoint": "E0E0"
       },
       {
         "name": "import export",
-        "keywords": "communication import export",
-        "file": "ic_import_export",
         "codepoint": "E0C3"
       },
       {
         "name": "invert colors off",
-        "keywords": "communication invert colors off",
-        "file": "ic_invert_colors_off",
         "codepoint": "E0C4"
       },
       {
         "name": "live help",
-        "keywords": "communication live help",
-        "file": "ic_live_help",
         "codepoint": "E0C6"
       },
       {
         "name": "location off",
-        "keywords": "communication location off",
-        "file": "ic_location_off",
         "codepoint": "E0C7"
       },
       {
         "name": "location on",
-        "keywords": "communication location on",
-        "file": "ic_location_on",
         "codepoint": "E0C8"
       },
       {
         "name": "mail outline",
-        "keywords": "communication mail outline",
-        "file": "ic_mail_outline",
         "codepoint": "E0E1"
       },
       {
         "name": "message",
-        "keywords": "communication message",
-        "file": "ic_message",
         "codepoint": "E0C9"
       },
       {
         "name": "no sim",
-        "keywords": "communication no sim",
-        "file": "ic_no_sim",
         "codepoint": "E0CC"
       },
       {
         "name": "phone",
-        "keywords": "communication phone",
-        "file": "ic_phone",
         "codepoint": "E0CD"
       },
       {
         "name": "phonelink erase",
-        "keywords": "communication phonelink erase",
-        "file": "ic_phonelink_erase",
         "codepoint": "E0DB"
       },
       {
         "name": "phonelink lock",
-        "keywords": "communication phonelink lock",
-        "file": "ic_phonelink_lock",
         "codepoint": "E0DC"
       },
       {
         "name": "phonelink ring",
-        "keywords": "communication phonelink ring",
-        "file": "ic_phonelink_ring",
         "codepoint": "E0DD"
       },
       {
         "name": "phonelink setup",
-        "keywords": "communication phonelink setup",
-        "file": "ic_phonelink_setup",
         "codepoint": "E0DE"
       },
       {
         "name": "portable wifi off",
-        "keywords": "communication portable wifi off",
-        "file": "ic_portable_wifi_off",
         "codepoint": "E0CE"
       },
       {
         "name": "present to all",
-        "keywords": "communication present to all",
-        "file": "ic_present_to_all",
         "codepoint": "E0DF"
       },
       {
         "name": "ring volume",
-        "keywords": "communication ring volume",
-        "file": "ic_ring_volume",
         "codepoint": "E0D1"
       },
       {
         "name": "rss feed",
-        "keywords": "communication rss feed",
-        "file": "ic_rss_feed",
         "codepoint": "E0E5"
       },
       {
         "name": "screen share",
-        "keywords": "communication screen share",
-        "file": "ic_screen_share",
         "codepoint": "E0E2"
       },
       {
         "name": "speaker phone",
-        "keywords": "communication speaker phone",
-        "file": "ic_speaker_phone",
         "codepoint": "E0D2"
       },
       {
         "name": "stay current landscape",
-        "keywords": "communication stay current landscape",
-        "file": "ic_stay_current_landscape",
         "codepoint": "E0D3"
       },
       {
         "name": "stay current portrait",
-        "keywords": "communication stay current portrait",
-        "file": "ic_stay_current_portrait",
         "codepoint": "E0D4"
       },
       {
         "name": "stay primary landscape",
-        "keywords": "communication stay primary landscape",
-        "file": "ic_stay_primary_landscape",
         "codepoint": "E0D5"
       },
       {
         "name": "stay primary portrait",
-        "keywords": "communication stay primary portrait",
-        "file": "ic_stay_primary_portrait",
         "codepoint": "E0D6"
       },
       {
         "name": "stop screen share",
-        "keywords": "communication stop screen share",
-        "file": "ic_stop_screen_share",
         "codepoint": "E0E3"
       },
       {
         "name": "swap calls",
-        "keywords": "communication swap calls",
-        "file": "ic_swap_calls",
         "codepoint": "E0D7"
       },
       {
         "name": "textsms",
-        "keywords": "communication textsms",
-        "file": "ic_textsms",
         "codepoint": "E0D8"
       },
       {
         "name": "voicemail",
-        "keywords": "communication voicemail",
-        "file": "ic_voicemail",
         "codepoint": "E0D9"
       },
       {
         "name": "vpn key",
-        "keywords": "communication vpn key",
-        "file": "ic_vpn_key",
         "codepoint": "E0DA"
       }
     ]
@@ -2124,248 +1424,166 @@
     "icons": [
       {
         "name": "add",
-        "keywords": "content add",
-        "file": "ic_add",
         "codepoint": "E145"
       },
       {
         "name": "add box",
-        "keywords": "content add box",
-        "file": "ic_add_box",
         "codepoint": "E146"
       },
       {
         "name": "add circle",
-        "keywords": "content add circle",
-        "file": "ic_add_circle",
         "codepoint": "E147"
       },
       {
         "name": "add circle outline",
-        "keywords": "content add circle outline",
-        "file": "ic_add_circle_outline",
         "codepoint": "E148"
       },
       {
         "name": "archive",
-        "keywords": "content archive",
-        "file": "ic_archive",
         "codepoint": "E149"
       },
       {
         "name": "backspace",
-        "keywords": "content backspace",
-        "file": "ic_backspace",
         "codepoint": "E14A"
       },
       {
         "name": "block",
-        "keywords": "content block",
-        "file": "ic_block",
         "codepoint": "E14B"
       },
       {
         "name": "clear",
-        "keywords": "content clear",
-        "file": "ic_clear",
         "codepoint": "E14C"
       },
       {
         "name": "content copy",
-        "keywords": "content content copy",
-        "file": "ic_content_copy",
         "codepoint": "E14D"
       },
       {
         "name": "content cut",
-        "keywords": "content content cut",
-        "file": "ic_content_cut",
         "codepoint": "E14E"
       },
       {
         "name": "content paste",
-        "keywords": "content content paste",
-        "file": "ic_content_paste",
         "codepoint": "E14F"
       },
       {
         "name": "create",
-        "keywords": "content create",
-        "file": "ic_create",
         "codepoint": "E150"
       },
       {
         "name": "delete sweep",
-        "keywords": "content delete sweep",
-        "file": "ic_delete_sweep",
         "codepoint": "E16C"
       },
       {
         "name": "drafts",
-        "keywords": "content drafts",
-        "file": "ic_drafts",
         "codepoint": "E151"
       },
       {
         "name": "filter list",
-        "keywords": "content filter list",
-        "file": "ic_filter_list",
         "codepoint": "E152"
       },
       {
         "name": "flag",
-        "keywords": "content flag",
-        "file": "ic_flag",
         "codepoint": "E153"
       },
       {
         "name": "font download",
-        "keywords": "content font download",
-        "file": "ic_font_download",
         "codepoint": "E167"
       },
       {
         "name": "forward",
-        "keywords": "content forward",
-        "file": "ic_forward",
         "codepoint": "E154"
       },
       {
         "name": "gesture",
-        "keywords": "content gesture",
-        "file": "ic_gesture",
         "codepoint": "E155"
       },
       {
         "name": "inbox",
-        "keywords": "content inbox",
-        "file": "ic_inbox",
         "codepoint": "E156"
       },
       {
         "name": "link",
-        "keywords": "content link",
-        "file": "ic_link",
         "codepoint": "E157"
       },
       {
         "name": "low priority",
-        "keywords": "content low priority",
-        "file": "ic_low_priority",
         "codepoint": "E16D"
       },
       {
         "name": "mail",
-        "keywords": "content mail",
-        "file": "ic_mail",
         "codepoint": "E158"
       },
       {
         "name": "markunread",
-        "keywords": "content markunread",
-        "file": "ic_markunread",
         "codepoint": "E159"
       },
       {
         "name": "move to inbox",
-        "keywords": "content move to inbox",
-        "file": "ic_move_to_inbox",
         "codepoint": "E168"
       },
       {
         "name": "next week",
-        "keywords": "content next week",
-        "file": "ic_next_week",
         "codepoint": "E16A"
       },
       {
         "name": "redo",
-        "keywords": "content redo",
-        "file": "ic_redo",
         "codepoint": "E15A"
       },
       {
         "name": "remove",
-        "keywords": "content remove",
-        "file": "ic_remove",
         "codepoint": "E15B"
       },
       {
         "name": "remove circle",
-        "keywords": "content remove circle",
-        "file": "ic_remove_circle",
         "codepoint": "E15C"
       },
       {
         "name": "remove circle outline",
-        "keywords": "content remove circle outline",
-        "file": "ic_remove_circle_outline",
         "codepoint": "E15D"
       },
       {
         "name": "reply",
-        "keywords": "content reply",
-        "file": "ic_reply",
         "codepoint": "E15E"
       },
       {
         "name": "reply all",
-        "keywords": "content reply all",
-        "file": "ic_reply_all",
         "codepoint": "E15F"
       },
       {
         "name": "report",
-        "keywords": "content report",
-        "file": "ic_report",
         "codepoint": "E160"
       },
       {
         "name": "save",
-        "keywords": "content save",
-        "file": "ic_save",
         "codepoint": "E161"
       },
       {
         "name": "select all",
-        "keywords": "content select all",
-        "file": "ic_select_all",
         "codepoint": "E162"
       },
       {
         "name": "send",
-        "keywords": "content send",
-        "file": "ic_send",
         "codepoint": "E163"
       },
       {
         "name": "sort",
-        "keywords": "content sort",
-        "file": "ic_sort",
         "codepoint": "E164"
       },
       {
         "name": "text format",
-        "keywords": "content text format",
-        "file": "ic_text_format",
         "codepoint": "E165"
       },
       {
         "name": "unarchive",
-        "keywords": "content unarchive",
-        "file": "ic_unarchive",
         "codepoint": "E169"
       },
       {
         "name": "undo",
-        "keywords": "content undo",
-        "file": "ic_undo",
         "codepoint": "E166"
       },
       {
         "name": "weekend",
-        "keywords": "content weekend",
-        "file": "ic_weekend",
         "codepoint": "E16B"
       }
     ]
@@ -2375,314 +1593,210 @@
     "icons": [
       {
         "name": "access alarm",
-        "keywords": "device access alarm",
-        "file": "ic_access_alarm",
         "codepoint": "E190"
       },
       {
         "name": "access alarms",
-        "keywords": "device access alarms",
-        "file": "ic_access_alarms",
         "codepoint": "E191"
       },
       {
         "name": "access time",
-        "keywords": "device access time",
-        "file": "ic_access_time",
         "codepoint": "E192"
       },
       {
         "name": "add alarm",
-        "keywords": "device add alarm",
-        "file": "ic_add_alarm",
         "codepoint": "E193"
       },
       {
         "name": "airplanemode active",
-        "keywords": "device airplanemode active",
-        "file": "ic_airplanemode_active",
         "codepoint": "E195"
       },
       {
         "name": "airplanemode inactive",
-        "keywords": "device airplanemode inactive",
-        "file": "ic_airplanemode_inactive",
         "codepoint": "E194"
       },
       {
         "name": "battery alert",
-        "keywords": "device battery alert",
-        "file": "ic_battery_alert",
         "codepoint": "E19C"
       },
       {
         "name": "battery charging full",
-        "keywords": "device battery charging full",
-        "file": "ic_battery_charging_full",
         "codepoint": "E1A3"
       },
       {
         "name": "battery full",
-        "keywords": "device battery full",
-        "file": "ic_battery_full",
         "codepoint": "E1A4"
       },
       {
         "name": "battery std",
-        "keywords": "device battery std",
-        "file": "ic_battery_std",
         "codepoint": "E1A5"
       },
       {
         "name": "battery unknown",
-        "keywords": "device battery unknown",
-        "file": "ic_battery_unknown",
         "codepoint": "E1A6"
       },
       {
         "name": "bluetooth",
-        "keywords": "device bluetooth",
-        "file": "ic_bluetooth",
         "codepoint": "E1A7"
       },
       {
         "name": "bluetooth connected",
-        "keywords": "device bluetooth connected",
-        "file": "ic_bluetooth_connected",
         "codepoint": "E1A8"
       },
       {
         "name": "bluetooth disabled",
-        "keywords": "device bluetooth disabled",
-        "file": "ic_bluetooth_disabled",
         "codepoint": "E1A9"
       },
       {
         "name": "bluetooth searching",
-        "keywords": "device bluetooth searching",
-        "file": "ic_bluetooth_searching",
         "codepoint": "E1AA"
       },
       {
         "name": "brightness auto",
-        "keywords": "device brightness auto",
-        "file": "ic_brightness_auto",
         "codepoint": "E1AB"
       },
       {
         "name": "brightness high",
-        "keywords": "device brightness high",
-        "file": "ic_brightness_high",
         "codepoint": "E1AC"
       },
       {
         "name": "brightness low",
-        "keywords": "device brightness low",
-        "file": "ic_brightness_low",
         "codepoint": "E1AD"
       },
       {
         "name": "brightness medium",
-        "keywords": "device brightness medium",
-        "file": "ic_brightness_medium",
         "codepoint": "E1AE"
       },
       {
         "name": "data usage",
-        "keywords": "device data usage",
-        "file": "ic_data_usage",
         "codepoint": "E1AF"
       },
       {
         "name": "developer mode",
-        "keywords": "device developer mode",
-        "file": "ic_developer_mode",
         "codepoint": "E1B0"
       },
       {
         "name": "devices",
-        "keywords": "device devices",
-        "file": "ic_devices",
         "codepoint": "E1B1"
       },
       {
         "name": "dvr",
-        "keywords": "device dvr",
-        "file": "ic_dvr",
         "codepoint": "E1B2"
       },
       {
         "name": "gps fixed",
-        "keywords": "device gps fixed",
-        "file": "ic_gps_fixed",
         "codepoint": "E1B3"
       },
       {
         "name": "gps not fixed",
-        "keywords": "device gps not fixed",
-        "file": "ic_gps_not_fixed",
         "codepoint": "E1B4"
       },
       {
         "name": "gps off",
-        "keywords": "device gps off",
-        "file": "ic_gps_off",
         "codepoint": "E1B5"
       },
       {
         "name": "graphic eq",
-        "keywords": "device graphic eq",
-        "file": "ic_graphic_eq",
         "codepoint": "E1B8"
       },
       {
         "name": "location disabled",
-        "keywords": "device location disabled",
-        "file": "ic_location_disabled",
         "codepoint": "E1B6"
       },
       {
         "name": "location searching",
-        "keywords": "device location searching",
-        "file": "ic_location_searching",
         "codepoint": "E1B7"
       },
       {
         "name": "network cell",
-        "keywords": "device network cell",
-        "file": "ic_network_cell",
         "codepoint": "E1B9"
       },
       {
         "name": "network wifi",
-        "keywords": "device network wifi",
-        "file": "ic_network_wifi",
         "codepoint": "E1BA"
       },
       {
         "name": "nfc",
-        "keywords": "device nfc",
-        "file": "ic_nfc",
         "codepoint": "E1BB"
       },
       {
         "name": "screen lock landscape",
-        "keywords": "device screen lock landscape",
-        "file": "ic_screen_lock_landscape",
         "codepoint": "E1BE"
       },
       {
         "name": "screen lock portrait",
-        "keywords": "device screen lock portrait",
-        "file": "ic_screen_lock_portrait",
         "codepoint": "E1BF"
       },
       {
         "name": "screen lock rotation",
-        "keywords": "device screen lock rotation",
-        "file": "ic_screen_lock_rotation",
         "codepoint": "E1C0"
       },
       {
         "name": "screen rotation",
-        "keywords": "device screen rotation",
-        "file": "ic_screen_rotation",
         "codepoint": "E1C1"
       },
       {
         "name": "sd storage",
-        "keywords": "device sd storage",
-        "file": "ic_sd_storage",
         "codepoint": "E1C2"
       },
       {
         "name": "settings system daydream",
-        "keywords": "device settings system daydream",
-        "file": "ic_settings_system_daydream",
         "codepoint": "E1C3"
       },
       {
         "name": "signal cellular 4 bar",
-        "keywords": "device signal cellular bar",
-        "file": "ic_signal_cellular_4_bar",
         "codepoint": "E1C8"
       },
       {
         "name": "signal cellular connected no internet 4 bar",
-        "keywords": "device signal cellular connected no internet bar",
-        "file": "ic_signal_cellular_connected_no_internet_4_bar",
         "codepoint": "E1CD"
       },
       {
         "name": "signal cellular no sim",
-        "keywords": "device signal cellular no sim",
-        "file": "ic_signal_cellular_no_sim",
         "codepoint": "E1CE"
       },
       {
         "name": "signal cellular null",
-        "keywords": "device signal cellular null",
-        "file": "ic_signal_cellular_null",
         "codepoint": "E1CF"
       },
       {
         "name": "signal cellular off",
-        "keywords": "device signal cellular off",
-        "file": "ic_signal_cellular_off",
         "codepoint": "E1D0"
       },
       {
         "name": "signal wifi 4 bar",
-        "keywords": "device signal wifi bar",
-        "file": "ic_signal_wifi_4_bar",
         "codepoint": "E1D8"
       },
       {
         "name": "signal wifi 4 bar lock",
-        "keywords": "device signal wifi bar lock",
-        "file": "ic_signal_wifi_4_bar_lock",
         "codepoint": "E1D9"
       },
       {
         "name": "signal wifi off",
-        "keywords": "device signal wifi off",
-        "file": "ic_signal_wifi_off",
         "codepoint": "E1DA"
       },
       {
         "name": "storage",
-        "keywords": "device storage",
-        "file": "ic_storage",
         "codepoint": "E1DB"
       },
       {
         "name": "usb",
-        "keywords": "device usb",
-        "file": "ic_usb",
         "codepoint": "E1E0"
       },
       {
         "name": "wallpaper",
-        "keywords": "device wallpaper",
-        "file": "ic_wallpaper",
         "codepoint": "E1BC"
       },
       {
         "name": "widgets",
-        "keywords": "device widgets",
-        "file": "ic_widgets",
         "codepoint": "E1BD"
       },
       {
         "name": "wifi lock",
-        "keywords": "device wifi lock",
-        "file": "ic_wifi_lock",
         "codepoint": "E1E1"
       },
       {
         "name": "wifi tethering",
-        "keywords": "device wifi tethering",
-        "file": "ic_wifi_tethering",
         "codepoint": "E1E2"
       }
     ]
@@ -2692,410 +1806,274 @@
     "icons": [
       {
         "name": "attach file",
-        "keywords": "editor attach file",
-        "file": "ic_attach_file",
         "codepoint": "E226"
       },
       {
         "name": "attach money",
-        "keywords": "editor attach money",
-        "file": "ic_attach_money",
         "codepoint": "E227"
       },
       {
         "name": "border all",
-        "keywords": "editor border all",
-        "file": "ic_border_all",
         "codepoint": "E228"
       },
       {
         "name": "border bottom",
-        "keywords": "editor border bottom",
-        "file": "ic_border_bottom",
         "codepoint": "E229"
       },
       {
         "name": "border clear",
-        "keywords": "editor border clear",
-        "file": "ic_border_clear",
         "codepoint": "E22A"
       },
       {
         "name": "border color",
-        "keywords": "editor border color",
-        "file": "ic_border_color",
         "codepoint": "E22B"
       },
       {
         "name": "border horizontal",
-        "keywords": "editor border horizontal",
-        "file": "ic_border_horizontal",
         "codepoint": "E22C"
       },
       {
         "name": "border inner",
-        "keywords": "editor border inner",
-        "file": "ic_border_inner",
         "codepoint": "E22D"
       },
       {
         "name": "border left",
-        "keywords": "editor border left",
-        "file": "ic_border_left",
         "codepoint": "E22E"
       },
       {
         "name": "border outer",
-        "keywords": "editor border outer",
-        "file": "ic_border_outer",
         "codepoint": "E22F"
       },
       {
         "name": "border right",
-        "keywords": "editor border right",
-        "file": "ic_border_right",
         "codepoint": "E230"
       },
       {
         "name": "border style",
-        "keywords": "editor border style",
-        "file": "ic_border_style",
         "codepoint": "E231"
       },
       {
         "name": "border top",
-        "keywords": "editor border top",
-        "file": "ic_border_top",
         "codepoint": "E232"
       },
       {
         "name": "border vertical",
-        "keywords": "editor border vertical",
-        "file": "ic_border_vertical",
         "codepoint": "E233"
       },
       {
         "name": "bubble chart",
-        "keywords": "editor bubble chart",
-        "file": "ic_bubble_chart",
         "codepoint": "E6DD"
       },
       {
         "name": "drag handle",
-        "keywords": "editor drag handle",
-        "file": "ic_drag_handle",
         "codepoint": "E25D"
       },
       {
         "name": "format align center",
-        "keywords": "editor format align center",
-        "file": "ic_format_align_center",
         "codepoint": "E234"
       },
       {
         "name": "format align justify",
-        "keywords": "editor format align justify",
-        "file": "ic_format_align_justify",
         "codepoint": "E235"
       },
       {
         "name": "format align left",
-        "keywords": "editor format align left",
-        "file": "ic_format_align_left",
         "codepoint": "E236"
       },
       {
         "name": "format align right",
-        "keywords": "editor format align right",
-        "file": "ic_format_align_right",
         "codepoint": "E237"
       },
       {
         "name": "format bold",
-        "keywords": "editor format bold",
-        "file": "ic_format_bold",
         "codepoint": "E238"
       },
       {
         "name": "format clear",
-        "keywords": "editor format clear",
-        "file": "ic_format_clear",
         "codepoint": "E239"
       },
       {
         "name": "format color fill",
-        "keywords": "editor format color fill",
-        "file": "ic_format_color_fill",
         "codepoint": "E23A"
       },
       {
         "name": "format color reset",
-        "keywords": "editor format color reset",
-        "file": "ic_format_color_reset",
         "codepoint": "E23B"
       },
       {
         "name": "format color text",
-        "keywords": "editor format color text",
-        "file": "ic_format_color_text",
         "codepoint": "E23C"
       },
       {
         "name": "format indent decrease",
-        "keywords": "editor format indent decrease",
-        "file": "ic_format_indent_decrease",
         "codepoint": "E23D"
       },
       {
         "name": "format indent increase",
-        "keywords": "editor format indent increase",
-        "file": "ic_format_indent_increase",
         "codepoint": "E23E"
       },
       {
         "name": "format italic",
-        "keywords": "editor format italic",
-        "file": "ic_format_italic",
         "codepoint": "E23F"
       },
       {
         "name": "format line spacing",
-        "keywords": "editor format line spacing",
-        "file": "ic_format_line_spacing",
         "codepoint": "E240"
       },
       {
         "name": "format list bulleted",
-        "keywords": "editor format list bulleted",
-        "file": "ic_format_list_bulleted",
         "codepoint": "E241"
       },
       {
         "name": "format list numbered",
-        "keywords": "editor format list numbered",
-        "file": "ic_format_list_numbered",
         "codepoint": "E242"
       },
       {
         "name": "format paint",
-        "keywords": "editor format paint",
-        "file": "ic_format_paint",
         "codepoint": "E243"
       },
       {
         "name": "format quote",
-        "keywords": "editor format quote",
-        "file": "ic_format_quote",
         "codepoint": "E244"
       },
       {
         "name": "format shapes",
-        "keywords": "editor format shapes",
-        "file": "ic_format_shapes",
         "codepoint": "E25E"
       },
       {
         "name": "format size",
-        "keywords": "editor format size",
-        "file": "ic_format_size",
         "codepoint": "E245"
       },
       {
         "name": "format strikethrough",
-        "keywords": "editor format strikethrough",
-        "file": "ic_format_strikethrough",
         "codepoint": "E246"
       },
       {
         "name": "format textdirection l to r",
-        "keywords": "editor format textdirection to",
-        "file": "ic_format_textdirection_l_to_r",
         "codepoint": "E247"
       },
       {
         "name": "format textdirection r to l",
-        "keywords": "editor format textdirection to",
-        "file": "ic_format_textdirection_r_to_l",
         "codepoint": "E248"
       },
       {
         "name": "format underlined",
-        "keywords": "editor format underlined",
-        "file": "ic_format_underlined",
         "codepoint": "E249"
       },
       {
         "name": "functions",
-        "keywords": "editor functions",
-        "file": "ic_functions",
         "codepoint": "E24A"
       },
       {
         "name": "highlight",
-        "keywords": "editor highlight",
-        "file": "ic_highlight",
         "codepoint": "E25F"
       },
       {
         "name": "insert chart",
-        "keywords": "editor insert chart",
-        "file": "ic_insert_chart",
         "codepoint": "E24B"
       },
       {
         "name": "insert comment",
-        "keywords": "editor insert comment",
-        "file": "ic_insert_comment",
         "codepoint": "E24C"
       },
       {
         "name": "insert drive file",
-        "keywords": "editor insert drive file",
-        "file": "ic_insert_drive_file",
         "codepoint": "E24D"
       },
       {
         "name": "insert emoticon",
-        "keywords": "editor insert emoticon",
-        "file": "ic_insert_emoticon",
         "codepoint": "E24E"
       },
       {
         "name": "insert invitation",
-        "keywords": "editor insert invitation",
-        "file": "ic_insert_invitation",
         "codepoint": "E24F"
       },
       {
         "name": "insert link",
-        "keywords": "editor insert link",
-        "file": "ic_insert_link",
         "codepoint": "E250"
       },
       {
         "name": "insert photo",
-        "keywords": "editor insert photo",
-        "file": "ic_insert_photo",
         "codepoint": "E251"
       },
       {
         "name": "linear scale",
-        "keywords": "editor linear scale",
-        "file": "ic_linear_scale",
         "codepoint": "E260"
       },
       {
         "name": "merge type",
-        "keywords": "editor merge type",
-        "file": "ic_merge_type",
         "codepoint": "E252"
       },
       {
         "name": "mode comment",
-        "keywords": "editor mode comment",
-        "file": "ic_mode_comment",
         "codepoint": "E253"
       },
       {
         "name": "mode edit",
-        "keywords": "editor mode edit",
-        "file": "ic_mode_edit",
         "codepoint": "E254"
       },
       {
         "name": "monetization on",
-        "keywords": "editor monetization on",
-        "file": "ic_monetization_on",
         "codepoint": "E263"
       },
       {
         "name": "money off",
-        "keywords": "editor money off",
-        "file": "ic_money_off",
         "codepoint": "E25C"
       },
       {
         "name": "multiline chart",
-        "keywords": "editor multiline chart",
-        "file": "ic_multiline_chart",
         "codepoint": "E6DF"
       },
       {
         "name": "pie chart",
-        "keywords": "editor pie chart",
-        "file": "ic_pie_chart",
         "codepoint": "E6C4"
       },
       {
         "name": "pie chart outlined",
-        "keywords": "editor pie chart outlined",
-        "file": "ic_pie_chart_outlined",
         "codepoint": "E6C5"
       },
       {
         "name": "publish",
-        "keywords": "editor publish",
-        "file": "ic_publish",
         "codepoint": "E255"
       },
       {
         "name": "short text",
-        "keywords": "editor short text",
-        "file": "ic_short_text",
         "codepoint": "E261"
       },
       {
         "name": "show chart",
-        "keywords": "editor show chart",
-        "file": "ic_show_chart",
         "codepoint": "E6E1"
       },
       {
         "name": "space bar",
-        "keywords": "editor space bar",
-        "file": "ic_space_bar",
         "codepoint": "E256"
       },
       {
         "name": "strikethrough s",
-        "keywords": "editor strikethrough",
-        "file": "ic_strikethrough_s",
         "codepoint": "E257"
       },
       {
         "name": "text fields",
-        "keywords": "editor text fields",
-        "file": "ic_text_fields",
         "codepoint": "E262"
       },
       {
         "name": "title",
-        "keywords": "editor title",
-        "file": "ic_title",
         "codepoint": "E264"
       },
       {
         "name": "vertical align bottom",
-        "keywords": "editor vertical align bottom",
-        "file": "ic_vertical_align_bottom",
         "codepoint": "E258"
       },
       {
         "name": "vertical align center",
-        "keywords": "editor vertical align center",
-        "file": "ic_vertical_align_center",
         "codepoint": "E259"
       },
       {
         "name": "vertical align top",
-        "keywords": "editor vertical align top",
-        "file": "ic_vertical_align_top",
         "codepoint": "E25A"
       },
       {
         "name": "wrap text",
-        "keywords": "editor wrap text",
-        "file": "ic_wrap_text",
         "codepoint": "E25B"
       }
     ]
@@ -3105,86 +2083,58 @@
     "icons": [
       {
         "name": "attachment",
-        "keywords": "file attachment",
-        "file": "ic_attachment",
         "codepoint": "E2BC"
       },
       {
         "name": "cloud",
-        "keywords": "file cloud",
-        "file": "ic_cloud",
         "codepoint": "E2BD"
       },
       {
         "name": "cloud circle",
-        "keywords": "file cloud circle",
-        "file": "ic_cloud_circle",
         "codepoint": "E2BE"
       },
       {
         "name": "cloud done",
-        "keywords": "file cloud done",
-        "file": "ic_cloud_done",
         "codepoint": "E2BF"
       },
       {
         "name": "cloud download",
-        "keywords": "file cloud download",
-        "file": "ic_cloud_download",
         "codepoint": "E2C0"
       },
       {
         "name": "cloud off",
-        "keywords": "file cloud off",
-        "file": "ic_cloud_off",
         "codepoint": "E2C1"
       },
       {
         "name": "cloud queue",
-        "keywords": "file cloud queue",
-        "file": "ic_cloud_queue",
         "codepoint": "E2C2"
       },
       {
         "name": "cloud upload",
-        "keywords": "file cloud upload",
-        "file": "ic_cloud_upload",
         "codepoint": "E2C3"
       },
       {
         "name": "create new folder",
-        "keywords": "file create new folder",
-        "file": "ic_create_new_folder",
         "codepoint": "E2CC"
       },
       {
         "name": "file download",
-        "keywords": "file file download",
-        "file": "ic_file_download",
         "codepoint": "E2C4"
       },
       {
         "name": "file upload",
-        "keywords": "file file upload",
-        "file": "ic_file_upload",
         "codepoint": "E2C6"
       },
       {
         "name": "folder",
-        "keywords": "file folder",
-        "file": "ic_folder",
         "codepoint": "E2C7"
       },
       {
         "name": "folder open",
-        "keywords": "file folder open",
-        "file": "ic_folder_open",
         "codepoint": "E2C8"
       },
       {
         "name": "folder shared",
-        "keywords": "file folder shared",
-        "file": "ic_folder_shared",
         "codepoint": "E2C9"
       }
     ]
@@ -3194,290 +2144,194 @@
     "icons": [
       {
         "name": "cast",
-        "keywords": "hardware cast",
-        "file": "ic_cast",
         "codepoint": "E307"
       },
       {
         "name": "cast connected",
-        "keywords": "hardware cast connected",
-        "file": "ic_cast_connected",
         "codepoint": "E308"
       },
       {
         "name": "computer",
-        "keywords": "hardware computer",
-        "file": "ic_computer",
         "codepoint": "E30A"
       },
       {
         "name": "desktop mac",
-        "keywords": "hardware desktop mac",
-        "file": "ic_desktop_mac",
         "codepoint": "E30B"
       },
       {
         "name": "desktop windows",
-        "keywords": "hardware desktop windows",
-        "file": "ic_desktop_windows",
         "codepoint": "E30C"
       },
       {
         "name": "developer board",
-        "keywords": "hardware developer board",
-        "file": "ic_developer_board",
         "codepoint": "E30D"
       },
       {
         "name": "device hub",
-        "keywords": "hardware device hub",
-        "file": "ic_device_hub",
         "codepoint": "E335"
       },
       {
         "name": "devices other",
-        "keywords": "hardware devices other",
-        "file": "ic_devices_other",
         "codepoint": "E337"
       },
       {
         "name": "dock",
-        "keywords": "hardware dock",
-        "file": "ic_dock",
         "codepoint": "E30E"
       },
       {
         "name": "gamepad",
-        "keywords": "hardware gamepad",
-        "file": "ic_gamepad",
         "codepoint": "E30F"
       },
       {
         "name": "headset",
-        "keywords": "hardware headset",
-        "file": "ic_headset",
         "codepoint": "E310"
       },
       {
         "name": "headset mic",
-        "keywords": "hardware headset mic",
-        "file": "ic_headset_mic",
         "codepoint": "E311"
       },
       {
         "name": "keyboard",
-        "keywords": "hardware keyboard",
-        "file": "ic_keyboard",
         "codepoint": "E312"
       },
       {
         "name": "keyboard arrow down",
-        "keywords": "hardware keyboard arrow down",
-        "file": "ic_keyboard_arrow_down",
         "codepoint": "E313"
       },
       {
         "name": "keyboard arrow left",
-        "keywords": "hardware keyboard arrow left",
-        "file": "ic_keyboard_arrow_left",
         "codepoint": "E314"
       },
       {
         "name": "keyboard arrow right",
-        "keywords": "hardware keyboard arrow right",
-        "file": "ic_keyboard_arrow_right",
         "codepoint": "E315"
       },
       {
         "name": "keyboard arrow up",
-        "keywords": "hardware keyboard arrow up",
-        "file": "ic_keyboard_arrow_up",
         "codepoint": "E316"
       },
       {
         "name": "keyboard backspace",
-        "keywords": "hardware keyboard backspace",
-        "file": "ic_keyboard_backspace",
         "codepoint": "E317"
       },
       {
         "name": "keyboard capslock",
-        "keywords": "hardware keyboard capslock",
-        "file": "ic_keyboard_capslock",
         "codepoint": "E318"
       },
       {
         "name": "keyboard hide",
-        "keywords": "hardware keyboard hide",
-        "file": "ic_keyboard_hide",
         "codepoint": "E31A"
       },
       {
         "name": "keyboard return",
-        "keywords": "hardware keyboard return",
-        "file": "ic_keyboard_return",
         "codepoint": "E31B"
       },
       {
         "name": "keyboard tab",
-        "keywords": "hardware keyboard tab",
-        "file": "ic_keyboard_tab",
         "codepoint": "E31C"
       },
       {
         "name": "keyboard voice",
-        "keywords": "hardware keyboard voice",
-        "file": "ic_keyboard_voice",
         "codepoint": "E31D"
       },
       {
         "name": "laptop",
-        "keywords": "hardware laptop",
-        "file": "ic_laptop",
         "codepoint": "E31E"
       },
       {
         "name": "laptop chromebook",
-        "keywords": "hardware laptop chromebook",
-        "file": "ic_laptop_chromebook",
         "codepoint": "E31F"
       },
       {
         "name": "laptop mac",
-        "keywords": "hardware laptop mac",
-        "file": "ic_laptop_mac",
         "codepoint": "E320"
       },
       {
         "name": "laptop windows",
-        "keywords": "hardware laptop windows",
-        "file": "ic_laptop_windows",
         "codepoint": "E321"
       },
       {
         "name": "memory",
-        "keywords": "hardware memory",
-        "file": "ic_memory",
         "codepoint": "E322"
       },
       {
         "name": "mouse",
-        "keywords": "hardware mouse",
-        "file": "ic_mouse",
         "codepoint": "E323"
       },
       {
         "name": "phone android",
-        "keywords": "hardware phone android",
-        "file": "ic_phone_android",
         "codepoint": "E324"
       },
       {
         "name": "phone iphone",
-        "keywords": "hardware phone iphone",
-        "file": "ic_phone_iphone",
         "codepoint": "E325"
       },
       {
         "name": "phonelink",
-        "keywords": "hardware phonelink",
-        "file": "ic_phonelink",
         "codepoint": "E326"
       },
       {
         "name": "phonelink off",
-        "keywords": "hardware phonelink off",
-        "file": "ic_phonelink_off",
         "codepoint": "E327"
       },
       {
         "name": "power input",
-        "keywords": "hardware power input",
-        "file": "ic_power_input",
         "codepoint": "E336"
       },
       {
         "name": "router",
-        "keywords": "hardware router",
-        "file": "ic_router",
         "codepoint": "E328"
       },
       {
         "name": "scanner",
-        "keywords": "hardware scanner",
-        "file": "ic_scanner",
         "codepoint": "E329"
       },
       {
         "name": "security",
-        "keywords": "hardware security",
-        "file": "ic_security",
         "codepoint": "E32A"
       },
       {
         "name": "sim card",
-        "keywords": "hardware sim card",
-        "file": "ic_sim_card",
         "codepoint": "E32B"
       },
       {
         "name": "smartphone",
-        "keywords": "hardware smartphone",
-        "file": "ic_smartphone",
         "codepoint": "E32C"
       },
       {
         "name": "speaker",
-        "keywords": "hardware speaker",
-        "file": "ic_speaker",
         "codepoint": "E32D"
       },
       {
         "name": "speaker group",
-        "keywords": "hardware speaker group",
-        "file": "ic_speaker_group",
         "codepoint": "E32E"
       },
       {
         "name": "tablet",
-        "keywords": "hardware tablet",
-        "file": "ic_tablet",
         "codepoint": "E32F"
       },
       {
         "name": "tablet android",
-        "keywords": "hardware tablet android",
-        "file": "ic_tablet_android",
         "codepoint": "E330"
       },
       {
         "name": "tablet mac",
-        "keywords": "hardware tablet mac",
-        "file": "ic_tablet_mac",
         "codepoint": "E331"
       },
       {
         "name": "toys",
-        "keywords": "hardware toys",
-        "file": "ic_toys",
         "codepoint": "E332"
       },
       {
         "name": "tv",
-        "keywords": "hardware tv",
-        "file": "ic_tv",
         "codepoint": "E333"
       },
       {
         "name": "videogame asset",
-        "keywords": "hardware videogame asset",
-        "file": "ic_videogame_asset",
         "codepoint": "E338"
       },
       {
         "name": "watch",
-        "keywords": "hardware watch",
-        "file": "ic_watch",
         "codepoint": "E334"
       }
     ]
@@ -3487,932 +2341,622 @@
     "icons": [
       {
         "name": "add a photo",
-        "keywords": "image add photo",
-        "file": "ic_add_a_photo",
         "codepoint": "E439"
       },
       {
         "name": "add to photos",
-        "keywords": "image add to photos",
-        "file": "ic_add_to_photos",
         "codepoint": "E39D"
       },
       {
         "name": "adjust",
-        "keywords": "image adjust",
-        "file": "ic_adjust",
         "codepoint": "E39E"
       },
       {
         "name": "assistant",
-        "keywords": "image assistant",
-        "file": "ic_assistant",
         "codepoint": "E39F"
       },
       {
         "name": "assistant photo",
-        "keywords": "image assistant photo",
-        "file": "ic_assistant_photo",
         "codepoint": "E3A0"
       },
       {
         "name": "audiotrack",
-        "keywords": "image audiotrack",
-        "file": "ic_audiotrack",
         "codepoint": "E3A1"
       },
       {
         "name": "blur circular",
-        "keywords": "image blur circular",
-        "file": "ic_blur_circular",
         "codepoint": "E3A2"
       },
       {
         "name": "blur linear",
-        "keywords": "image blur linear",
-        "file": "ic_blur_linear",
         "codepoint": "E3A3"
       },
       {
         "name": "blur off",
-        "keywords": "image blur off",
-        "file": "ic_blur_off",
         "codepoint": "E3A4"
       },
       {
         "name": "blur on",
-        "keywords": "image blur on",
-        "file": "ic_blur_on",
         "codepoint": "E3A5"
       },
       {
         "name": "brightness 1",
-        "keywords": "image brightness",
-        "file": "ic_brightness_1",
         "codepoint": "E3A6"
       },
       {
         "name": "brightness 2",
-        "keywords": "image brightness",
-        "file": "ic_brightness_2",
         "codepoint": "E3A7"
       },
       {
         "name": "brightness 3",
-        "keywords": "image brightness",
-        "file": "ic_brightness_3",
         "codepoint": "E3A8"
       },
       {
         "name": "brightness 4",
-        "keywords": "image brightness",
-        "file": "ic_brightness_4",
         "codepoint": "E3A9"
       },
       {
         "name": "brightness 5",
-        "keywords": "image brightness",
-        "file": "ic_brightness_5",
         "codepoint": "E3AA"
       },
       {
         "name": "brightness 6",
-        "keywords": "image brightness",
-        "file": "ic_brightness_6",
         "codepoint": "E3AB"
       },
       {
         "name": "brightness 7",
-        "keywords": "image brightness",
-        "file": "ic_brightness_7",
         "codepoint": "E3AC"
       },
       {
         "name": "broken image",
-        "keywords": "image broken image",
-        "file": "ic_broken_image",
         "codepoint": "E3AD"
       },
       {
         "name": "brush",
-        "keywords": "image brush",
-        "file": "ic_brush",
         "codepoint": "E3AE"
       },
       {
         "name": "burst mode",
-        "keywords": "image burst mode",
-        "file": "ic_burst_mode",
         "codepoint": "E43C"
       },
       {
         "name": "camera",
-        "keywords": "image camera",
-        "file": "ic_camera",
         "codepoint": "E3AF"
       },
       {
         "name": "camera alt",
-        "keywords": "image camera alt",
-        "file": "ic_camera_alt",
         "codepoint": "E3B0"
       },
       {
         "name": "camera front",
-        "keywords": "image camera front",
-        "file": "ic_camera_front",
         "codepoint": "E3B1"
       },
       {
         "name": "camera rear",
-        "keywords": "image camera rear",
-        "file": "ic_camera_rear",
         "codepoint": "E3B2"
       },
       {
         "name": "camera roll",
-        "keywords": "image camera roll",
-        "file": "ic_camera_roll",
         "codepoint": "E3B3"
       },
       {
         "name": "center focus strong",
-        "keywords": "image center focus strong",
-        "file": "ic_center_focus_strong",
         "codepoint": "E3B4"
       },
       {
         "name": "center focus weak",
-        "keywords": "image center focus weak",
-        "file": "ic_center_focus_weak",
         "codepoint": "E3B5"
       },
       {
         "name": "collections",
-        "keywords": "image collections",
-        "file": "ic_collections",
         "codepoint": "E3B6"
       },
       {
         "name": "collections bookmark",
-        "keywords": "image collections bookmark",
-        "file": "ic_collections_bookmark",
         "codepoint": "E431"
       },
       {
         "name": "color lens",
-        "keywords": "image color lens",
-        "file": "ic_color_lens",
         "codepoint": "E3B7"
       },
       {
         "name": "colorize",
-        "keywords": "image colorize",
-        "file": "ic_colorize",
         "codepoint": "E3B8"
       },
       {
         "name": "compare",
-        "keywords": "image compare",
-        "file": "ic_compare",
         "codepoint": "E3B9"
       },
       {
         "name": "control point",
-        "keywords": "image control point",
-        "file": "ic_control_point",
         "codepoint": "E3BA"
       },
       {
         "name": "control point duplicate",
-        "keywords": "image control point duplicate",
-        "file": "ic_control_point_duplicate",
         "codepoint": "E3BB"
       },
       {
         "name": "crop",
-        "keywords": "image crop",
-        "file": "ic_crop",
         "codepoint": "E3BE"
       },
       {
         "name": "crop 16 9",
-        "keywords": "image crop 16",
-        "file": "ic_crop_16_9",
         "codepoint": "E3BC"
       },
       {
         "name": "crop 3 2",
-        "keywords": "image crop",
-        "file": "ic_crop_3_2",
         "codepoint": "E3BD"
       },
       {
         "name": "crop 5 4",
-        "keywords": "image crop",
-        "file": "ic_crop_5_4",
         "codepoint": "E3BF"
       },
       {
         "name": "crop 7 5",
-        "keywords": "image crop",
-        "file": "ic_crop_7_5",
         "codepoint": "E3C0"
       },
       {
         "name": "crop din",
-        "keywords": "image crop din",
-        "file": "ic_crop_din",
         "codepoint": "E3C1"
       },
       {
         "name": "crop free",
-        "keywords": "image crop free",
-        "file": "ic_crop_free",
         "codepoint": "E3C2"
       },
       {
         "name": "crop landscape",
-        "keywords": "image crop landscape",
-        "file": "ic_crop_landscape",
         "codepoint": "E3C3"
       },
       {
         "name": "crop original",
-        "keywords": "image crop original",
-        "file": "ic_crop_original",
         "codepoint": "E3C4"
       },
       {
         "name": "crop portrait",
-        "keywords": "image crop portrait",
-        "file": "ic_crop_portrait",
         "codepoint": "E3C5"
       },
       {
         "name": "crop rotate",
-        "keywords": "image crop rotate",
-        "file": "ic_crop_rotate",
         "codepoint": "E437"
       },
       {
         "name": "crop square",
-        "keywords": "image crop square",
-        "file": "ic_crop_square",
         "codepoint": "E3C6"
       },
       {
         "name": "dehaze",
-        "keywords": "image dehaze",
-        "file": "ic_dehaze",
         "codepoint": "E3C7"
       },
       {
         "name": "details",
-        "keywords": "image details",
-        "file": "ic_details",
         "codepoint": "E3C8"
       },
       {
         "name": "edit",
-        "keywords": "image edit",
-        "file": "ic_edit",
         "codepoint": "E3C9"
       },
       {
         "name": "exposure",
-        "keywords": "image exposure",
-        "file": "ic_exposure",
         "codepoint": "E3CA"
       },
       {
         "name": "exposure neg 1",
-        "keywords": "image exposure neg",
-        "file": "ic_exposure_neg_1",
         "codepoint": "E3CB"
       },
       {
         "name": "exposure neg 2",
-        "keywords": "image exposure neg",
-        "file": "ic_exposure_neg_2",
         "codepoint": "E3CC"
       },
       {
         "name": "exposure plus 1",
-        "keywords": "image exposure plus",
-        "file": "ic_exposure_plus_1",
         "codepoint": "E3CD"
       },
       {
         "name": "exposure plus 2",
-        "keywords": "image exposure plus",
-        "file": "ic_exposure_plus_2",
         "codepoint": "E3CE"
       },
       {
         "name": "exposure zero",
-        "keywords": "image exposure zero",
-        "file": "ic_exposure_zero",
         "codepoint": "E3CF"
       },
       {
         "name": "filter",
-        "keywords": "image filter",
-        "file": "ic_filter",
         "codepoint": "E3D3"
       },
       {
         "name": "filter 1",
-        "keywords": "image filter",
-        "file": "ic_filter_1",
         "codepoint": "E3D0"
       },
       {
         "name": "filter 2",
-        "keywords": "image filter",
-        "file": "ic_filter_2",
         "codepoint": "E3D1"
       },
       {
         "name": "filter 3",
-        "keywords": "image filter",
-        "file": "ic_filter_3",
         "codepoint": "E3D2"
       },
       {
         "name": "filter 4",
-        "keywords": "image filter",
-        "file": "ic_filter_4",
         "codepoint": "E3D4"
       },
       {
         "name": "filter 5",
-        "keywords": "image filter",
-        "file": "ic_filter_5",
         "codepoint": "E3D5"
       },
       {
         "name": "filter 6",
-        "keywords": "image filter",
-        "file": "ic_filter_6",
         "codepoint": "E3D6"
       },
       {
         "name": "filter 7",
-        "keywords": "image filter",
-        "file": "ic_filter_7",
         "codepoint": "E3D7"
       },
       {
         "name": "filter 8",
-        "keywords": "image filter",
-        "file": "ic_filter_8",
         "codepoint": "E3D8"
       },
       {
         "name": "filter 9",
-        "keywords": "image filter",
-        "file": "ic_filter_9",
         "codepoint": "E3D9"
       },
       {
         "name": "filter 9 plus",
-        "keywords": "image filter plus",
-        "file": "ic_filter_9_plus",
         "codepoint": "E3DA"
       },
       {
         "name": "filter b and w",
-        "keywords": "image filter",
-        "file": "ic_filter_b_and_w",
         "codepoint": "E3DB"
       },
       {
         "name": "filter center focus",
-        "keywords": "image filter center focus",
-        "file": "ic_filter_center_focus",
         "codepoint": "E3DC"
       },
       {
         "name": "filter drama",
-        "keywords": "image filter drama",
-        "file": "ic_filter_drama",
         "codepoint": "E3DD"
       },
       {
         "name": "filter frames",
-        "keywords": "image filter frames",
-        "file": "ic_filter_frames",
         "codepoint": "E3DE"
       },
       {
         "name": "filter hdr",
-        "keywords": "image filter hdr",
-        "file": "ic_filter_hdr",
         "codepoint": "E3DF"
       },
       {
         "name": "filter none",
-        "keywords": "image filter none",
-        "file": "ic_filter_none",
         "codepoint": "E3E0"
       },
       {
         "name": "filter tilt shift",
-        "keywords": "image filter tilt shift",
-        "file": "ic_filter_tilt_shift",
         "codepoint": "E3E2"
       },
       {
         "name": "filter vintage",
-        "keywords": "image filter vintage",
-        "file": "ic_filter_vintage",
         "codepoint": "E3E3"
       },
       {
         "name": "flare",
-        "keywords": "image flare",
-        "file": "ic_flare",
         "codepoint": "E3E4"
       },
       {
         "name": "flash auto",
-        "keywords": "image flash auto",
-        "file": "ic_flash_auto",
         "codepoint": "E3E5"
       },
       {
         "name": "flash off",
-        "keywords": "image flash off",
-        "file": "ic_flash_off",
         "codepoint": "E3E6"
       },
       {
         "name": "flash on",
-        "keywords": "image flash on",
-        "file": "ic_flash_on",
         "codepoint": "E3E7"
       },
       {
         "name": "flip",
-        "keywords": "image flip",
-        "file": "ic_flip",
         "codepoint": "E3E8"
       },
       {
         "name": "gradient",
-        "keywords": "image gradient",
-        "file": "ic_gradient",
         "codepoint": "E3E9"
       },
       {
         "name": "grain",
-        "keywords": "image grain",
-        "file": "ic_grain",
         "codepoint": "E3EA"
       },
       {
         "name": "grid off",
-        "keywords": "image grid off",
-        "file": "ic_grid_off",
         "codepoint": "E3EB"
       },
       {
         "name": "grid on",
-        "keywords": "image grid on",
-        "file": "ic_grid_on",
         "codepoint": "E3EC"
       },
       {
         "name": "hdr off",
-        "keywords": "image hdr off",
-        "file": "ic_hdr_off",
         "codepoint": "E3ED"
       },
       {
         "name": "hdr on",
-        "keywords": "image hdr on",
-        "file": "ic_hdr_on",
         "codepoint": "E3EE"
       },
       {
         "name": "hdr strong",
-        "keywords": "image hdr strong",
-        "file": "ic_hdr_strong",
         "codepoint": "E3F1"
       },
       {
         "name": "hdr weak",
-        "keywords": "image hdr weak",
-        "file": "ic_hdr_weak",
         "codepoint": "E3F2"
       },
       {
         "name": "healing",
-        "keywords": "image healing",
-        "file": "ic_healing",
         "codepoint": "E3F3"
       },
       {
         "name": "image",
-        "keywords": "image image",
-        "file": "ic_image",
         "codepoint": "E3F4"
       },
       {
         "name": "image aspect ratio",
-        "keywords": "image image aspect ratio",
-        "file": "ic_image_aspect_ratio",
         "codepoint": "E3F5"
       },
       {
         "name": "iso",
-        "keywords": "image iso",
-        "file": "ic_iso",
         "codepoint": "E3F6"
       },
       {
         "name": "landscape",
-        "keywords": "image landscape",
-        "file": "ic_landscape",
         "codepoint": "E3F7"
       },
       {
         "name": "leak add",
-        "keywords": "image leak add",
-        "file": "ic_leak_add",
         "codepoint": "E3F8"
       },
       {
         "name": "leak remove",
-        "keywords": "image leak remove",
-        "file": "ic_leak_remove",
         "codepoint": "E3F9"
       },
       {
         "name": "lens",
-        "keywords": "image lens",
-        "file": "ic_lens",
         "codepoint": "E3FA"
       },
       {
         "name": "linked camera",
-        "keywords": "image linked camera",
-        "file": "ic_linked_camera",
         "codepoint": "E438"
       },
       {
         "name": "looks",
-        "keywords": "image looks",
-        "file": "ic_looks",
         "codepoint": "E3FC"
       },
       {
         "name": "looks 3",
-        "keywords": "image looks",
-        "file": "ic_looks_3",
         "codepoint": "E3FB"
       },
       {
         "name": "looks 4",
-        "keywords": "image looks",
-        "file": "ic_looks_4",
         "codepoint": "E3FD"
       },
       {
         "name": "looks 5",
-        "keywords": "image looks",
-        "file": "ic_looks_5",
         "codepoint": "E3FE"
       },
       {
         "name": "looks 6",
-        "keywords": "image looks",
-        "file": "ic_looks_6",
         "codepoint": "E3FF"
       },
       {
         "name": "looks one",
-        "keywords": "image looks one",
-        "file": "ic_looks_one",
         "codepoint": "E400"
       },
       {
         "name": "looks two",
-        "keywords": "image looks two",
-        "file": "ic_looks_two",
         "codepoint": "E401"
       },
       {
         "name": "loupe",
-        "keywords": "image loupe",
-        "file": "ic_loupe",
         "codepoint": "E402"
       },
       {
         "name": "monochrome photos",
-        "keywords": "image monochrome photos",
-        "file": "ic_monochrome_photos",
         "codepoint": "E403"
       },
       {
         "name": "movie creation",
-        "keywords": "image movie creation",
-        "file": "ic_movie_creation",
         "codepoint": "E404"
       },
       {
         "name": "movie filter",
-        "keywords": "image movie filter",
-        "file": "ic_movie_filter",
         "codepoint": "E43A"
       },
       {
         "name": "music note",
-        "keywords": "image music note",
-        "file": "ic_music_note",
         "codepoint": "E405"
       },
       {
         "name": "nature",
-        "keywords": "image nature",
-        "file": "ic_nature",
         "codepoint": "E406"
       },
       {
         "name": "nature people",
-        "keywords": "image nature people",
-        "file": "ic_nature_people",
         "codepoint": "E407"
       },
       {
         "name": "navigate before",
-        "keywords": "image navigate before",
-        "file": "ic_navigate_before",
         "codepoint": "E408"
       },
       {
         "name": "navigate next",
-        "keywords": "image navigate next",
-        "file": "ic_navigate_next",
         "codepoint": "E409"
       },
       {
         "name": "palette",
-        "keywords": "image palette",
-        "file": "ic_palette",
         "codepoint": "E40A"
       },
       {
         "name": "panorama",
-        "keywords": "image panorama",
-        "file": "ic_panorama",
         "codepoint": "E40B"
       },
       {
         "name": "panorama fish eye",
-        "keywords": "image panorama fish eye",
-        "file": "ic_panorama_fish_eye",
         "codepoint": "E40C"
       },
       {
         "name": "panorama horizontal",
-        "keywords": "image panorama horizontal",
-        "file": "ic_panorama_horizontal",
         "codepoint": "E40D"
       },
       {
         "name": "panorama vertical",
-        "keywords": "image panorama vertical",
-        "file": "ic_panorama_vertical",
         "codepoint": "E40E"
       },
       {
         "name": "panorama wide angle",
-        "keywords": "image panorama wide angle",
-        "file": "ic_panorama_wide_angle",
         "codepoint": "E40F"
       },
       {
         "name": "photo",
-        "keywords": "image photo",
-        "file": "ic_photo",
         "codepoint": "E410"
       },
       {
         "name": "photo album",
-        "keywords": "image photo album",
-        "file": "ic_photo_album",
         "codepoint": "E411"
       },
       {
         "name": "photo camera",
-        "keywords": "image photo camera",
-        "file": "ic_photo_camera",
         "codepoint": "E412"
       },
       {
         "name": "photo filter",
-        "keywords": "image photo filter",
-        "file": "ic_photo_filter",
         "codepoint": "E43B"
       },
       {
         "name": "photo library",
-        "keywords": "image photo library",
-        "file": "ic_photo_library",
         "codepoint": "E413"
       },
       {
         "name": "photo size select actual",
-        "keywords": "image photo size select actual",
-        "file": "ic_photo_size_select_actual",
         "codepoint": "E432"
       },
       {
         "name": "photo size select large",
-        "keywords": "image photo size select large",
-        "file": "ic_photo_size_select_large",
         "codepoint": "E433"
       },
       {
         "name": "photo size select small",
-        "keywords": "image photo size select small",
-        "file": "ic_photo_size_select_small",
         "codepoint": "E434"
       },
       {
         "name": "picture as pdf",
-        "keywords": "image picture as pdf",
-        "file": "ic_picture_as_pdf",
         "codepoint": "E415"
       },
       {
         "name": "portrait",
-        "keywords": "image portrait",
-        "file": "ic_portrait",
         "codepoint": "E416"
       },
       {
         "name": "remove red eye",
-        "keywords": "image remove red eye",
-        "file": "ic_remove_red_eye",
         "codepoint": "E417"
       },
       {
         "name": "rotate 90 degrees ccw",
-        "keywords": "image rotate 90 degrees ccw",
-        "file": "ic_rotate_90_degrees_ccw",
         "codepoint": "E418"
       },
       {
         "name": "rotate left",
-        "keywords": "image rotate left",
-        "file": "ic_rotate_left",
         "codepoint": "E419"
       },
       {
         "name": "rotate right",
-        "keywords": "image rotate right",
-        "file": "ic_rotate_right",
         "codepoint": "E41A"
       },
       {
         "name": "slideshow",
-        "keywords": "image slideshow",
-        "file": "ic_slideshow",
         "codepoint": "E41B"
       },
       {
         "name": "straighten",
-        "keywords": "image straighten",
-        "file": "ic_straighten",
         "codepoint": "E41C"
       },
       {
         "name": "style",
-        "keywords": "image style",
-        "file": "ic_style",
         "codepoint": "E41D"
       },
       {
         "name": "switch camera",
-        "keywords": "image switch camera",
-        "file": "ic_switch_camera",
         "codepoint": "E41E"
       },
       {
         "name": "switch video",
-        "keywords": "image switch video",
-        "file": "ic_switch_video",
         "codepoint": "E41F"
       },
       {
         "name": "tag faces",
-        "keywords": "image tag faces",
-        "file": "ic_tag_faces",
         "codepoint": "E420"
       },
       {
         "name": "texture",
-        "keywords": "image texture",
-        "file": "ic_texture",
         "codepoint": "E421"
       },
       {
         "name": "timelapse",
-        "keywords": "image timelapse",
-        "file": "ic_timelapse",
         "codepoint": "E422"
       },
       {
         "name": "timer",
-        "keywords": "image timer",
-        "file": "ic_timer",
         "codepoint": "E425"
       },
       {
         "name": "timer 10",
-        "keywords": "image timer 10",
-        "file": "ic_timer_10",
         "codepoint": "E423"
       },
       {
         "name": "timer 3",
-        "keywords": "image timer",
-        "file": "ic_timer_3",
         "codepoint": "E424"
       },
       {
         "name": "timer off",
-        "keywords": "image timer off",
-        "file": "ic_timer_off",
         "codepoint": "E426"
       },
       {
         "name": "tonality",
-        "keywords": "image tonality",
-        "file": "ic_tonality",
         "codepoint": "E427"
       },
       {
         "name": "transform",
-        "keywords": "image transform",
-        "file": "ic_transform",
         "codepoint": "E428"
       },
       {
         "name": "tune",
-        "keywords": "image tune",
-        "file": "ic_tune",
         "codepoint": "E429"
       },
       {
         "name": "view comfy",
-        "keywords": "image view comfy",
-        "file": "ic_view_comfy",
         "codepoint": "E42A"
       },
       {
         "name": "view compact",
-        "keywords": "image view compact",
-        "file": "ic_view_compact",
         "codepoint": "E42B"
       },
       {
         "name": "vignette",
-        "keywords": "image vignette",
-        "file": "ic_vignette",
         "codepoint": "E435"
       },
       {
         "name": "wb auto",
-        "keywords": "image wb auto",
-        "file": "ic_wb_auto",
         "codepoint": "E42C"
       },
       {
         "name": "wb cloudy",
-        "keywords": "image wb cloudy",
-        "file": "ic_wb_cloudy",
         "codepoint": "E42D"
       },
       {
         "name": "wb incandescent",
-        "keywords": "image wb incandescent",
-        "file": "ic_wb_incandescent",
         "codepoint": "E42E"
       },
       {
         "name": "wb iridescent",
-        "keywords": "image wb iridescent",
-        "file": "ic_wb_iridescent",
         "codepoint": "E436"
       },
       {
         "name": "wb sunny",
-        "keywords": "image wb sunny",
-        "file": "ic_wb_sunny",
         "codepoint": "E430"
       }
     ]
@@ -4422,410 +2966,274 @@
     "icons": [
       {
         "name": "add location",
-        "keywords": "maps add location",
-        "file": "ic_add_location",
         "codepoint": "E567"
       },
       {
         "name": "beenhere",
-        "keywords": "maps beenhere",
-        "file": "ic_beenhere",
         "codepoint": "E52D"
       },
       {
         "name": "directions",
-        "keywords": "maps directions",
-        "file": "ic_directions",
         "codepoint": "E52E"
       },
       {
         "name": "directions bike",
-        "keywords": "maps directions bike",
-        "file": "ic_directions_bike",
         "codepoint": "E52F"
       },
       {
         "name": "directions boat",
-        "keywords": "maps directions boat",
-        "file": "ic_directions_boat",
         "codepoint": "E532"
       },
       {
         "name": "directions bus",
-        "keywords": "maps directions bus",
-        "file": "ic_directions_bus",
         "codepoint": "E530"
       },
       {
         "name": "directions car",
-        "keywords": "maps directions car",
-        "file": "ic_directions_car",
         "codepoint": "E531"
       },
       {
         "name": "directions railway",
-        "keywords": "maps directions railway",
-        "file": "ic_directions_railway",
         "codepoint": "E534"
       },
       {
         "name": "directions run",
-        "keywords": "maps directions run",
-        "file": "ic_directions_run",
         "codepoint": "E566"
       },
       {
         "name": "directions subway",
-        "keywords": "maps directions subway",
-        "file": "ic_directions_subway",
         "codepoint": "E533"
       },
       {
         "name": "directions transit",
-        "keywords": "maps directions transit",
-        "file": "ic_directions_transit",
         "codepoint": "E535"
       },
       {
         "name": "directions walk",
-        "keywords": "maps directions walk",
-        "file": "ic_directions_walk",
         "codepoint": "E536"
       },
       {
         "name": "edit location",
-        "keywords": "maps edit location",
-        "file": "ic_edit_location",
         "codepoint": "E568"
       },
       {
         "name": "ev station",
-        "keywords": "maps ev station",
-        "file": "ic_ev_station",
         "codepoint": "E56D"
       },
       {
         "name": "flight",
-        "keywords": "maps flight",
-        "file": "ic_flight",
         "codepoint": "E539"
       },
       {
         "name": "hotel",
-        "keywords": "maps hotel",
-        "file": "ic_hotel",
         "codepoint": "E53A"
       },
       {
         "name": "layers",
-        "keywords": "maps layers",
-        "file": "ic_layers",
         "codepoint": "E53B"
       },
       {
         "name": "layers clear",
-        "keywords": "maps layers clear",
-        "file": "ic_layers_clear",
         "codepoint": "E53C"
       },
       {
         "name": "local activity",
-        "keywords": "maps local activity",
-        "file": "ic_local_activity",
         "codepoint": "E53F"
       },
       {
         "name": "local airport",
-        "keywords": "maps local airport",
-        "file": "ic_local_airport",
         "codepoint": "E53D"
       },
       {
         "name": "local atm",
-        "keywords": "maps local atm",
-        "file": "ic_local_atm",
         "codepoint": "E53E"
       },
       {
         "name": "local bar",
-        "keywords": "maps local bar",
-        "file": "ic_local_bar",
         "codepoint": "E540"
       },
       {
         "name": "local cafe",
-        "keywords": "maps local cafe",
-        "file": "ic_local_cafe",
         "codepoint": "E541"
       },
       {
         "name": "local car wash",
-        "keywords": "maps local car wash",
-        "file": "ic_local_car_wash",
         "codepoint": "E542"
       },
       {
         "name": "local convenience store",
-        "keywords": "maps local convenience store",
-        "file": "ic_local_convenience_store",
         "codepoint": "E543"
       },
       {
         "name": "local dining",
-        "keywords": "maps local dining",
-        "file": "ic_local_dining",
         "codepoint": "E556"
       },
       {
         "name": "local drink",
-        "keywords": "maps local drink",
-        "file": "ic_local_drink",
         "codepoint": "E544"
       },
       {
         "name": "local florist",
-        "keywords": "maps local florist",
-        "file": "ic_local_florist",
         "codepoint": "E545"
       },
       {
         "name": "local gas station",
-        "keywords": "maps local gas station",
-        "file": "ic_local_gas_station",
         "codepoint": "E546"
       },
       {
         "name": "local grocery store",
-        "keywords": "maps local grocery store",
-        "file": "ic_local_grocery_store",
         "codepoint": "E547"
       },
       {
         "name": "local hospital",
-        "keywords": "maps local hospital",
-        "file": "ic_local_hospital",
         "codepoint": "E548"
       },
       {
         "name": "local hotel",
-        "keywords": "maps local hotel",
-        "file": "ic_local_hotel",
         "codepoint": "E549"
       },
       {
         "name": "local laundry service",
-        "keywords": "maps local laundry service",
-        "file": "ic_local_laundry_service",
         "codepoint": "E54A"
       },
       {
         "name": "local library",
-        "keywords": "maps local library",
-        "file": "ic_local_library",
         "codepoint": "E54B"
       },
       {
         "name": "local mall",
-        "keywords": "maps local mall",
-        "file": "ic_local_mall",
         "codepoint": "E54C"
       },
       {
         "name": "local movies",
-        "keywords": "maps local movies",
-        "file": "ic_local_movies",
         "codepoint": "E54D"
       },
       {
         "name": "local offer",
-        "keywords": "maps local offer",
-        "file": "ic_local_offer",
         "codepoint": "E54E"
       },
       {
         "name": "local parking",
-        "keywords": "maps local parking",
-        "file": "ic_local_parking",
         "codepoint": "E54F"
       },
       {
         "name": "local pharmacy",
-        "keywords": "maps local pharmacy",
-        "file": "ic_local_pharmacy",
         "codepoint": "E550"
       },
       {
         "name": "local phone",
-        "keywords": "maps local phone",
-        "file": "ic_local_phone",
         "codepoint": "E551"
       },
       {
         "name": "local pizza",
-        "keywords": "maps local pizza",
-        "file": "ic_local_pizza",
         "codepoint": "E552"
       },
       {
         "name": "local play",
-        "keywords": "maps local play",
-        "file": "ic_local_play",
         "codepoint": "E553"
       },
       {
         "name": "local post office",
-        "keywords": "maps local post office",
-        "file": "ic_local_post_office",
         "codepoint": "E554"
       },
       {
         "name": "local printshop",
-        "keywords": "maps local printshop",
-        "file": "ic_local_printshop",
         "codepoint": "E555"
       },
       {
         "name": "local see",
-        "keywords": "maps local see",
-        "file": "ic_local_see",
         "codepoint": "E557"
       },
       {
         "name": "local shipping",
-        "keywords": "maps local shipping",
-        "file": "ic_local_shipping",
         "codepoint": "E558"
       },
       {
         "name": "local taxi",
-        "keywords": "maps local taxi",
-        "file": "ic_local_taxi",
         "codepoint": "E559"
       },
       {
         "name": "map",
-        "keywords": "maps map",
-        "file": "ic_map",
         "codepoint": "E55B"
       },
       {
         "name": "my location",
-        "keywords": "maps my location",
-        "file": "ic_my_location",
         "codepoint": "E55C"
       },
       {
         "name": "navigation",
-        "keywords": "maps navigation",
-        "file": "ic_navigation",
         "codepoint": "E55D"
       },
       {
         "name": "near me",
-        "keywords": "maps near me",
-        "file": "ic_near_me",
         "codepoint": "E569"
       },
       {
         "name": "person pin",
-        "keywords": "maps person pin",
-        "file": "ic_person_pin",
         "codepoint": "E55A"
       },
       {
         "name": "person pin circle",
-        "keywords": "maps person pin circle",
-        "file": "ic_person_pin_circle",
         "codepoint": "E56A"
       },
       {
         "name": "pin drop",
-        "keywords": "maps pin drop",
-        "file": "ic_pin_drop",
         "codepoint": "E55E"
       },
       {
         "name": "place",
-        "keywords": "maps place",
-        "file": "ic_place",
         "codepoint": "E55F"
       },
       {
         "name": "rate review",
-        "keywords": "maps rate review",
-        "file": "ic_rate_review",
         "codepoint": "E560"
       },
       {
         "name": "restaurant",
-        "keywords": "maps restaurant",
-        "file": "ic_restaurant",
         "codepoint": "E56C"
       },
       {
         "name": "restaurant menu",
-        "keywords": "maps restaurant menu",
-        "file": "ic_restaurant_menu",
         "codepoint": "E561"
       },
       {
         "name": "satellite",
-        "keywords": "maps satellite",
-        "file": "ic_satellite",
         "codepoint": "E562"
       },
       {
         "name": "store mall directory",
-        "keywords": "maps store mall directory",
-        "file": "ic_store_mall_directory",
         "codepoint": "E563"
       },
       {
         "name": "streetview",
-        "keywords": "maps streetview",
-        "file": "ic_streetview",
         "codepoint": "E56E"
       },
       {
         "name": "subway",
-        "keywords": "maps subway",
-        "file": "ic_subway",
         "codepoint": "E56F"
       },
       {
         "name": "terrain",
-        "keywords": "maps terrain",
-        "file": "ic_terrain",
         "codepoint": "E564"
       },
       {
         "name": "traffic",
-        "keywords": "maps traffic",
-        "file": "ic_traffic",
         "codepoint": "E565"
       },
       {
         "name": "train",
-        "keywords": "maps train",
-        "file": "ic_train",
         "codepoint": "E570"
       },
       {
         "name": "tram",
-        "keywords": "maps tram",
-        "file": "ic_tram",
         "codepoint": "E571"
       },
       {
         "name": "transfer within a station",
-        "keywords": "maps transfer within station",
-        "file": "ic_transfer_within_a_station",
         "codepoint": "E572"
       },
       {
         "name": "zoom out map",
-        "keywords": "maps zoom out map",
-        "file": "ic_zoom_out_map",
         "codepoint": "E56B"
       }
     ]
@@ -4835,152 +3243,102 @@
     "icons": [
       {
         "name": "apps",
-        "keywords": "navigation apps",
-        "file": "ic_apps",
         "codepoint": "E5C3"
       },
       {
         "name": "arrow back",
-        "keywords": "navigation arrow back",
-        "file": "ic_arrow_back",
         "codepoint": "E5C4"
       },
       {
         "name": "arrow downward",
-        "keywords": "navigation arrow downward",
-        "file": "ic_arrow_downward",
         "codepoint": "E5DB"
       },
       {
         "name": "arrow drop down",
-        "keywords": "navigation arrow drop down",
-        "file": "ic_arrow_drop_down",
         "codepoint": "E5C5"
       },
       {
         "name": "arrow drop down circle",
-        "keywords": "navigation arrow drop down circle",
-        "file": "ic_arrow_drop_down_circle",
         "codepoint": "E5C6"
       },
       {
         "name": "arrow drop up",
-        "keywords": "navigation arrow drop up",
-        "file": "ic_arrow_drop_up",
         "codepoint": "E5C7"
       },
       {
         "name": "arrow forward",
-        "keywords": "navigation arrow forward",
-        "file": "ic_arrow_forward",
         "codepoint": "E5C8"
       },
       {
         "name": "arrow upward",
-        "keywords": "navigation arrow upward",
-        "file": "ic_arrow_upward",
         "codepoint": "E5D8"
       },
       {
         "name": "cancel",
-        "keywords": "navigation cancel",
-        "file": "ic_cancel",
         "codepoint": "E5C9"
       },
       {
         "name": "check",
-        "keywords": "navigation check",
-        "file": "ic_check",
         "codepoint": "E5CA"
       },
       {
         "name": "chevron left",
-        "keywords": "navigation chevron left",
-        "file": "ic_chevron_left",
         "codepoint": "E5CB"
       },
       {
         "name": "chevron right",
-        "keywords": "navigation chevron right",
-        "file": "ic_chevron_right",
         "codepoint": "E5CC"
       },
       {
         "name": "close",
-        "keywords": "navigation close",
-        "file": "ic_close",
         "codepoint": "E5CD"
       },
       {
         "name": "expand less",
-        "keywords": "navigation expand less",
-        "file": "ic_expand_less",
         "codepoint": "E5CE"
       },
       {
         "name": "expand more",
-        "keywords": "navigation expand more",
-        "file": "ic_expand_more",
         "codepoint": "E5CF"
       },
       {
         "name": "first page",
-        "keywords": "navigation first page",
-        "file": "ic_first_page",
         "codepoint": "E5DC"
       },
       {
         "name": "fullscreen",
-        "keywords": "navigation fullscreen",
-        "file": "ic_fullscreen",
         "codepoint": "E5D0"
       },
       {
         "name": "fullscreen exit",
-        "keywords": "navigation fullscreen exit",
-        "file": "ic_fullscreen_exit",
         "codepoint": "E5D1"
       },
       {
         "name": "last page",
-        "keywords": "navigation last page",
-        "file": "ic_last_page",
         "codepoint": "E5DD"
       },
       {
         "name": "menu",
-        "keywords": "navigation menu",
-        "file": "ic_menu",
         "codepoint": "E5D2"
       },
       {
         "name": "more horiz",
-        "keywords": "navigation more horiz",
-        "file": "ic_more_horiz",
         "codepoint": "E5D3"
       },
       {
         "name": "more vert",
-        "keywords": "navigation more vert",
-        "file": "ic_more_vert",
         "codepoint": "E5D4"
       },
       {
         "name": "refresh",
-        "keywords": "navigation refresh",
-        "file": "ic_refresh",
         "codepoint": "E5D5"
       },
       {
         "name": "subdirectory arrow left",
-        "keywords": "navigation subdirectory arrow left",
-        "file": "ic_subdirectory_arrow_left",
         "codepoint": "E5D9"
       },
       {
         "name": "subdirectory arrow right",
-        "keywords": "navigation subdirectory arrow right",
-        "file": "ic_subdirectory_arrow_right",
         "codepoint": "E5DA"
       }
     ]
@@ -4990,320 +3348,214 @@
     "icons": [
       {
         "name": "adb",
-        "keywords": "notification adb",
-        "file": "ic_adb",
         "codepoint": "E60E"
       },
       {
         "name": "airline seat flat",
-        "keywords": "notification airline seat flat",
-        "file": "ic_airline_seat_flat",
         "codepoint": "E630"
       },
       {
         "name": "airline seat flat angled",
-        "keywords": "notification airline seat flat angled",
-        "file": "ic_airline_seat_flat_angled",
         "codepoint": "E631"
       },
       {
         "name": "airline seat individual suite",
-        "keywords": "notification airline seat individual suite",
-        "file": "ic_airline_seat_individual_suite",
         "codepoint": "E632"
       },
       {
         "name": "airline seat legroom extra",
-        "keywords": "notification airline seat legroom extra",
-        "file": "ic_airline_seat_legroom_extra",
         "codepoint": "E633"
       },
       {
         "name": "airline seat legroom normal",
-        "keywords": "notification airline seat legroom normal",
-        "file": "ic_airline_seat_legroom_normal",
         "codepoint": "E634"
       },
       {
         "name": "airline seat legroom reduced",
-        "keywords": "notification airline seat legroom reduced",
-        "file": "ic_airline_seat_legroom_reduced",
         "codepoint": "E635"
       },
       {
         "name": "airline seat recline extra",
-        "keywords": "notification airline seat recline extra",
-        "file": "ic_airline_seat_recline_extra",
         "codepoint": "E636"
       },
       {
         "name": "airline seat recline normal",
-        "keywords": "notification airline seat recline normal",
-        "file": "ic_airline_seat_recline_normal",
         "codepoint": "E637"
       },
       {
         "name": "bluetooth audio",
-        "keywords": "notification bluetooth audio",
-        "file": "ic_bluetooth_audio",
         "codepoint": "E60F"
       },
       {
         "name": "confirmation number",
-        "keywords": "notification confirmation number",
-        "file": "ic_confirmation_number",
         "codepoint": "E638"
       },
       {
         "name": "disc full",
-        "keywords": "notification disc full",
-        "file": "ic_disc_full",
         "codepoint": "E610"
       },
       {
         "name": "do not disturb",
-        "keywords": "notification do not disturb",
-        "file": "ic_do_not_disturb",
         "codepoint": "E612"
       },
       {
         "name": "do not disturb alt",
-        "keywords": "notification do not disturb alt",
-        "file": "ic_do_not_disturb_alt",
         "codepoint": "E611"
       },
       {
         "name": "do not disturb off",
-        "keywords": "notification do not disturb off",
-        "file": "ic_do_not_disturb_off",
         "codepoint": "E643"
       },
       {
         "name": "do not disturb on",
-        "keywords": "notification do not disturb on",
-        "file": "ic_do_not_disturb_on",
         "codepoint": "E644"
       },
       {
         "name": "drive eta",
-        "keywords": "notification drive eta",
-        "file": "ic_drive_eta",
         "codepoint": "E613"
       },
       {
         "name": "enhanced encryption",
-        "keywords": "notification enhanced encryption",
-        "file": "ic_enhanced_encryption",
         "codepoint": "E63F"
       },
       {
         "name": "event available",
-        "keywords": "notification event available",
-        "file": "ic_event_available",
         "codepoint": "E614"
       },
       {
         "name": "event busy",
-        "keywords": "notification event busy",
-        "file": "ic_event_busy",
         "codepoint": "E615"
       },
       {
         "name": "event note",
-        "keywords": "notification event note",
-        "file": "ic_event_note",
         "codepoint": "E616"
       },
       {
         "name": "folder special",
-        "keywords": "notification folder special",
-        "file": "ic_folder_special",
         "codepoint": "E617"
       },
       {
         "name": "live tv",
-        "keywords": "notification live tv",
-        "file": "ic_live_tv",
         "codepoint": "E639"
       },
       {
         "name": "mms",
-        "keywords": "notification mms",
-        "file": "ic_mms",
         "codepoint": "E618"
       },
       {
         "name": "more",
-        "keywords": "notification more",
-        "file": "ic_more",
         "codepoint": "E619"
       },
       {
         "name": "network check",
-        "keywords": "notification network check",
-        "file": "ic_network_check",
         "codepoint": "E640"
       },
       {
         "name": "network locked",
-        "keywords": "notification network locked",
-        "file": "ic_network_locked",
         "codepoint": "E61A"
       },
       {
         "name": "no encryption",
-        "keywords": "notification no encryption",
-        "file": "ic_no_encryption",
         "codepoint": "E641"
       },
       {
         "name": "ondemand video",
-        "keywords": "notification ondemand video",
-        "file": "ic_ondemand_video",
         "codepoint": "E63A"
       },
       {
         "name": "personal video",
-        "keywords": "notification personal video",
-        "file": "ic_personal_video",
         "codepoint": "E63B"
       },
       {
         "name": "phone bluetooth speaker",
-        "keywords": "notification phone bluetooth speaker",
-        "file": "ic_phone_bluetooth_speaker",
         "codepoint": "E61B"
       },
       {
         "name": "phone forwarded",
-        "keywords": "notification phone forwarded",
-        "file": "ic_phone_forwarded",
         "codepoint": "E61C"
       },
       {
         "name": "phone in talk",
-        "keywords": "notification phone in talk",
-        "file": "ic_phone_in_talk",
         "codepoint": "E61D"
       },
       {
         "name": "phone locked",
-        "keywords": "notification phone locked",
-        "file": "ic_phone_locked",
         "codepoint": "E61E"
       },
       {
         "name": "phone missed",
-        "keywords": "notification phone missed",
-        "file": "ic_phone_missed",
         "codepoint": "E61F"
       },
       {
         "name": "phone paused",
-        "keywords": "notification phone paused",
-        "file": "ic_phone_paused",
         "codepoint": "E620"
       },
       {
         "name": "power",
-        "keywords": "notification power",
-        "file": "ic_power",
         "codepoint": "E63C"
       },
       {
         "name": "priority high",
-        "keywords": "notification priority high",
-        "file": "ic_priority_high",
         "codepoint": "E645"
       },
       {
         "name": "sd card",
-        "keywords": "notification sd card",
-        "file": "ic_sd_card",
         "codepoint": "E623"
       },
       {
         "name": "sim card alert",
-        "keywords": "notification sim card alert",
-        "file": "ic_sim_card_alert",
         "codepoint": "E624"
       },
       {
         "name": "sms",
-        "keywords": "notification sms",
-        "file": "ic_sms",
         "codepoint": "E625"
       },
       {
         "name": "sms failed",
-        "keywords": "notification sms failed",
-        "file": "ic_sms_failed",
         "codepoint": "E626"
       },
       {
         "name": "sync",
-        "keywords": "notification sync",
-        "file": "ic_sync",
         "codepoint": "E627"
       },
       {
         "name": "sync disabled",
-        "keywords": "notification sync disabled",
-        "file": "ic_sync_disabled",
         "codepoint": "E628"
       },
       {
         "name": "sync problem",
-        "keywords": "notification sync problem",
-        "file": "ic_sync_problem",
         "codepoint": "E629"
       },
       {
         "name": "system update",
-        "keywords": "notification system update",
-        "file": "ic_system_update",
         "codepoint": "E62A"
       },
       {
         "name": "tap and play",
-        "keywords": "notification tap play",
-        "file": "ic_tap_and_play",
         "codepoint": "E62B"
       },
       {
         "name": "time to leave",
-        "keywords": "notification time to leave",
-        "file": "ic_time_to_leave",
         "codepoint": "E62C"
       },
       {
         "name": "vibration",
-        "keywords": "notification vibration",
-        "file": "ic_vibration",
         "codepoint": "E62D"
       },
       {
         "name": "voice chat",
-        "keywords": "notification voice chat",
-        "file": "ic_voice_chat",
         "codepoint": "E62E"
       },
       {
         "name": "vpn lock",
-        "keywords": "notification vpn lock",
-        "file": "ic_vpn_lock",
         "codepoint": "E62F"
       },
       {
         "name": "wc",
-        "keywords": "notification wc",
-        "file": "ic_wc",
         "codepoint": "E63D"
       },
       {
         "name": "wifi",
-        "keywords": "notification wifi",
-        "file": "ic_wifi",
         "codepoint": "E63E"
       }
     ]
@@ -5313,116 +3565,78 @@
     "icons": [
       {
         "name": "ac unit",
-        "keywords": "places ac unit",
-        "file": "ic_ac_unit",
         "codepoint": "EB3B"
       },
       {
         "name": "airport shuttle",
-        "keywords": "places airport shuttle",
-        "file": "ic_airport_shuttle",
         "codepoint": "EB3C"
       },
       {
         "name": "all inclusive",
-        "keywords": "places all inclusive",
-        "file": "ic_all_inclusive",
         "codepoint": "EB3D"
       },
       {
         "name": "beach access",
-        "keywords": "places beach access",
-        "file": "ic_beach_access",
         "codepoint": "EB3E"
       },
       {
         "name": "business center",
-        "keywords": "places business center",
-        "file": "ic_business_center",
         "codepoint": "EB3F"
       },
       {
         "name": "casino",
-        "keywords": "places casino",
-        "file": "ic_casino",
         "codepoint": "EB40"
       },
       {
         "name": "child care",
-        "keywords": "places child care",
-        "file": "ic_child_care",
         "codepoint": "EB41"
       },
       {
         "name": "child friendly",
-        "keywords": "places child friendly",
-        "file": "ic_child_friendly",
         "codepoint": "EB42"
       },
       {
         "name": "fitness center",
-        "keywords": "places fitness center",
-        "file": "ic_fitness_center",
         "codepoint": "EB43"
       },
       {
         "name": "free breakfast",
-        "keywords": "places free breakfast",
-        "file": "ic_free_breakfast",
         "codepoint": "EB44"
       },
       {
         "name": "golf course",
-        "keywords": "places golf course",
-        "file": "ic_golf_course",
         "codepoint": "EB45"
       },
       {
         "name": "hot tub",
-        "keywords": "places hot tub",
-        "file": "ic_hot_tub",
         "codepoint": "EB46"
       },
       {
         "name": "kitchen",
-        "keywords": "places kitchen",
-        "file": "ic_kitchen",
         "codepoint": "EB47"
       },
       {
         "name": "pool",
-        "keywords": "places pool",
-        "file": "ic_pool",
         "codepoint": "EB48"
       },
       {
         "name": "room service",
-        "keywords": "places room service",
-        "file": "ic_room_service",
         "codepoint": "EB49"
       },
       {
         "name": "rv hookup",
-        "keywords": "places rv hookup",
-        "file": "ic_rv_hookup",
         "codepoint": "E642"
       },
       {
         "name": "smoke free",
-        "keywords": "places smoke free",
-        "file": "ic_smoke_free",
         "codepoint": "EB4A"
       },
       {
         "name": "smoking rooms",
-        "keywords": "places smoking rooms",
-        "file": "ic_smoking_rooms",
         "codepoint": "EB4B"
       },
       {
         "name": "spa",
-        "keywords": "places spa",
-        "file": "ic_spa",
         "codepoint": "EB4C"
       }
     ]
@@ -5432,182 +3646,122 @@
     "icons": [
       {
         "name": "cake",
-        "keywords": "social cake",
-        "file": "ic_cake",
         "codepoint": "E7E9"
       },
       {
         "name": "domain",
-        "keywords": "social domain",
-        "file": "ic_domain",
         "codepoint": "E7EE"
       },
       {
         "name": "group",
-        "keywords": "social group",
-        "file": "ic_group",
         "codepoint": "E7EF"
       },
       {
         "name": "group add",
-        "keywords": "social group add",
-        "file": "ic_group_add",
         "codepoint": "E7F0"
       },
       {
         "name": "location city",
-        "keywords": "social location city",
-        "file": "ic_location_city",
         "codepoint": "E7F1"
       },
       {
         "name": "mood",
-        "keywords": "social mood",
-        "file": "ic_mood",
         "codepoint": "E7F2"
       },
       {
         "name": "mood bad",
-        "keywords": "social mood bad",
-        "file": "ic_mood_bad",
         "codepoint": "E7F3"
       },
       {
         "name": "notifications",
-        "keywords": "social notifications",
-        "file": "ic_notifications",
         "codepoint": "E7F4"
       },
       {
         "name": "notifications active",
-        "keywords": "social notifications active",
-        "file": "ic_notifications_active",
         "codepoint": "E7F7"
       },
       {
         "name": "notifications none",
-        "keywords": "social notifications none",
-        "file": "ic_notifications_none",
         "codepoint": "E7F5"
       },
       {
         "name": "notifications off",
-        "keywords": "social notifications off",
-        "file": "ic_notifications_off",
         "codepoint": "E7F6"
       },
       {
         "name": "notifications paused",
-        "keywords": "social notifications paused",
-        "file": "ic_notifications_paused",
         "codepoint": "E7F8"
       },
       {
         "name": "pages",
-        "keywords": "social pages",
-        "file": "ic_pages",
         "codepoint": "E7F9"
       },
       {
         "name": "party mode",
-        "keywords": "social party mode",
-        "file": "ic_party_mode",
         "codepoint": "E7FA"
       },
       {
         "name": "people",
-        "keywords": "social people",
-        "file": "ic_people",
         "codepoint": "E7FB"
       },
       {
         "name": "people outline",
-        "keywords": "social people outline",
-        "file": "ic_people_outline",
         "codepoint": "E7FC"
       },
       {
         "name": "person",
-        "keywords": "social person",
-        "file": "ic_person",
         "codepoint": "E7FD"
       },
       {
         "name": "person add",
-        "keywords": "social person add",
-        "file": "ic_person_add",
         "codepoint": "E7FE"
       },
       {
         "name": "person outline",
-        "keywords": "social person outline",
-        "file": "ic_person_outline",
         "codepoint": "E7FF"
       },
       {
         "name": "plus one",
-        "keywords": "social plus one",
-        "file": "ic_plus_one",
         "codepoint": "E800"
       },
       {
         "name": "poll",
-        "keywords": "social poll",
-        "file": "ic_poll",
         "codepoint": "E801"
       },
       {
         "name": "public",
-        "keywords": "social public",
-        "file": "ic_public",
         "codepoint": "E80B"
       },
       {
         "name": "school",
-        "keywords": "social school",
-        "file": "ic_school",
         "codepoint": "E80C"
       },
       {
         "name": "sentiment dissatisfied",
-        "keywords": "social sentiment dissatisfied",
-        "file": "ic_sentiment_dissatisfied",
         "codepoint": "E811"
       },
       {
         "name": "sentiment neutral",
-        "keywords": "social sentiment neutral",
-        "file": "ic_sentiment_neutral",
         "codepoint": "E812"
       },
       {
         "name": "sentiment satisfied",
-        "keywords": "social sentiment satisfied",
-        "file": "ic_sentiment_satisfied",
         "codepoint": "E813"
       },
       {
         "name": "sentiment very dissatisfied",
-        "keywords": "social sentiment very dissatisfied",
-        "file": "ic_sentiment_very_dissatisfied",
         "codepoint": "E814"
       },
       {
         "name": "sentiment very satisfied",
-        "keywords": "social sentiment very satisfied",
-        "file": "ic_sentiment_very_satisfied",
         "codepoint": "E815"
       },
       {
         "name": "share",
-        "keywords": "social share",
-        "file": "ic_share",
         "codepoint": "E80D"
       },
       {
         "name": "whatshot",
-        "keywords": "social whatshot",
-        "file": "ic_whatshot",
         "codepoint": "E80E"
       }
     ]
@@ -5617,50 +3771,34 @@
     "icons": [
       {
         "name": "check box",
-        "keywords": "toggle check box",
-        "file": "ic_check_box",
         "codepoint": "E834"
       },
       {
         "name": "check box outline blank",
-        "keywords": "toggle check box outline blank",
-        "file": "ic_check_box_outline_blank",
         "codepoint": "E835"
       },
       {
         "name": "indeterminate check box",
-        "keywords": "toggle indeterminate check box",
-        "file": "ic_indeterminate_check_box",
         "codepoint": "E909"
       },
       {
         "name": "radio button checked",
-        "keywords": "toggle radio button checked",
-        "file": "ic_radio_button_checked",
         "codepoint": "E837"
       },
       {
         "name": "radio button unchecked",
-        "keywords": "toggle radio button unchecked",
-        "file": "ic_radio_button_unchecked",
         "codepoint": "E836"
       },
       {
         "name": "star",
-        "keywords": "toggle star",
-        "file": "ic_star",
         "codepoint": "E838"
       },
       {
         "name": "star border",
-        "keywords": "toggle star border",
-        "file": "ic_star_border",
         "codepoint": "E83A"
       },
       {
         "name": "star half",
-        "keywords": "toggle star half",
-        "file": "ic_star_half",
         "codepoint": "E839"
       }
     ]
