@@ -1,4 +1,4 @@
-package com.erdemorman.mdx;
+package com.erdemorman.mdx.ui.main;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -9,6 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.erdemorman.mdx.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
