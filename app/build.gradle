@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
 
 android {
     compileSdkVersion 23
@@ -22,12 +23,18 @@ android {
 dependencies {
     final SUPPORT_LIBRARY_VERSION = '23.3.0'
     final RETROFIT_VERSION = '2.0.2'
+    final DAGGER_VERSION = '2.2'
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
 
     compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
     compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
+
+    // Dagger dependencies
+    apt "com.google.dagger:dagger-compiler:$DAGGER_VERSION"
+    provided "javax.annotation:jsr250-api:1.0"
+    compile "com.google.dagger:dagger:$DAGGER_VERSION"
 
     compile "io.reactivex:rxandroid:1.1.0"
     compile "io.reactivex:rxjava:1.1.3"
