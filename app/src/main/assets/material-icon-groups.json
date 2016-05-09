@@ -1,0 +1,3806 @@
+[
+  {
+    "name": "Action",
+    "icons": [
+      {
+        "name": "3d rotation",
+        "codepoint": "E84D"
+      },
+      {
+        "name": "accessibility",
+        "codepoint": "E84E"
+      },
+      {
+        "name": "accessible",
+        "codepoint": "E914"
+      },
+      {
+        "name": "account balance",
+        "codepoint": "E84F"
+      },
+      {
+        "name": "account balance wallet",
+        "codepoint": "E850"
+      },
+      {
+        "name": "account box",
+        "codepoint": "E851"
+      },
+      {
+        "name": "account circle",
+        "codepoint": "E853"
+      },
+      {
+        "name": "add shopping cart",
+        "codepoint": "E854"
+      },
+      {
+        "name": "alarm",
+        "codepoint": "E855"
+      },
+      {
+        "name": "alarm add",
+        "codepoint": "E856"
+      },
+      {
+        "name": "alarm off",
+        "codepoint": "E857"
+      },
+      {
+        "name": "alarm on",
+        "codepoint": "E858"
+      },
+      {
+        "name": "all out",
+        "codepoint": "E90B"
+      },
+      {
+        "name": "android",
+        "codepoint": "E859"
+      },
+      {
+        "name": "announcement",
+        "codepoint": "E85A"
+      },
+      {
+        "name": "aspect ratio",
+        "codepoint": "E85B"
+      },
+      {
+        "name": "assessment",
+        "codepoint": "E85C"
+      },
+      {
+        "name": "assignment",
+        "codepoint": "E85D"
+      },
+      {
+        "name": "assignment ind",
+        "codepoint": "E85E"
+      },
+      {
+        "name": "assignment late",
+        "codepoint": "E85F"
+      },
+      {
+        "name": "assignment return",
+        "codepoint": "E860"
+      },
+      {
+        "name": "assignment returned",
+        "codepoint": "E861"
+      },
+      {
+        "name": "assignment turned in",
+        "codepoint": "E862"
+      },
+      {
+        "name": "autorenew",
+        "codepoint": "E863"
+      },
+      {
+        "name": "backup",
+        "codepoint": "E864"
+      },
+      {
+        "name": "book",
+        "codepoint": "E865"
+      },
+      {
+        "name": "bookmark",
+        "codepoint": "E866"
+      },
+      {
+        "name": "bookmark border",
+        "codepoint": "E867"
+      },
+      {
+        "name": "bug report",
+        "codepoint": "E868"
+      },
+      {
+        "name": "build",
+        "codepoint": "E869"
+      },
+      {
+        "name": "cached",
+        "codepoint": "E86A"
+      },
+      {
+        "name": "camera enhance",
+        "codepoint": "E8FC"
+      },
+      {
+        "name": "card giftcard",
+        "codepoint": "E8F6"
+      },
+      {
+        "name": "card membership",
+        "codepoint": "E8F7"
+      },
+      {
+        "name": "card travel",
+        "codepoint": "E8F8"
+      },
+      {
+        "name": "change history",
+        "codepoint": "E86B"
+      },
+      {
+        "name": "check circle",
+        "codepoint": "E86C"
+      },
+      {
+        "name": "chrome reader mode",
+        "codepoint": "E86D"
+      },
+      {
+        "name": "class",
+        "codepoint": "E86E"
+      },
+      {
+        "name": "code",
+        "codepoint": "E86F"
+      },
+      {
+        "name": "compare arrows",
+        "codepoint": "E915"
+      },
+      {
+        "name": "copyright",
+        "codepoint": "E90C"
+      },
+      {
+        "name": "credit card",
+        "codepoint": "E870"
+      },
+      {
+        "name": "dashboard",
+        "codepoint": "E871"
+      },
+      {
+        "name": "date range",
+        "codepoint": "E916"
+      },
+      {
+        "name": "delete",
+        "codepoint": "E872"
+      },
+      {
+        "name": "delete forever",
+        "codepoint": "E92B"
+      },
+      {
+        "name": "description",
+        "codepoint": "E873"
+      },
+      {
+        "name": "dns",
+        "codepoint": "E875"
+      },
+      {
+        "name": "done",
+        "codepoint": "E876"
+      },
+      {
+        "name": "done all",
+        "codepoint": "E877"
+      },
+      {
+        "name": "donut large",
+        "codepoint": "E917"
+      },
+      {
+        "name": "donut small",
+        "codepoint": "E918"
+      },
+      {
+        "name": "eject",
+        "codepoint": "E8FB"
+      },
+      {
+        "name": "euro symbol",
+        "codepoint": "E926"
+      },
+      {
+        "name": "event",
+        "codepoint": "E878"
+      },
+      {
+        "name": "event seat",
+        "codepoint": "E903"
+      },
+      {
+        "name": "exit to app",
+        "codepoint": "E879"
+      },
+      {
+        "name": "explore",
+        "codepoint": "E87A"
+      },
+      {
+        "name": "extension",
+        "codepoint": "E87B"
+      },
+      {
+        "name": "face",
+        "codepoint": "E87C"
+      },
+      {
+        "name": "favorite",
+        "codepoint": "E87D"
+      },
+      {
+        "name": "favorite border",
+        "codepoint": "E87E"
+      },
+      {
+        "name": "feedback",
+        "codepoint": "E87F"
+      },
+      {
+        "name": "find in page",
+        "codepoint": "E880"
+      },
+      {
+        "name": "find replace",
+        "codepoint": "E881"
+      },
+      {
+        "name": "fingerprint",
+        "codepoint": "E90D"
+      },
+      {
+        "name": "flight land",
+        "codepoint": "E904"
+      },
+      {
+        "name": "flight takeoff",
+        "codepoint": "E905"
+      },
+      {
+        "name": "flip to back",
+        "codepoint": "E882"
+      },
+      {
+        "name": "flip to front",
+        "codepoint": "E883"
+      },
+      {
+        "name": "g translate",
+        "codepoint": "E927"
+      },
+      {
+        "name": "gavel",
+        "codepoint": "E90E"
+      },
+      {
+        "name": "get app",
+        "codepoint": "E884"
+      },
+      {
+        "name": "gif",
+        "codepoint": "E908"
+      },
+      {
+        "name": "grade",
+        "codepoint": "E885"
+      },
+      {
+        "name": "group work",
+        "codepoint": "E886"
+      },
+      {
+        "name": "help",
+        "codepoint": "E887"
+      },
+      {
+        "name": "help outline",
+        "codepoint": "E8FD"
+      },
+      {
+        "name": "highlight off",
+        "codepoint": "E888"
+      },
+      {
+        "name": "history",
+        "codepoint": "E889"
+      },
+      {
+        "name": "home",
+        "codepoint": "E88A"
+      },
+      {
+        "name": "hourglass empty",
+        "codepoint": "E88B"
+      },
+      {
+        "name": "hourglass full",
+        "codepoint": "E88C"
+      },
+      {
+        "name": "http",
+        "codepoint": "E902"
+      },
+      {
+        "name": "https",
+        "codepoint": "E88D"
+      },
+      {
+        "name": "important devices",
+        "codepoint": "E912"
+      },
+      {
+        "name": "info",
+        "codepoint": "E88E"
+      },
+      {
+        "name": "info outline",
+        "codepoint": "E88F"
+      },
+      {
+        "name": "input",
+        "codepoint": "E890"
+      },
+      {
+        "name": "invert colors",
+        "codepoint": "E891"
+      },
+      {
+        "name": "label",
+        "codepoint": "E892"
+      },
+      {
+        "name": "label outline",
+        "codepoint": "E893"
+      },
+      {
+        "name": "language",
+        "codepoint": "E894"
+      },
+      {
+        "name": "launch",
+        "codepoint": "E895"
+      },
+      {
+        "name": "lightbulb outline",
+        "codepoint": "E90F"
+      },
+      {
+        "name": "line style",
+        "codepoint": "E919"
+      },
+      {
+        "name": "line weight",
+        "codepoint": "E91A"
+      },
+      {
+        "name": "list",
+        "codepoint": "E896"
+      },
+      {
+        "name": "lock",
+        "codepoint": "E897"
+      },
+      {
+        "name": "lock open",
+        "codepoint": "E898"
+      },
+      {
+        "name": "lock outline",
+        "codepoint": "E899"
+      },
+      {
+        "name": "loyalty",
+        "codepoint": "E89A"
+      },
+      {
+        "name": "markunread mailbox",
+        "codepoint": "E89B"
+      },
+      {
+        "name": "motorcycle",
+        "codepoint": "E91B"
+      },
+      {
+        "name": "note add",
+        "codepoint": "E89C"
+      },
+      {
+        "name": "offline pin",
+        "codepoint": "E90A"
+      },
+      {
+        "name": "opacity",
+        "codepoint": "E91C"
+      },
+      {
+        "name": "open in browser",
+        "codepoint": "E89D"
+      },
+      {
+        "name": "open in new",
+        "codepoint": "E89E"
+      },
+      {
+        "name": "open with",
+        "codepoint": "E89F"
+      },
+      {
+        "name": "pageview",
+        "codepoint": "E8A0"
+      },
+      {
+        "name": "pan tool",
+        "codepoint": "E925"
+      },
+      {
+        "name": "payment",
+        "codepoint": "E8A1"
+      },
+      {
+        "name": "perm camera mic",
+        "codepoint": "E8A2"
+      },
+      {
+        "name": "perm contact calendar",
+        "codepoint": "E8A3"
+      },
+      {
+        "name": "perm data setting",
+        "codepoint": "E8A4"
+      },
+      {
+        "name": "perm device information",
+        "codepoint": "E8A5"
+      },
+      {
+        "name": "perm identity",
+        "codepoint": "E8A6"
+      },
+      {
+        "name": "perm media",
+        "codepoint": "E8A7"
+      },
+      {
+        "name": "perm phone msg",
+        "codepoint": "E8A8"
+      },
+      {
+        "name": "perm scan wifi",
+        "codepoint": "E8A9"
+      },
+      {
+        "name": "pets",
+        "codepoint": "E91D"
+      },
+      {
+        "name": "picture in picture",
+        "codepoint": "E8AA"
+      },
+      {
+        "name": "picture in picture alt",
+        "codepoint": "E911"
+      },
+      {
+        "name": "play for work",
+        "codepoint": "E906"
+      },
+      {
+        "name": "polymer",
+        "codepoint": "E8AB"
+      },
+      {
+        "name": "power settings new",
+        "codepoint": "E8AC"
+      },
+      {
+        "name": "pregnant woman",
+        "codepoint": "E91E"
+      },
+      {
+        "name": "print",
+        "codepoint": "E8AD"
+      },
+      {
+        "name": "query builder",
+        "codepoint": "E8AE"
+      },
+      {
+        "name": "question answer",
+        "codepoint": "E8AF"
+      },
+      {
+        "name": "receipt",
+        "codepoint": "E8B0"
+      },
+      {
+        "name": "record voice over",
+        "codepoint": "E91F"
+      },
+      {
+        "name": "redeem",
+        "codepoint": "E8B1"
+      },
+      {
+        "name": "remove shopping cart",
+        "codepoint": "E928"
+      },
+      {
+        "name": "reorder",
+        "codepoint": "E8FE"
+      },
+      {
+        "name": "report problem",
+        "codepoint": "E8B2"
+      },
+      {
+        "name": "restore",
+        "codepoint": "E8B3"
+      },
+      {
+        "name": "restore page",
+        "codepoint": "E929"
+      },
+      {
+        "name": "room",
+        "codepoint": "E8B4"
+      },
+      {
+        "name": "rounded corner",
+        "codepoint": "E920"
+      },
+      {
+        "name": "rowing",
+        "codepoint": "E921"
+      },
+      {
+        "name": "schedule",
+        "codepoint": "E8B5"
+      },
+      {
+        "name": "search",
+        "codepoint": "E8B6"
+      },
+      {
+        "name": "settings",
+        "codepoint": "E8B8"
+      },
+      {
+        "name": "settings applications",
+        "codepoint": "E8B9"
+      },
+      {
+        "name": "settings backup restore",
+        "codepoint": "E8BA"
+      },
+      {
+        "name": "settings bluetooth",
+        "codepoint": "E8BB"
+      },
+      {
+        "name": "settings brightness",
+        "codepoint": "E8BD"
+      },
+      {
+        "name": "settings cell",
+        "codepoint": "E8BC"
+      },
+      {
+        "name": "settings ethernet",
+        "codepoint": "E8BE"
+      },
+      {
+        "name": "settings input antenna",
+        "codepoint": "E8BF"
+      },
+      {
+        "name": "settings input component",
+        "codepoint": "E8C0"
+      },
+      {
+        "name": "settings input composite",
+        "codepoint": "E8C1"
+      },
+      {
+        "name": "settings input hdmi",
+        "codepoint": "E8C2"
+      },
+      {
+        "name": "settings input svideo",
+        "codepoint": "E8C3"
+      },
+      {
+        "name": "settings overscan",
+        "codepoint": "E8C4"
+      },
+      {
+        "name": "settings phone",
+        "codepoint": "E8C5"
+      },
+      {
+        "name": "settings power",
+        "codepoint": "E8C6"
+      },
+      {
+        "name": "settings remote",
+        "codepoint": "E8C7"
+      },
+      {
+        "name": "settings voice",
+        "codepoint": "E8C8"
+      },
+      {
+        "name": "shop",
+        "codepoint": "E8C9"
+      },
+      {
+        "name": "shop two",
+        "codepoint": "E8CA"
+      },
+      {
+        "name": "shopping basket",
+        "codepoint": "E8CB"
+      },
+      {
+        "name": "shopping cart",
+        "codepoint": "E8CC"
+      },
+      {
+        "name": "speaker notes",
+        "codepoint": "E8CD"
+      },
+      {
+        "name": "speaker notes off",
+        "codepoint": "E92A"
+      },
+      {
+        "name": "spellcheck",
+        "codepoint": "E8CE"
+      },
+      {
+        "name": "star rate",
+        "codepoint": "E8CF"
+      },
+      {
+        "name": "stars",
+        "codepoint": "E8D0"
+      },
+      {
+        "name": "store",
+        "codepoint": "E8D1"
+      },
+      {
+        "name": "subject",
+        "codepoint": "E8D2"
+      },
+      {
+        "name": "supervisor account",
+        "codepoint": "E8D3"
+      },
+      {
+        "name": "swap horiz",
+        "codepoint": "E8D4"
+      },
+      {
+        "name": "swap vert",
+        "codepoint": "E8D5"
+      },
+      {
+        "name": "swap vertical circle",
+        "codepoint": "E8D6"
+      },
+      {
+        "name": "system update alt",
+        "codepoint": "E8D7"
+      },
+      {
+        "name": "tab",
+        "codepoint": "E8D8"
+      },
+      {
+        "name": "tab unselected",
+        "codepoint": "E8D9"
+      },
+      {
+        "name": "theaters",
+        "codepoint": "E8DA"
+      },
+      {
+        "name": "thumb down",
+        "codepoint": "E8DB"
+      },
+      {
+        "name": "thumb up",
+        "codepoint": "E8DC"
+      },
+      {
+        "name": "thumbs up down",
+        "codepoint": "E8DD"
+      },
+      {
+        "name": "timeline",
+        "codepoint": "E922"
+      },
+      {
+        "name": "toc",
+        "codepoint": "E8DE"
+      },
+      {
+        "name": "today",
+        "codepoint": "E8DF"
+      },
+      {
+        "name": "toll",
+        "codepoint": "E8E0"
+      },
+      {
+        "name": "touch app",
+        "codepoint": "E913"
+      },
+      {
+        "name": "track changes",
+        "codepoint": "E8E1"
+      },
+      {
+        "name": "translate",
+        "codepoint": "E8E2"
+      },
+      {
+        "name": "trending down",
+        "codepoint": "E8E3"
+      },
+      {
+        "name": "trending flat",
+        "codepoint": "E8E4"
+      },
+      {
+        "name": "trending up",
+        "codepoint": "E8E5"
+      },
+      {
+        "name": "turned in",
+        "codepoint": "E8E6"
+      },
+      {
+        "name": "turned in not",
+        "codepoint": "E8E7"
+      },
+      {
+        "name": "update",
+        "codepoint": "E923"
+      },
+      {
+        "name": "verified user",
+        "codepoint": "E8E8"
+      },
+      {
+        "name": "view agenda",
+        "codepoint": "E8E9"
+      },
+      {
+        "name": "view array",
+        "codepoint": "E8EA"
+      },
+      {
+        "name": "view carousel",
+        "codepoint": "E8EB"
+      },
+      {
+        "name": "view column",
+        "codepoint": "E8EC"
+      },
+      {
+        "name": "view day",
+        "codepoint": "E8ED"
+      },
+      {
+        "name": "view headline",
+        "codepoint": "E8EE"
+      },
+      {
+        "name": "view list",
+        "codepoint": "E8EF"
+      },
+      {
+        "name": "view module",
+        "codepoint": "E8F0"
+      },
+      {
+        "name": "view quilt",
+        "codepoint": "E8F1"
+      },
+      {
+        "name": "view stream",
+        "codepoint": "E8F2"
+      },
+      {
+        "name": "view week",
+        "codepoint": "E8F3"
+      },
+      {
+        "name": "visibility",
+        "codepoint": "E8F4"
+      },
+      {
+        "name": "visibility off",
+        "codepoint": "E8F5"
+      },
+      {
+        "name": "watch later",
+        "codepoint": "E924"
+      },
+      {
+        "name": "work",
+        "codepoint": "E8F9"
+      },
+      {
+        "name": "youtube searched for",
+        "codepoint": "E8FA"
+      },
+      {
+        "name": "zoom in",
+        "codepoint": "E8FF"
+      },
+      {
+        "name": "zoom out",
+        "codepoint": "E900"
+      }
+    ]
+  },
+  {
+    "name": "Alert",
+    "icons": [
+      {
+        "name": "add alert",
+        "codepoint": "E003"
+      },
+      {
+        "name": "error",
+        "codepoint": "E000"
+      },
+      {
+        "name": "error outline",
+        "codepoint": "E001"
+      },
+      {
+        "name": "warning",
+        "codepoint": "E002"
+      }
+    ]
+  },
+  {
+    "name": "AV",
+    "icons": [
+      {
+        "name": "add to queue",
+        "codepoint": "E05C"
+      },
+      {
+        "name": "airplay",
+        "codepoint": "E055"
+      },
+      {
+        "name": "album",
+        "codepoint": "E019"
+      },
+      {
+        "name": "art track",
+        "codepoint": "E060"
+      },
+      {
+        "name": "av timer",
+        "codepoint": "E01B"
+      },
+      {
+        "name": "branding watermark",
+        "codepoint": "E06B"
+      },
+      {
+        "name": "call to action",
+        "codepoint": "E06C"
+      },
+      {
+        "name": "closed caption",
+        "codepoint": "E01C"
+      },
+      {
+        "name": "equalizer",
+        "codepoint": "E01D"
+      },
+      {
+        "name": "explicit",
+        "codepoint": "E01E"
+      },
+      {
+        "name": "fast forward",
+        "codepoint": "E01F"
+      },
+      {
+        "name": "fast rewind",
+        "codepoint": "E020"
+      },
+      {
+        "name": "featured play list",
+        "codepoint": "E06D"
+      },
+      {
+        "name": "featured video",
+        "codepoint": "E06E"
+      },
+      {
+        "name": "fiber dvr",
+        "codepoint": "E05D"
+      },
+      {
+        "name": "fiber manual record",
+        "codepoint": "E061"
+      },
+      {
+        "name": "fiber new",
+        "codepoint": "E05E"
+      },
+      {
+        "name": "fiber pin",
+        "codepoint": "E06A"
+      },
+      {
+        "name": "fiber smart record",
+        "codepoint": "E062"
+      },
+      {
+        "name": "forward 10",
+        "codepoint": "E056"
+      },
+      {
+        "name": "forward 30",
+        "codepoint": "E057"
+      },
+      {
+        "name": "forward 5",
+        "codepoint": "E058"
+      },
+      {
+        "name": "games",
+        "codepoint": "E021"
+      },
+      {
+        "name": "hd",
+        "codepoint": "E052"
+      },
+      {
+        "name": "hearing",
+        "codepoint": "E023"
+      },
+      {
+        "name": "high quality",
+        "codepoint": "E024"
+      },
+      {
+        "name": "library add",
+        "codepoint": "E02E"
+      },
+      {
+        "name": "library books",
+        "codepoint": "E02F"
+      },
+      {
+        "name": "library music",
+        "codepoint": "E030"
+      },
+      {
+        "name": "loop",
+        "codepoint": "E028"
+      },
+      {
+        "name": "mic",
+        "codepoint": "E029"
+      },
+      {
+        "name": "mic none",
+        "codepoint": "E02A"
+      },
+      {
+        "name": "mic off",
+        "codepoint": "E02B"
+      },
+      {
+        "name": "movie",
+        "codepoint": "E02C"
+      },
+      {
+        "name": "music video",
+        "codepoint": "E063"
+      },
+      {
+        "name": "new releases",
+        "codepoint": "E031"
+      },
+      {
+        "name": "not interested",
+        "codepoint": "E033"
+      },
+      {
+        "name": "note",
+        "codepoint": "E06F"
+      },
+      {
+        "name": "pause",
+        "codepoint": "E034"
+      },
+      {
+        "name": "pause circle filled",
+        "codepoint": "E035"
+      },
+      {
+        "name": "pause circle outline",
+        "codepoint": "E036"
+      },
+      {
+        "name": "play arrow",
+        "codepoint": "E037"
+      },
+      {
+        "name": "play circle filled",
+        "codepoint": "E038"
+      },
+      {
+        "name": "play circle outline",
+        "codepoint": "E039"
+      },
+      {
+        "name": "playlist add",
+        "codepoint": "E03B"
+      },
+      {
+        "name": "playlist add check",
+        "codepoint": "E065"
+      },
+      {
+        "name": "playlist play",
+        "codepoint": "E05F"
+      },
+      {
+        "name": "queue",
+        "codepoint": "E03C"
+      },
+      {
+        "name": "queue music",
+        "codepoint": "E03D"
+      },
+      {
+        "name": "queue play next",
+        "codepoint": "E066"
+      },
+      {
+        "name": "radio",
+        "codepoint": "E03E"
+      },
+      {
+        "name": "recent actors",
+        "codepoint": "E03F"
+      },
+      {
+        "name": "remove from queue",
+        "codepoint": "E067"
+      },
+      {
+        "name": "repeat",
+        "codepoint": "E040"
+      },
+      {
+        "name": "repeat one",
+        "codepoint": "E041"
+      },
+      {
+        "name": "replay",
+        "codepoint": "E042"
+      },
+      {
+        "name": "replay 10",
+        "codepoint": "E059"
+      },
+      {
+        "name": "replay 30",
+        "codepoint": "E05A"
+      },
+      {
+        "name": "replay 5",
+        "codepoint": "E05B"
+      },
+      {
+        "name": "shuffle",
+        "codepoint": "E043"
+      },
+      {
+        "name": "skip next",
+        "codepoint": "E044"
+      },
+      {
+        "name": "skip previous",
+        "codepoint": "E045"
+      },
+      {
+        "name": "slow motion video",
+        "codepoint": "E068"
+      },
+      {
+        "name": "snooze",
+        "codepoint": "E046"
+      },
+      {
+        "name": "sort by alpha",
+        "codepoint": "E053"
+      },
+      {
+        "name": "stop",
+        "codepoint": "E047"
+      },
+      {
+        "name": "subscriptions",
+        "codepoint": "E064"
+      },
+      {
+        "name": "subtitles",
+        "codepoint": "E048"
+      },
+      {
+        "name": "surround sound",
+        "codepoint": "E049"
+      },
+      {
+        "name": "video call",
+        "codepoint": "E070"
+      },
+      {
+        "name": "video label",
+        "codepoint": "E071"
+      },
+      {
+        "name": "video library",
+        "codepoint": "E04A"
+      },
+      {
+        "name": "videocam",
+        "codepoint": "E04B"
+      },
+      {
+        "name": "videocam off",
+        "codepoint": "E04C"
+      },
+      {
+        "name": "volume down",
+        "codepoint": "E04D"
+      },
+      {
+        "name": "volume mute",
+        "codepoint": "E04E"
+      },
+      {
+        "name": "volume off",
+        "codepoint": "E04F"
+      },
+      {
+        "name": "volume up",
+        "codepoint": "E050"
+      },
+      {
+        "name": "web",
+        "codepoint": "E051"
+      },
+      {
+        "name": "web asset",
+        "codepoint": "E069"
+      }
+    ]
+  },
+  {
+    "name": "Communication",
+    "icons": [
+      {
+        "name": "business",
+        "codepoint": "E0AF"
+      },
+      {
+        "name": "call",
+        "codepoint": "E0B0"
+      },
+      {
+        "name": "call end",
+        "codepoint": "E0B1"
+      },
+      {
+        "name": "call made",
+        "codepoint": "E0B2"
+      },
+      {
+        "name": "call merge",
+        "codepoint": "E0B3"
+      },
+      {
+        "name": "call missed",
+        "codepoint": "E0B4"
+      },
+      {
+        "name": "call missed outgoing",
+        "codepoint": "E0E4"
+      },
+      {
+        "name": "call received",
+        "codepoint": "E0B5"
+      },
+      {
+        "name": "call split",
+        "codepoint": "E0B6"
+      },
+      {
+        "name": "chat",
+        "codepoint": "E0B7"
+      },
+      {
+        "name": "chat bubble",
+        "codepoint": "E0CA"
+      },
+      {
+        "name": "chat bubble outline",
+        "codepoint": "E0CB"
+      },
+      {
+        "name": "clear all",
+        "codepoint": "E0B8"
+      },
+      {
+        "name": "comment",
+        "codepoint": "E0B9"
+      },
+      {
+        "name": "contact mail",
+        "codepoint": "E0D0"
+      },
+      {
+        "name": "contact phone",
+        "codepoint": "E0CF"
+      },
+      {
+        "name": "contacts",
+        "codepoint": "E0BA"
+      },
+      {
+        "name": "dialer sip",
+        "codepoint": "E0BB"
+      },
+      {
+        "name": "dialpad",
+        "codepoint": "E0BC"
+      },
+      {
+        "name": "email",
+        "codepoint": "E0BE"
+      },
+      {
+        "name": "forum",
+        "codepoint": "E0BF"
+      },
+      {
+        "name": "import contacts",
+        "codepoint": "E0E0"
+      },
+      {
+        "name": "import export",
+        "codepoint": "E0C3"
+      },
+      {
+        "name": "invert colors off",
+        "codepoint": "E0C4"
+      },
+      {
+        "name": "live help",
+        "codepoint": "E0C6"
+      },
+      {
+        "name": "location off",
+        "codepoint": "E0C7"
+      },
+      {
+        "name": "location on",
+        "codepoint": "E0C8"
+      },
+      {
+        "name": "mail outline",
+        "codepoint": "E0E1"
+      },
+      {
+        "name": "message",
+        "codepoint": "E0C9"
+      },
+      {
+        "name": "no sim",
+        "codepoint": "E0CC"
+      },
+      {
+        "name": "phone",
+        "codepoint": "E0CD"
+      },
+      {
+        "name": "phonelink erase",
+        "codepoint": "E0DB"
+      },
+      {
+        "name": "phonelink lock",
+        "codepoint": "E0DC"
+      },
+      {
+        "name": "phonelink ring",
+        "codepoint": "E0DD"
+      },
+      {
+        "name": "phonelink setup",
+        "codepoint": "E0DE"
+      },
+      {
+        "name": "portable wifi off",
+        "codepoint": "E0CE"
+      },
+      {
+        "name": "present to all",
+        "codepoint": "E0DF"
+      },
+      {
+        "name": "ring volume",
+        "codepoint": "E0D1"
+      },
+      {
+        "name": "rss feed",
+        "codepoint": "E0E5"
+      },
+      {
+        "name": "screen share",
+        "codepoint": "E0E2"
+      },
+      {
+        "name": "speaker phone",
+        "codepoint": "E0D2"
+      },
+      {
+        "name": "stay current landscape",
+        "codepoint": "E0D3"
+      },
+      {
+        "name": "stay current portrait",
+        "codepoint": "E0D4"
+      },
+      {
+        "name": "stay primary landscape",
+        "codepoint": "E0D5"
+      },
+      {
+        "name": "stay primary portrait",
+        "codepoint": "E0D6"
+      },
+      {
+        "name": "stop screen share",
+        "codepoint": "E0E3"
+      },
+      {
+        "name": "swap calls",
+        "codepoint": "E0D7"
+      },
+      {
+        "name": "textsms",
+        "codepoint": "E0D8"
+      },
+      {
+        "name": "voicemail",
+        "codepoint": "E0D9"
+      },
+      {
+        "name": "vpn key",
+        "codepoint": "E0DA"
+      }
+    ]
+  },
+  {
+    "name": "Content",
+    "icons": [
+      {
+        "name": "add",
+        "codepoint": "E145"
+      },
+      {
+        "name": "add box",
+        "codepoint": "E146"
+      },
+      {
+        "name": "add circle",
+        "codepoint": "E147"
+      },
+      {
+        "name": "add circle outline",
+        "codepoint": "E148"
+      },
+      {
+        "name": "archive",
+        "codepoint": "E149"
+      },
+      {
+        "name": "backspace",
+        "codepoint": "E14A"
+      },
+      {
+        "name": "block",
+        "codepoint": "E14B"
+      },
+      {
+        "name": "clear",
+        "codepoint": "E14C"
+      },
+      {
+        "name": "content copy",
+        "codepoint": "E14D"
+      },
+      {
+        "name": "content cut",
+        "codepoint": "E14E"
+      },
+      {
+        "name": "content paste",
+        "codepoint": "E14F"
+      },
+      {
+        "name": "create",
+        "codepoint": "E150"
+      },
+      {
+        "name": "delete sweep",
+        "codepoint": "E16C"
+      },
+      {
+        "name": "drafts",
+        "codepoint": "E151"
+      },
+      {
+        "name": "filter list",
+        "codepoint": "E152"
+      },
+      {
+        "name": "flag",
+        "codepoint": "E153"
+      },
+      {
+        "name": "font download",
+        "codepoint": "E167"
+      },
+      {
+        "name": "forward",
+        "codepoint": "E154"
+      },
+      {
+        "name": "gesture",
+        "codepoint": "E155"
+      },
+      {
+        "name": "inbox",
+        "codepoint": "E156"
+      },
+      {
+        "name": "link",
+        "codepoint": "E157"
+      },
+      {
+        "name": "low priority",
+        "codepoint": "E16D"
+      },
+      {
+        "name": "mail",
+        "codepoint": "E158"
+      },
+      {
+        "name": "markunread",
+        "codepoint": "E159"
+      },
+      {
+        "name": "move to inbox",
+        "codepoint": "E168"
+      },
+      {
+        "name": "next week",
+        "codepoint": "E16A"
+      },
+      {
+        "name": "redo",
+        "codepoint": "E15A"
+      },
+      {
+        "name": "remove",
+        "codepoint": "E15B"
+      },
+      {
+        "name": "remove circle",
+        "codepoint": "E15C"
+      },
+      {
+        "name": "remove circle outline",
+        "codepoint": "E15D"
+      },
+      {
+        "name": "reply",
+        "codepoint": "E15E"
+      },
+      {
+        "name": "reply all",
+        "codepoint": "E15F"
+      },
+      {
+        "name": "report",
+        "codepoint": "E160"
+      },
+      {
+        "name": "save",
+        "codepoint": "E161"
+      },
+      {
+        "name": "select all",
+        "codepoint": "E162"
+      },
+      {
+        "name": "send",
+        "codepoint": "E163"
+      },
+      {
+        "name": "sort",
+        "codepoint": "E164"
+      },
+      {
+        "name": "text format",
+        "codepoint": "E165"
+      },
+      {
+        "name": "unarchive",
+        "codepoint": "E169"
+      },
+      {
+        "name": "undo",
+        "codepoint": "E166"
+      },
+      {
+        "name": "weekend",
+        "codepoint": "E16B"
+      }
+    ]
+  },
+  {
+    "name": "Device",
+    "icons": [
+      {
+        "name": "access alarm",
+        "codepoint": "E190"
+      },
+      {
+        "name": "access alarms",
+        "codepoint": "E191"
+      },
+      {
+        "name": "access time",
+        "codepoint": "E192"
+      },
+      {
+        "name": "add alarm",
+        "codepoint": "E193"
+      },
+      {
+        "name": "airplanemode active",
+        "codepoint": "E195"
+      },
+      {
+        "name": "airplanemode inactive",
+        "codepoint": "E194"
+      },
+      {
+        "name": "battery alert",
+        "codepoint": "E19C"
+      },
+      {
+        "name": "battery charging full",
+        "codepoint": "E1A3"
+      },
+      {
+        "name": "battery full",
+        "codepoint": "E1A4"
+      },
+      {
+        "name": "battery std",
+        "codepoint": "E1A5"
+      },
+      {
+        "name": "battery unknown",
+        "codepoint": "E1A6"
+      },
+      {
+        "name": "bluetooth",
+        "codepoint": "E1A7"
+      },
+      {
+        "name": "bluetooth connected",
+        "codepoint": "E1A8"
+      },
+      {
+        "name": "bluetooth disabled",
+        "codepoint": "E1A9"
+      },
+      {
+        "name": "bluetooth searching",
+        "codepoint": "E1AA"
+      },
+      {
+        "name": "brightness auto",
+        "codepoint": "E1AB"
+      },
+      {
+        "name": "brightness high",
+        "codepoint": "E1AC"
+      },
+      {
+        "name": "brightness low",
+        "codepoint": "E1AD"
+      },
+      {
+        "name": "brightness medium",
+        "codepoint": "E1AE"
+      },
+      {
+        "name": "data usage",
+        "codepoint": "E1AF"
+      },
+      {
+        "name": "developer mode",
+        "codepoint": "E1B0"
+      },
+      {
+        "name": "devices",
+        "codepoint": "E1B1"
+      },
+      {
+        "name": "dvr",
+        "codepoint": "E1B2"
+      },
+      {
+        "name": "gps fixed",
+        "codepoint": "E1B3"
+      },
+      {
+        "name": "gps not fixed",
+        "codepoint": "E1B4"
+      },
+      {
+        "name": "gps off",
+        "codepoint": "E1B5"
+      },
+      {
+        "name": "graphic eq",
+        "codepoint": "E1B8"
+      },
+      {
+        "name": "location disabled",
+        "codepoint": "E1B6"
+      },
+      {
+        "name": "location searching",
+        "codepoint": "E1B7"
+      },
+      {
+        "name": "network cell",
+        "codepoint": "E1B9"
+      },
+      {
+        "name": "network wifi",
+        "codepoint": "E1BA"
+      },
+      {
+        "name": "nfc",
+        "codepoint": "E1BB"
+      },
+      {
+        "name": "screen lock landscape",
+        "codepoint": "E1BE"
+      },
+      {
+        "name": "screen lock portrait",
+        "codepoint": "E1BF"
+      },
+      {
+        "name": "screen lock rotation",
+        "codepoint": "E1C0"
+      },
+      {
+        "name": "screen rotation",
+        "codepoint": "E1C1"
+      },
+      {
+        "name": "sd storage",
+        "codepoint": "E1C2"
+      },
+      {
+        "name": "settings system daydream",
+        "codepoint": "E1C3"
+      },
+      {
+        "name": "signal cellular 4 bar",
+        "codepoint": "E1C8"
+      },
+      {
+        "name": "signal cellular connected no internet 4 bar",
+        "codepoint": "E1CD"
+      },
+      {
+        "name": "signal cellular no sim",
+        "codepoint": "E1CE"
+      },
+      {
+        "name": "signal cellular null",
+        "codepoint": "E1CF"
+      },
+      {
+        "name": "signal cellular off",
+        "codepoint": "E1D0"
+      },
+      {
+        "name": "signal wifi 4 bar",
+        "codepoint": "E1D8"
+      },
+      {
+        "name": "signal wifi 4 bar lock",
+        "codepoint": "E1D9"
+      },
+      {
+        "name": "signal wifi off",
+        "codepoint": "E1DA"
+      },
+      {
+        "name": "storage",
+        "codepoint": "E1DB"
+      },
+      {
+        "name": "usb",
+        "codepoint": "E1E0"
+      },
+      {
+        "name": "wallpaper",
+        "codepoint": "E1BC"
+      },
+      {
+        "name": "widgets",
+        "codepoint": "E1BD"
+      },
+      {
+        "name": "wifi lock",
+        "codepoint": "E1E1"
+      },
+      {
+        "name": "wifi tethering",
+        "codepoint": "E1E2"
+      }
+    ]
+  },
+  {
+    "name": "Editor",
+    "icons": [
+      {
+        "name": "attach file",
+        "codepoint": "E226"
+      },
+      {
+        "name": "attach money",
+        "codepoint": "E227"
+      },
+      {
+        "name": "border all",
+        "codepoint": "E228"
+      },
+      {
+        "name": "border bottom",
+        "codepoint": "E229"
+      },
+      {
+        "name": "border clear",
+        "codepoint": "E22A"
+      },
+      {
+        "name": "border color",
+        "codepoint": "E22B"
+      },
+      {
+        "name": "border horizontal",
+        "codepoint": "E22C"
+      },
+      {
+        "name": "border inner",
+        "codepoint": "E22D"
+      },
+      {
+        "name": "border left",
+        "codepoint": "E22E"
+      },
+      {
+        "name": "border outer",
+        "codepoint": "E22F"
+      },
+      {
+        "name": "border right",
+        "codepoint": "E230"
+      },
+      {
+        "name": "border style",
+        "codepoint": "E231"
+      },
+      {
+        "name": "border top",
+        "codepoint": "E232"
+      },
+      {
+        "name": "border vertical",
+        "codepoint": "E233"
+      },
+      {
+        "name": "bubble chart",
+        "codepoint": "E6DD"
+      },
+      {
+        "name": "drag handle",
+        "codepoint": "E25D"
+      },
+      {
+        "name": "format align center",
+        "codepoint": "E234"
+      },
+      {
+        "name": "format align justify",
+        "codepoint": "E235"
+      },
+      {
+        "name": "format align left",
+        "codepoint": "E236"
+      },
+      {
+        "name": "format align right",
+        "codepoint": "E237"
+      },
+      {
+        "name": "format bold",
+        "codepoint": "E238"
+      },
+      {
+        "name": "format clear",
+        "codepoint": "E239"
+      },
+      {
+        "name": "format color fill",
+        "codepoint": "E23A"
+      },
+      {
+        "name": "format color reset",
+        "codepoint": "E23B"
+      },
+      {
+        "name": "format color text",
+        "codepoint": "E23C"
+      },
+      {
+        "name": "format indent decrease",
+        "codepoint": "E23D"
+      },
+      {
+        "name": "format indent increase",
+        "codepoint": "E23E"
+      },
+      {
+        "name": "format italic",
+        "codepoint": "E23F"
+      },
+      {
+        "name": "format line spacing",
+        "codepoint": "E240"
+      },
+      {
+        "name": "format list bulleted",
+        "codepoint": "E241"
+      },
+      {
+        "name": "format list numbered",
+        "codepoint": "E242"
+      },
+      {
+        "name": "format paint",
+        "codepoint": "E243"
+      },
+      {
+        "name": "format quote",
+        "codepoint": "E244"
+      },
+      {
+        "name": "format shapes",
+        "codepoint": "E25E"
+      },
+      {
+        "name": "format size",
+        "codepoint": "E245"
+      },
+      {
+        "name": "format strikethrough",
+        "codepoint": "E246"
+      },
+      {
+        "name": "format textdirection l to r",
+        "codepoint": "E247"
+      },
+      {
+        "name": "format textdirection r to l",
+        "codepoint": "E248"
+      },
+      {
+        "name": "format underlined",
+        "codepoint": "E249"
+      },
+      {
+        "name": "functions",
+        "codepoint": "E24A"
+      },
+      {
+        "name": "highlight",
+        "codepoint": "E25F"
+      },
+      {
+        "name": "insert chart",
+        "codepoint": "E24B"
+      },
+      {
+        "name": "insert comment",
+        "codepoint": "E24C"
+      },
+      {
+        "name": "insert drive file",
+        "codepoint": "E24D"
+      },
+      {
+        "name": "insert emoticon",
+        "codepoint": "E24E"
+      },
+      {
+        "name": "insert invitation",
+        "codepoint": "E24F"
+      },
+      {
+        "name": "insert link",
+        "codepoint": "E250"
+      },
+      {
+        "name": "insert photo",
+        "codepoint": "E251"
+      },
+      {
+        "name": "linear scale",
+        "codepoint": "E260"
+      },
+      {
+        "name": "merge type",
+        "codepoint": "E252"
+      },
+      {
+        "name": "mode comment",
+        "codepoint": "E253"
+      },
+      {
+        "name": "mode edit",
+        "codepoint": "E254"
+      },
+      {
+        "name": "monetization on",
+        "codepoint": "E263"
+      },
+      {
+        "name": "money off",
+        "codepoint": "E25C"
+      },
+      {
+        "name": "multiline chart",
+        "codepoint": "E6DF"
+      },
+      {
+        "name": "pie chart",
+        "codepoint": "E6C4"
+      },
+      {
+        "name": "pie chart outlined",
+        "codepoint": "E6C5"
+      },
+      {
+        "name": "publish",
+        "codepoint": "E255"
+      },
+      {
+        "name": "short text",
+        "codepoint": "E261"
+      },
+      {
+        "name": "show chart",
+        "codepoint": "E6E1"
+      },
+      {
+        "name": "space bar",
+        "codepoint": "E256"
+      },
+      {
+        "name": "strikethrough s",
+        "codepoint": "E257"
+      },
+      {
+        "name": "text fields",
+        "codepoint": "E262"
+      },
+      {
+        "name": "title",
+        "codepoint": "E264"
+      },
+      {
+        "name": "vertical align bottom",
+        "codepoint": "E258"
+      },
+      {
+        "name": "vertical align center",
+        "codepoint": "E259"
+      },
+      {
+        "name": "vertical align top",
+        "codepoint": "E25A"
+      },
+      {
+        "name": "wrap text",
+        "codepoint": "E25B"
+      }
+    ]
+  },
+  {
+    "name": "File",
+    "icons": [
+      {
+        "name": "attachment",
+        "codepoint": "E2BC"
+      },
+      {
+        "name": "cloud",
+        "codepoint": "E2BD"
+      },
+      {
+        "name": "cloud circle",
+        "codepoint": "E2BE"
+      },
+      {
+        "name": "cloud done",
+        "codepoint": "E2BF"
+      },
+      {
+        "name": "cloud download",
+        "codepoint": "E2C0"
+      },
+      {
+        "name": "cloud off",
+        "codepoint": "E2C1"
+      },
+      {
+        "name": "cloud queue",
+        "codepoint": "E2C2"
+      },
+      {
+        "name": "cloud upload",
+        "codepoint": "E2C3"
+      },
+      {
+        "name": "create new folder",
+        "codepoint": "E2CC"
+      },
+      {
+        "name": "file download",
+        "codepoint": "E2C4"
+      },
+      {
+        "name": "file upload",
+        "codepoint": "E2C6"
+      },
+      {
+        "name": "folder",
+        "codepoint": "E2C7"
+      },
+      {
+        "name": "folder open",
+        "codepoint": "E2C8"
+      },
+      {
+        "name": "folder shared",
+        "codepoint": "E2C9"
+      }
+    ]
+  },
+  {
+    "name": "Hardware",
+    "icons": [
+      {
+        "name": "cast",
+        "codepoint": "E307"
+      },
+      {
+        "name": "cast connected",
+        "codepoint": "E308"
+      },
+      {
+        "name": "computer",
+        "codepoint": "E30A"
+      },
+      {
+        "name": "desktop mac",
+        "codepoint": "E30B"
+      },
+      {
+        "name": "desktop windows",
+        "codepoint": "E30C"
+      },
+      {
+        "name": "developer board",
+        "codepoint": "E30D"
+      },
+      {
+        "name": "device hub",
+        "codepoint": "E335"
+      },
+      {
+        "name": "devices other",
+        "codepoint": "E337"
+      },
+      {
+        "name": "dock",
+        "codepoint": "E30E"
+      },
+      {
+        "name": "gamepad",
+        "codepoint": "E30F"
+      },
+      {
+        "name": "headset",
+        "codepoint": "E310"
+      },
+      {
+        "name": "headset mic",
+        "codepoint": "E311"
+      },
+      {
+        "name": "keyboard",
+        "codepoint": "E312"
+      },
+      {
+        "name": "keyboard arrow down",
+        "codepoint": "E313"
+      },
+      {
+        "name": "keyboard arrow left",
+        "codepoint": "E314"
+      },
+      {
+        "name": "keyboard arrow right",
+        "codepoint": "E315"
+      },
+      {
+        "name": "keyboard arrow up",
+        "codepoint": "E316"
+      },
+      {
+        "name": "keyboard backspace",
+        "codepoint": "E317"
+      },
+      {
+        "name": "keyboard capslock",
+        "codepoint": "E318"
+      },
+      {
+        "name": "keyboard hide",
+        "codepoint": "E31A"
+      },
+      {
+        "name": "keyboard return",
+        "codepoint": "E31B"
+      },
+      {
+        "name": "keyboard tab",
+        "codepoint": "E31C"
+      },
+      {
+        "name": "keyboard voice",
+        "codepoint": "E31D"
+      },
+      {
+        "name": "laptop",
+        "codepoint": "E31E"
+      },
+      {
+        "name": "laptop chromebook",
+        "codepoint": "E31F"
+      },
+      {
+        "name": "laptop mac",
+        "codepoint": "E320"
+      },
+      {
+        "name": "laptop windows",
+        "codepoint": "E321"
+      },
+      {
+        "name": "memory",
+        "codepoint": "E322"
+      },
+      {
+        "name": "mouse",
+        "codepoint": "E323"
+      },
+      {
+        "name": "phone android",
+        "codepoint": "E324"
+      },
+      {
+        "name": "phone iphone",
+        "codepoint": "E325"
+      },
+      {
+        "name": "phonelink",
+        "codepoint": "E326"
+      },
+      {
+        "name": "phonelink off",
+        "codepoint": "E327"
+      },
+      {
+        "name": "power input",
+        "codepoint": "E336"
+      },
+      {
+        "name": "router",
+        "codepoint": "E328"
+      },
+      {
+        "name": "scanner",
+        "codepoint": "E329"
+      },
+      {
+        "name": "security",
+        "codepoint": "E32A"
+      },
+      {
+        "name": "sim card",
+        "codepoint": "E32B"
+      },
+      {
+        "name": "smartphone",
+        "codepoint": "E32C"
+      },
+      {
+        "name": "speaker",
+        "codepoint": "E32D"
+      },
+      {
+        "name": "speaker group",
+        "codepoint": "E32E"
+      },
+      {
+        "name": "tablet",
+        "codepoint": "E32F"
+      },
+      {
+        "name": "tablet android",
+        "codepoint": "E330"
+      },
+      {
+        "name": "tablet mac",
+        "codepoint": "E331"
+      },
+      {
+        "name": "toys",
+        "codepoint": "E332"
+      },
+      {
+        "name": "tv",
+        "codepoint": "E333"
+      },
+      {
+        "name": "videogame asset",
+        "codepoint": "E338"
+      },
+      {
+        "name": "watch",
+        "codepoint": "E334"
+      }
+    ]
+  },
+  {
+    "name": "Image",
+    "icons": [
+      {
+        "name": "add a photo",
+        "codepoint": "E439"
+      },
+      {
+        "name": "add to photos",
+        "codepoint": "E39D"
+      },
+      {
+        "name": "adjust",
+        "codepoint": "E39E"
+      },
+      {
+        "name": "assistant",
+        "codepoint": "E39F"
+      },
+      {
+        "name": "assistant photo",
+        "codepoint": "E3A0"
+      },
+      {
+        "name": "audiotrack",
+        "codepoint": "E3A1"
+      },
+      {
+        "name": "blur circular",
+        "codepoint": "E3A2"
+      },
+      {
+        "name": "blur linear",
+        "codepoint": "E3A3"
+      },
+      {
+        "name": "blur off",
+        "codepoint": "E3A4"
+      },
+      {
+        "name": "blur on",
+        "codepoint": "E3A5"
+      },
+      {
+        "name": "brightness 1",
+        "codepoint": "E3A6"
+      },
+      {
+        "name": "brightness 2",
+        "codepoint": "E3A7"
+      },
+      {
+        "name": "brightness 3",
+        "codepoint": "E3A8"
+      },
+      {
+        "name": "brightness 4",
+        "codepoint": "E3A9"
+      },
+      {
+        "name": "brightness 5",
+        "codepoint": "E3AA"
+      },
+      {
+        "name": "brightness 6",
+        "codepoint": "E3AB"
+      },
+      {
+        "name": "brightness 7",
+        "codepoint": "E3AC"
+      },
+      {
+        "name": "broken image",
+        "codepoint": "E3AD"
+      },
+      {
+        "name": "brush",
+        "codepoint": "E3AE"
+      },
+      {
+        "name": "burst mode",
+        "codepoint": "E43C"
+      },
+      {
+        "name": "camera",
+        "codepoint": "E3AF"
+      },
+      {
+        "name": "camera alt",
+        "codepoint": "E3B0"
+      },
+      {
+        "name": "camera front",
+        "codepoint": "E3B1"
+      },
+      {
+        "name": "camera rear",
+        "codepoint": "E3B2"
+      },
+      {
+        "name": "camera roll",
+        "codepoint": "E3B3"
+      },
+      {
+        "name": "center focus strong",
+        "codepoint": "E3B4"
+      },
+      {
+        "name": "center focus weak",
+        "codepoint": "E3B5"
+      },
+      {
+        "name": "collections",
+        "codepoint": "E3B6"
+      },
+      {
+        "name": "collections bookmark",
+        "codepoint": "E431"
+      },
+      {
+        "name": "color lens",
+        "codepoint": "E3B7"
+      },
+      {
+        "name": "colorize",
+        "codepoint": "E3B8"
+      },
+      {
+        "name": "compare",
+        "codepoint": "E3B9"
+      },
+      {
+        "name": "control point",
+        "codepoint": "E3BA"
+      },
+      {
+        "name": "control point duplicate",
+        "codepoint": "E3BB"
+      },
+      {
+        "name": "crop",
+        "codepoint": "E3BE"
+      },
+      {
+        "name": "crop 16 9",
+        "codepoint": "E3BC"
+      },
+      {
+        "name": "crop 3 2",
+        "codepoint": "E3BD"
+      },
+      {
+        "name": "crop 5 4",
+        "codepoint": "E3BF"
+      },
+      {
+        "name": "crop 7 5",
+        "codepoint": "E3C0"
+      },
+      {
+        "name": "crop din",
+        "codepoint": "E3C1"
+      },
+      {
+        "name": "crop free",
+        "codepoint": "E3C2"
+      },
+      {
+        "name": "crop landscape",
+        "codepoint": "E3C3"
+      },
+      {
+        "name": "crop original",
+        "codepoint": "E3C4"
+      },
+      {
+        "name": "crop portrait",
+        "codepoint": "E3C5"
+      },
+      {
+        "name": "crop rotate",
+        "codepoint": "E437"
+      },
+      {
+        "name": "crop square",
+        "codepoint": "E3C6"
+      },
+      {
+        "name": "dehaze",
+        "codepoint": "E3C7"
+      },
+      {
+        "name": "details",
+        "codepoint": "E3C8"
+      },
+      {
+        "name": "edit",
+        "codepoint": "E3C9"
+      },
+      {
+        "name": "exposure",
+        "codepoint": "E3CA"
+      },
+      {
+        "name": "exposure neg 1",
+        "codepoint": "E3CB"
+      },
+      {
+        "name": "exposure neg 2",
+        "codepoint": "E3CC"
+      },
+      {
+        "name": "exposure plus 1",
+        "codepoint": "E3CD"
+      },
+      {
+        "name": "exposure plus 2",
+        "codepoint": "E3CE"
+      },
+      {
+        "name": "exposure zero",
+        "codepoint": "E3CF"
+      },
+      {
+        "name": "filter",
+        "codepoint": "E3D3"
+      },
+      {
+        "name": "filter 1",
+        "codepoint": "E3D0"
+      },
+      {
+        "name": "filter 2",
+        "codepoint": "E3D1"
+      },
+      {
+        "name": "filter 3",
+        "codepoint": "E3D2"
+      },
+      {
+        "name": "filter 4",
+        "codepoint": "E3D4"
+      },
+      {
+        "name": "filter 5",
+        "codepoint": "E3D5"
+      },
+      {
+        "name": "filter 6",
+        "codepoint": "E3D6"
+      },
+      {
+        "name": "filter 7",
+        "codepoint": "E3D7"
+      },
+      {
+        "name": "filter 8",
+        "codepoint": "E3D8"
+      },
+      {
+        "name": "filter 9",
+        "codepoint": "E3D9"
+      },
+      {
+        "name": "filter 9 plus",
+        "codepoint": "E3DA"
+      },
+      {
+        "name": "filter b and w",
+        "codepoint": "E3DB"
+      },
+      {
+        "name": "filter center focus",
+        "codepoint": "E3DC"
+      },
+      {
+        "name": "filter drama",
+        "codepoint": "E3DD"
+      },
+      {
+        "name": "filter frames",
+        "codepoint": "E3DE"
+      },
+      {
+        "name": "filter hdr",
+        "codepoint": "E3DF"
+      },
+      {
+        "name": "filter none",
+        "codepoint": "E3E0"
+      },
+      {
+        "name": "filter tilt shift",
+        "codepoint": "E3E2"
+      },
+      {
+        "name": "filter vintage",
+        "codepoint": "E3E3"
+      },
+      {
+        "name": "flare",
+        "codepoint": "E3E4"
+      },
+      {
+        "name": "flash auto",
+        "codepoint": "E3E5"
+      },
+      {
+        "name": "flash off",
+        "codepoint": "E3E6"
+      },
+      {
+        "name": "flash on",
+        "codepoint": "E3E7"
+      },
+      {
+        "name": "flip",
+        "codepoint": "E3E8"
+      },
+      {
+        "name": "gradient",
+        "codepoint": "E3E9"
+      },
+      {
+        "name": "grain",
+        "codepoint": "E3EA"
+      },
+      {
+        "name": "grid off",
+        "codepoint": "E3EB"
+      },
+      {
+        "name": "grid on",
+        "codepoint": "E3EC"
+      },
+      {
+        "name": "hdr off",
+        "codepoint": "E3ED"
+      },
+      {
+        "name": "hdr on",
+        "codepoint": "E3EE"
+      },
+      {
+        "name": "hdr strong",
+        "codepoint": "E3F1"
+      },
+      {
+        "name": "hdr weak",
+        "codepoint": "E3F2"
+      },
+      {
+        "name": "healing",
+        "codepoint": "E3F3"
+      },
+      {
+        "name": "image",
+        "codepoint": "E3F4"
+      },
+      {
+        "name": "image aspect ratio",
+        "codepoint": "E3F5"
+      },
+      {
+        "name": "iso",
+        "codepoint": "E3F6"
+      },
+      {
+        "name": "landscape",
+        "codepoint": "E3F7"
+      },
+      {
+        "name": "leak add",
+        "codepoint": "E3F8"
+      },
+      {
+        "name": "leak remove",
+        "codepoint": "E3F9"
+      },
+      {
+        "name": "lens",
+        "codepoint": "E3FA"
+      },
+      {
+        "name": "linked camera",
+        "codepoint": "E438"
+      },
+      {
+        "name": "looks",
+        "codepoint": "E3FC"
+      },
+      {
+        "name": "looks 3",
+        "codepoint": "E3FB"
+      },
+      {
+        "name": "looks 4",
+        "codepoint": "E3FD"
+      },
+      {
+        "name": "looks 5",
+        "codepoint": "E3FE"
+      },
+      {
+        "name": "looks 6",
+        "codepoint": "E3FF"
+      },
+      {
+        "name": "looks one",
+        "codepoint": "E400"
+      },
+      {
+        "name": "looks two",
+        "codepoint": "E401"
+      },
+      {
+        "name": "loupe",
+        "codepoint": "E402"
+      },
+      {
+        "name": "monochrome photos",
+        "codepoint": "E403"
+      },
+      {
+        "name": "movie creation",
+        "codepoint": "E404"
+      },
+      {
+        "name": "movie filter",
+        "codepoint": "E43A"
+      },
+      {
+        "name": "music note",
+        "codepoint": "E405"
+      },
+      {
+        "name": "nature",
+        "codepoint": "E406"
+      },
+      {
+        "name": "nature people",
+        "codepoint": "E407"
+      },
+      {
+        "name": "navigate before",
+        "codepoint": "E408"
+      },
+      {
+        "name": "navigate next",
+        "codepoint": "E409"
+      },
+      {
+        "name": "palette",
+        "codepoint": "E40A"
+      },
+      {
+        "name": "panorama",
+        "codepoint": "E40B"
+      },
+      {
+        "name": "panorama fish eye",
+        "codepoint": "E40C"
+      },
+      {
+        "name": "panorama horizontal",
+        "codepoint": "E40D"
+      },
+      {
+        "name": "panorama vertical",
+        "codepoint": "E40E"
+      },
+      {
+        "name": "panorama wide angle",
+        "codepoint": "E40F"
+      },
+      {
+        "name": "photo",
+        "codepoint": "E410"
+      },
+      {
+        "name": "photo album",
+        "codepoint": "E411"
+      },
+      {
+        "name": "photo camera",
+        "codepoint": "E412"
+      },
+      {
+        "name": "photo filter",
+        "codepoint": "E43B"
+      },
+      {
+        "name": "photo library",
+        "codepoint": "E413"
+      },
+      {
+        "name": "photo size select actual",
+        "codepoint": "E432"
+      },
+      {
+        "name": "photo size select large",
+        "codepoint": "E433"
+      },
+      {
+        "name": "photo size select small",
+        "codepoint": "E434"
+      },
+      {
+        "name": "picture as pdf",
+        "codepoint": "E415"
+      },
+      {
+        "name": "portrait",
+        "codepoint": "E416"
+      },
+      {
+        "name": "remove red eye",
+        "codepoint": "E417"
+      },
+      {
+        "name": "rotate 90 degrees ccw",
+        "codepoint": "E418"
+      },
+      {
+        "name": "rotate left",
+        "codepoint": "E419"
+      },
+      {
+        "name": "rotate right",
+        "codepoint": "E41A"
+      },
+      {
+        "name": "slideshow",
+        "codepoint": "E41B"
+      },
+      {
+        "name": "straighten",
+        "codepoint": "E41C"
+      },
+      {
+        "name": "style",
+        "codepoint": "E41D"
+      },
+      {
+        "name": "switch camera",
+        "codepoint": "E41E"
+      },
+      {
+        "name": "switch video",
+        "codepoint": "E41F"
+      },
+      {
+        "name": "tag faces",
+        "codepoint": "E420"
+      },
+      {
+        "name": "texture",
+        "codepoint": "E421"
+      },
+      {
+        "name": "timelapse",
+        "codepoint": "E422"
+      },
+      {
+        "name": "timer",
+        "codepoint": "E425"
+      },
+      {
+        "name": "timer 10",
+        "codepoint": "E423"
+      },
+      {
+        "name": "timer 3",
+        "codepoint": "E424"
+      },
+      {
+        "name": "timer off",
+        "codepoint": "E426"
+      },
+      {
+        "name": "tonality",
+        "codepoint": "E427"
+      },
+      {
+        "name": "transform",
+        "codepoint": "E428"
+      },
+      {
+        "name": "tune",
+        "codepoint": "E429"
+      },
+      {
+        "name": "view comfy",
+        "codepoint": "E42A"
+      },
+      {
+        "name": "view compact",
+        "codepoint": "E42B"
+      },
+      {
+        "name": "vignette",
+        "codepoint": "E435"
+      },
+      {
+        "name": "wb auto",
+        "codepoint": "E42C"
+      },
+      {
+        "name": "wb cloudy",
+        "codepoint": "E42D"
+      },
+      {
+        "name": "wb incandescent",
+        "codepoint": "E42E"
+      },
+      {
+        "name": "wb iridescent",
+        "codepoint": "E436"
+      },
+      {
+        "name": "wb sunny",
+        "codepoint": "E430"
+      }
+    ]
+  },
+  {
+    "name": "Maps",
+    "icons": [
+      {
+        "name": "add location",
+        "codepoint": "E567"
+      },
+      {
+        "name": "beenhere",
+        "codepoint": "E52D"
+      },
+      {
+        "name": "directions",
+        "codepoint": "E52E"
+      },
+      {
+        "name": "directions bike",
+        "codepoint": "E52F"
+      },
+      {
+        "name": "directions boat",
+        "codepoint": "E532"
+      },
+      {
+        "name": "directions bus",
+        "codepoint": "E530"
+      },
+      {
+        "name": "directions car",
+        "codepoint": "E531"
+      },
+      {
+        "name": "directions railway",
+        "codepoint": "E534"
+      },
+      {
+        "name": "directions run",
+        "codepoint": "E566"
+      },
+      {
+        "name": "directions subway",
+        "codepoint": "E533"
+      },
+      {
+        "name": "directions transit",
+        "codepoint": "E535"
+      },
+      {
+        "name": "directions walk",
+        "codepoint": "E536"
+      },
+      {
+        "name": "edit location",
+        "codepoint": "E568"
+      },
+      {
+        "name": "ev station",
+        "codepoint": "E56D"
+      },
+      {
+        "name": "flight",
+        "codepoint": "E539"
+      },
+      {
+        "name": "hotel",
+        "codepoint": "E53A"
+      },
+      {
+        "name": "layers",
+        "codepoint": "E53B"
+      },
+      {
+        "name": "layers clear",
+        "codepoint": "E53C"
+      },
+      {
+        "name": "local activity",
+        "codepoint": "E53F"
+      },
+      {
+        "name": "local airport",
+        "codepoint": "E53D"
+      },
+      {
+        "name": "local atm",
+        "codepoint": "E53E"
+      },
+      {
+        "name": "local bar",
+        "codepoint": "E540"
+      },
+      {
+        "name": "local cafe",
+        "codepoint": "E541"
+      },
+      {
+        "name": "local car wash",
+        "codepoint": "E542"
+      },
+      {
+        "name": "local convenience store",
+        "codepoint": "E543"
+      },
+      {
+        "name": "local dining",
+        "codepoint": "E556"
+      },
+      {
+        "name": "local drink",
+        "codepoint": "E544"
+      },
+      {
+        "name": "local florist",
+        "codepoint": "E545"
+      },
+      {
+        "name": "local gas station",
+        "codepoint": "E546"
+      },
+      {
+        "name": "local grocery store",
+        "codepoint": "E547"
+      },
+      {
+        "name": "local hospital",
+        "codepoint": "E548"
+      },
+      {
+        "name": "local hotel",
+        "codepoint": "E549"
+      },
+      {
+        "name": "local laundry service",
+        "codepoint": "E54A"
+      },
+      {
+        "name": "local library",
+        "codepoint": "E54B"
+      },
+      {
+        "name": "local mall",
+        "codepoint": "E54C"
+      },
+      {
+        "name": "local movies",
+        "codepoint": "E54D"
+      },
+      {
+        "name": "local offer",
+        "codepoint": "E54E"
+      },
+      {
+        "name": "local parking",
+        "codepoint": "E54F"
+      },
+      {
+        "name": "local pharmacy",
+        "codepoint": "E550"
+      },
+      {
+        "name": "local phone",
+        "codepoint": "E551"
+      },
+      {
+        "name": "local pizza",
+        "codepoint": "E552"
+      },
+      {
+        "name": "local play",
+        "codepoint": "E553"
+      },
+      {
+        "name": "local post office",
+        "codepoint": "E554"
+      },
+      {
+        "name": "local printshop",
+        "codepoint": "E555"
+      },
+      {
+        "name": "local see",
+        "codepoint": "E557"
+      },
+      {
+        "name": "local shipping",
+        "codepoint": "E558"
+      },
+      {
+        "name": "local taxi",
+        "codepoint": "E559"
+      },
+      {
+        "name": "map",
+        "codepoint": "E55B"
+      },
+      {
+        "name": "my location",
+        "codepoint": "E55C"
+      },
+      {
+        "name": "navigation",
+        "codepoint": "E55D"
+      },
+      {
+        "name": "near me",
+        "codepoint": "E569"
+      },
+      {
+        "name": "person pin",
+        "codepoint": "E55A"
+      },
+      {
+        "name": "person pin circle",
+        "codepoint": "E56A"
+      },
+      {
+        "name": "pin drop",
+        "codepoint": "E55E"
+      },
+      {
+        "name": "place",
+        "codepoint": "E55F"
+      },
+      {
+        "name": "rate review",
+        "codepoint": "E560"
+      },
+      {
+        "name": "restaurant",
+        "codepoint": "E56C"
+      },
+      {
+        "name": "restaurant menu",
+        "codepoint": "E561"
+      },
+      {
+        "name": "satellite",
+        "codepoint": "E562"
+      },
+      {
+        "name": "store mall directory",
+        "codepoint": "E563"
+      },
+      {
+        "name": "streetview",
+        "codepoint": "E56E"
+      },
+      {
+        "name": "subway",
+        "codepoint": "E56F"
+      },
+      {
+        "name": "terrain",
+        "codepoint": "E564"
+      },
+      {
+        "name": "traffic",
+        "codepoint": "E565"
+      },
+      {
+        "name": "train",
+        "codepoint": "E570"
+      },
+      {
+        "name": "tram",
+        "codepoint": "E571"
+      },
+      {
+        "name": "transfer within a station",
+        "codepoint": "E572"
+      },
+      {
+        "name": "zoom out map",
+        "codepoint": "E56B"
+      }
+    ]
+  },
+  {
+    "name": "Navigation",
+    "icons": [
+      {
+        "name": "apps",
+        "codepoint": "E5C3"
+      },
+      {
+        "name": "arrow back",
+        "codepoint": "E5C4"
+      },
+      {
+        "name": "arrow downward",
+        "codepoint": "E5DB"
+      },
+      {
+        "name": "arrow drop down",
+        "codepoint": "E5C5"
+      },
+      {
+        "name": "arrow drop down circle",
+        "codepoint": "E5C6"
+      },
+      {
+        "name": "arrow drop up",
+        "codepoint": "E5C7"
+      },
+      {
+        "name": "arrow forward",
+        "codepoint": "E5C8"
+      },
+      {
+        "name": "arrow upward",
+        "codepoint": "E5D8"
+      },
+      {
+        "name": "cancel",
+        "codepoint": "E5C9"
+      },
+      {
+        "name": "check",
+        "codepoint": "E5CA"
+      },
+      {
+        "name": "chevron left",
+        "codepoint": "E5CB"
+      },
+      {
+        "name": "chevron right",
+        "codepoint": "E5CC"
+      },
+      {
+        "name": "close",
+        "codepoint": "E5CD"
+      },
+      {
+        "name": "expand less",
+        "codepoint": "E5CE"
+      },
+      {
+        "name": "expand more",
+        "codepoint": "E5CF"
+      },
+      {
+        "name": "first page",
+        "codepoint": "E5DC"
+      },
+      {
+        "name": "fullscreen",
+        "codepoint": "E5D0"
+      },
+      {
+        "name": "fullscreen exit",
+        "codepoint": "E5D1"
+      },
+      {
+        "name": "last page",
+        "codepoint": "E5DD"
+      },
+      {
+        "name": "menu",
+        "codepoint": "E5D2"
+      },
+      {
+        "name": "more horiz",
+        "codepoint": "E5D3"
+      },
+      {
+        "name": "more vert",
+        "codepoint": "E5D4"
+      },
+      {
+        "name": "refresh",
+        "codepoint": "E5D5"
+      },
+      {
+        "name": "subdirectory arrow left",
+        "codepoint": "E5D9"
+      },
+      {
+        "name": "subdirectory arrow right",
+        "codepoint": "E5DA"
+      }
+    ]
+  },
+  {
+    "name": "Notification",
+    "icons": [
+      {
+        "name": "adb",
+        "codepoint": "E60E"
+      },
+      {
+        "name": "airline seat flat",
+        "codepoint": "E630"
+      },
+      {
+        "name": "airline seat flat angled",
+        "codepoint": "E631"
+      },
+      {
+        "name": "airline seat individual suite",
+        "codepoint": "E632"
+      },
+      {
+        "name": "airline seat legroom extra",
+        "codepoint": "E633"
+      },
+      {
+        "name": "airline seat legroom normal",
+        "codepoint": "E634"
+      },
+      {
+        "name": "airline seat legroom reduced",
+        "codepoint": "E635"
+      },
+      {
+        "name": "airline seat recline extra",
+        "codepoint": "E636"
+      },
+      {
+        "name": "airline seat recline normal",
+        "codepoint": "E637"
+      },
+      {
+        "name": "bluetooth audio",
+        "codepoint": "E60F"
+      },
+      {
+        "name": "confirmation number",
+        "codepoint": "E638"
+      },
+      {
+        "name": "disc full",
+        "codepoint": "E610"
+      },
+      {
+        "name": "do not disturb",
+        "codepoint": "E612"
+      },
+      {
+        "name": "do not disturb alt",
+        "codepoint": "E611"
+      },
+      {
+        "name": "do not disturb off",
+        "codepoint": "E643"
+      },
+      {
+        "name": "do not disturb on",
+        "codepoint": "E644"
+      },
+      {
+        "name": "drive eta",
+        "codepoint": "E613"
+      },
+      {
+        "name": "enhanced encryption",
+        "codepoint": "E63F"
+      },
+      {
+        "name": "event available",
+        "codepoint": "E614"
+      },
+      {
+        "name": "event busy",
+        "codepoint": "E615"
+      },
+      {
+        "name": "event note",
+        "codepoint": "E616"
+      },
+      {
+        "name": "folder special",
+        "codepoint": "E617"
+      },
+      {
+        "name": "live tv",
+        "codepoint": "E639"
+      },
+      {
+        "name": "mms",
+        "codepoint": "E618"
+      },
+      {
+        "name": "more",
+        "codepoint": "E619"
+      },
+      {
+        "name": "network check",
+        "codepoint": "E640"
+      },
+      {
+        "name": "network locked",
+        "codepoint": "E61A"
+      },
+      {
+        "name": "no encryption",
+        "codepoint": "E641"
+      },
+      {
+        "name": "ondemand video",
+        "codepoint": "E63A"
+      },
+      {
+        "name": "personal video",
+        "codepoint": "E63B"
+      },
+      {
+        "name": "phone bluetooth speaker",
+        "codepoint": "E61B"
+      },
+      {
+        "name": "phone forwarded",
+        "codepoint": "E61C"
+      },
+      {
+        "name": "phone in talk",
+        "codepoint": "E61D"
+      },
+      {
+        "name": "phone locked",
+        "codepoint": "E61E"
+      },
+      {
+        "name": "phone missed",
+        "codepoint": "E61F"
+      },
+      {
+        "name": "phone paused",
+        "codepoint": "E620"
+      },
+      {
+        "name": "power",
+        "codepoint": "E63C"
+      },
+      {
+        "name": "priority high",
+        "codepoint": "E645"
+      },
+      {
+        "name": "sd card",
+        "codepoint": "E623"
+      },
+      {
+        "name": "sim card alert",
+        "codepoint": "E624"
+      },
+      {
+        "name": "sms",
+        "codepoint": "E625"
+      },
+      {
+        "name": "sms failed",
+        "codepoint": "E626"
+      },
+      {
+        "name": "sync",
+        "codepoint": "E627"
+      },
+      {
+        "name": "sync disabled",
+        "codepoint": "E628"
+      },
+      {
+        "name": "sync problem",
+        "codepoint": "E629"
+      },
+      {
+        "name": "system update",
+        "codepoint": "E62A"
+      },
+      {
+        "name": "tap and play",
+        "codepoint": "E62B"
+      },
+      {
+        "name": "time to leave",
+        "codepoint": "E62C"
+      },
+      {
+        "name": "vibration",
+        "codepoint": "E62D"
+      },
+      {
+        "name": "voice chat",
+        "codepoint": "E62E"
+      },
+      {
+        "name": "vpn lock",
+        "codepoint": "E62F"
+      },
+      {
+        "name": "wc",
+        "codepoint": "E63D"
+      },
+      {
+        "name": "wifi",
+        "codepoint": "E63E"
+      }
+    ]
+  },
+  {
+    "name": "Places",
+    "icons": [
+      {
+        "name": "ac unit",
+        "codepoint": "EB3B"
+      },
+      {
+        "name": "airport shuttle",
+        "codepoint": "EB3C"
+      },
+      {
+        "name": "all inclusive",
+        "codepoint": "EB3D"
+      },
+      {
+        "name": "beach access",
+        "codepoint": "EB3E"
+      },
+      {
+        "name": "business center",
+        "codepoint": "EB3F"
+      },
+      {
+        "name": "casino",
+        "codepoint": "EB40"
+      },
+      {
+        "name": "child care",
+        "codepoint": "EB41"
+      },
+      {
+        "name": "child friendly",
+        "codepoint": "EB42"
+      },
+      {
+        "name": "fitness center",
+        "codepoint": "EB43"
+      },
+      {
+        "name": "free breakfast",
+        "codepoint": "EB44"
+      },
+      {
+        "name": "golf course",
+        "codepoint": "EB45"
+      },
+      {
+        "name": "hot tub",
+        "codepoint": "EB46"
+      },
+      {
+        "name": "kitchen",
+        "codepoint": "EB47"
+      },
+      {
+        "name": "pool",
+        "codepoint": "EB48"
+      },
+      {
+        "name": "room service",
+        "codepoint": "EB49"
+      },
+      {
+        "name": "rv hookup",
+        "codepoint": "E642"
+      },
+      {
+        "name": "smoke free",
+        "codepoint": "EB4A"
+      },
+      {
+        "name": "smoking rooms",
+        "codepoint": "EB4B"
+      },
+      {
+        "name": "spa",
+        "codepoint": "EB4C"
+      }
+    ]
+  },
+  {
+    "name": "Social",
+    "icons": [
+      {
+        "name": "cake",
+        "codepoint": "E7E9"
+      },
+      {
+        "name": "domain",
+        "codepoint": "E7EE"
+      },
+      {
+        "name": "group",
+        "codepoint": "E7EF"
+      },
+      {
+        "name": "group add",
+        "codepoint": "E7F0"
+      },
+      {
+        "name": "location city",
+        "codepoint": "E7F1"
+      },
+      {
+        "name": "mood",
+        "codepoint": "E7F2"
+      },
+      {
+        "name": "mood bad",
+        "codepoint": "E7F3"
+      },
+      {
+        "name": "notifications",
+        "codepoint": "E7F4"
+      },
+      {
+        "name": "notifications active",
+        "codepoint": "E7F7"
+      },
+      {
+        "name": "notifications none",
+        "codepoint": "E7F5"
+      },
+      {
+        "name": "notifications off",
+        "codepoint": "E7F6"
+      },
+      {
+        "name": "notifications paused",
+        "codepoint": "E7F8"
+      },
+      {
+        "name": "pages",
+        "codepoint": "E7F9"
+      },
+      {
+        "name": "party mode",
+        "codepoint": "E7FA"
+      },
+      {
+        "name": "people",
+        "codepoint": "E7FB"
+      },
+      {
+        "name": "people outline",
+        "codepoint": "E7FC"
+      },
+      {
+        "name": "person",
+        "codepoint": "E7FD"
+      },
+      {
+        "name": "person add",
+        "codepoint": "E7FE"
+      },
+      {
+        "name": "person outline",
+        "codepoint": "E7FF"
+      },
+      {
+        "name": "plus one",
+        "codepoint": "E800"
+      },
+      {
+        "name": "poll",
+        "codepoint": "E801"
+      },
+      {
+        "name": "public",
+        "codepoint": "E80B"
+      },
+      {
+        "name": "school",
+        "codepoint": "E80C"
+      },
+      {
+        "name": "sentiment dissatisfied",
+        "codepoint": "E811"
+      },
+      {
+        "name": "sentiment neutral",
+        "codepoint": "E812"
+      },
+      {
+        "name": "sentiment satisfied",
+        "codepoint": "E813"
+      },
+      {
+        "name": "sentiment very dissatisfied",
+        "codepoint": "E814"
+      },
+      {
+        "name": "sentiment very satisfied",
+        "codepoint": "E815"
+      },
+      {
+        "name": "share",
+        "codepoint": "E80D"
+      },
+      {
+        "name": "whatshot",
+        "codepoint": "E80E"
+      }
+    ]
+  },
+  {
+    "name": "Toggle",
+    "icons": [
+      {
+        "name": "check box",
+        "codepoint": "E834"
+      },
+      {
+        "name": "check box outline blank",
+        "codepoint": "E835"
+      },
+      {
+        "name": "indeterminate check box",
+        "codepoint": "E909"
+      },
+      {
+        "name": "radio button checked",
+        "codepoint": "E837"
+      },
+      {
+        "name": "radio button unchecked",
+        "codepoint": "E836"
+      },
+      {
+        "name": "star",
+        "codepoint": "E838"
+      },
+      {
+        "name": "star border",
+        "codepoint": "E83A"
+      },
+      {
+        "name": "star half",
+        "codepoint": "E839"
+      }
+    ]
+  }
+]
