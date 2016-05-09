@@ -11,11 +11,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.erdemorman.mdx.R;
+import com.erdemorman.mdx.ui.base.BaseActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity
+public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Bind(R.id.drawer_layout) DrawerLayout mDrawer;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getActivityComponent().inject(this);
         ButterKnife.bind(this);
 
         setSupportActionBar(mToolbar);
