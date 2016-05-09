@@ -4,9 +4,11 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_colors"
+            android:icon="@drawable/ic_palette"
             android:title="@string/colors" />
         <item
             android:id="@+id/nav_icons"
+            android:icon="@drawable/ic_widgets"
             android:title="@string/icons" />
     </group>
 </menu>
