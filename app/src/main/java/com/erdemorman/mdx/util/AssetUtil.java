@@ -9,14 +9,13 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 
 import rx.Observable;
-import rx.Subscriber;
 
 public class AssetUtil {
-    public static <T> T fromJson(Context context, String fileName, Class<T> classOfT) {
-        return fromJson(context, fileName, (Type) classOfT);
+    public static <T> T fromJsonToType(Context context, String fileName, Class<T> classOfT) {
+        return fromJsonToType(context, fileName, (Type) classOfT);
     }
 
-    public static <T> T fromJson(Context context, String fileName, Type typeOfT) {
+    public static <T> T fromJsonToType(Context context, String fileName, Type typeOfT) {
         InputStreamReader reader = null;
 
         try {
@@ -39,23 +38,10 @@ public class AssetUtil {
         return null;
     }
 
-    public static <T> Observable<T> fromJsonToObservable(final Context context,
-                                                         final String fileName,
-                                                         final Type typeOfT) {
-        return Observable.create(new Observable.OnSubscribe<T>() {
-            @Override
-            public void call(Subscriber<? super T> subscriber) {
-                try {
-                    if (!subscriber.isUnsubscribed()) {
-                        T data = fromJson(context, fileName, typeOfT);
+    public static <T> Observable<T> fromJsonToObservable(Context context, String fileName,
+                                                         Type typeOfT) {
+        T data = fromJsonToType(context, fileName, typeOfT);
 
-                        subscriber.onNext(data);
-                        subscriber.onCompleted();
-                    }
-                } catch (Exception e) {
-                    subscriber.onError(e);
-                }
-            }
-        });
+        return Observable.just(data);
     }
 }
