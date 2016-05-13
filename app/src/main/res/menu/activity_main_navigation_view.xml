@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <item android:title="@string/resources">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_colors"
+                    android:icon="@drawable/ic_palette"
+                    android:title="@string/colors" />
+                <item
+                    android:id="@+id/nav_icons"
+                    android:icon="@drawable/ic_view_module"
+                    android:title="@string/icons" />
+            </group>
+        </menu>
+    </item>
+
+    <group>
         <item
-            android:id="@+id/nav_colors"
-            android:icon="@drawable/ic_palette"
-            android:title="@string/colors" />
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+
         <item
-            android:id="@+id/nav_icons"
-            android:icon="@drawable/ic_widgets"
-            android:title="@string/icons" />
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info"
+            android:title="@string/about" />
     </group>
 </menu>
