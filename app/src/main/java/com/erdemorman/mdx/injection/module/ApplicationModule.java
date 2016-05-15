@@ -3,8 +3,11 @@ package com.erdemorman.mdx.injection.module;
 import android.app.Application;
 import android.content.Context;
 
+import com.erdemorman.mdx.data.model.MaterialIcon;
 import com.erdemorman.mdx.data.remote.MdxService;
 import com.erdemorman.mdx.injection.ApplicationContext;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import javax.inject.Singleton;
 
@@ -37,5 +40,14 @@ public class ApplicationModule {
     @Singleton
     MdxService provideMdxService() {
         return MdxService.Creator.newMdxService();
+    }
+
+    @Provides
+    @Singleton
+    Gson provideGson() {
+        return new GsonBuilder()
+                .registerTypeAdapter(MaterialIcon.class,
+                        new MaterialIcon.GsonDeserializer(mApplication))
+                .create();
     }
 }
