@@ -17,6 +17,7 @@ import javax.inject.Inject;
 import javax.inject.Singleton;
 
 import rx.Observable;
+import rx.Subscriber;
 
 @Singleton
 public class AssetDataService {
@@ -55,10 +56,14 @@ public class AssetDataService {
         return null;
     }
 
-    public <T> Observable<T> fromJsonToObservable(String fileName, Type typeOfT) {
-        T data = fromJsonToType(fileName, typeOfT);
-
-        return Observable.just(data);
+    public <T> Observable<T> fromJsonToObservable(final String fileName, final Type typeOfT) {
+        return Observable.create(new Observable.OnSubscribe<T>() {
+            @Override
+            public void call(Subscriber<? super T> subscriber) {
+                T data = fromJsonToType(fileName, typeOfT);
+                subscriber.onNext(data);
+                subscriber.onCompleted();
+            }
+        });
     }
-
 }

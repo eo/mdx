@@ -17,13 +17,19 @@ import android.view.ViewGroup;
 import com.erdemorman.mdx.R;
 import com.erdemorman.mdx.data.model.MaterialIconGroup;
 import com.erdemorman.mdx.ui.base.BaseActivity;
+import com.jakewharton.rxbinding.support.v7.widget.RxSearchView;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import rx.Subscription;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.functions.Action1;
+import rx.schedulers.Schedulers;
 
 public class IconsFragment extends Fragment implements IconsView {
     @Inject IconsPresenter mIconsPresenter;
@@ -85,6 +91,16 @@ public class IconsFragment extends Fragment implements IconsView {
         searchView.setQueryHint(getString(R.string.icon_search_hint));
         // reset max width to device width to make search view full width
         searchView.setMaxWidth(getResources().getDisplayMetrics().widthPixels);
+
+        RxSearchView.queryTextChanges(searchView)
+                .debounce(200, TimeUnit.MILLISECONDS)
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Action1<CharSequence>() {
+                    @Override
+                    public void call(CharSequence query) {
+                        mIconsPresenter.loadIcons(query);
+                    }
+                });
     }
 
     @Override
