@@ -4,16 +4,19 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
-
-    <!-- Navigation menu strings -->
+    <!-- Navigation menu titles -->
     <string name="resources">Resources</string>
     <string name="colors">Colors</string>
     <string name="icons">Icons</string>
     <string name="settings">Settings</string>
     <string name="about">About</string>
 
-    <!-- Toolbar title strings -->
+    <!-- Toolbar titles -->
     <string name="colors_title">Material Colors</string>
     <string name="icons_title">Material Icons</string>
+
+    <!-- Toolbar action titles -->
+    <string name="action_search">Search</string>
+
+    <string name="icon_search_hint">Search icons…</string>
 </resources>

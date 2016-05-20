@@ -23,4 +23,8 @@ public class MaterialIconGroup {
     public List<MaterialIcon> getIcons() {
         return mIcons;
     }
+
+    public int getIconCount() {
+        return mIcons != null ? mIcons.size() : 0;
+    }
 }
