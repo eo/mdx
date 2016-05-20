@@ -1,6 +1,8 @@
 <resources>
+    <style name="Theme.Mdx" parent="Base.Theme.Mdx">
+    </style>
 
-    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <style name="Base.Theme.Mdx" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>
