@@ -7,7 +7,6 @@ import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -16,7 +15,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.erdemorman.mdx.R;
-import com.erdemorman.mdx.data.model.MaterialIcon;
 import com.erdemorman.mdx.data.model.MaterialIconGroup;
 import com.erdemorman.mdx.ui.base.BaseActivity;
 
@@ -50,13 +48,16 @@ public class IconsFragment extends Fragment implements IconsView {
         mIconsPresenter.attachView(this);
 
         mIconsRecycler.setHasFixedSize(true);
+        mIconsRecycler.addItemDecoration(new IconGroupDividerItemDecoration(
+                getActivity(), R.drawable.divider_icons_group_header));
+
         mIconsRecycler.setAdapter(mIconsAdapter);
 
         final GridLayoutManager layoutManager = (GridLayoutManager)(mIconsRecycler.getLayoutManager());
         layoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
             @Override
             public int getSpanSize(int position) {
-                return (mIconsAdapter.isGroupHeader(position))? layoutManager.getSpanCount() : 1 ;
+                return (mIconsAdapter.isGroupHeader(position)) ? layoutManager.getSpanCount() : 1;
             }
         });
 

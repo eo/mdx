@@ -12,4 +12,6 @@
     <dimen name="icon_name_margin_top">16dp</dimen>
     <dimen name="icon_name_horizontal_margin">8dp</dimen>
     <dimen name="icon_name_font_size">12sp</dimen>
+    <dimen name="icon_group_header_horizontal_padding">16dp</dimen>
+    <dimen name="icon_group_header_vertical_padding">8dp</dimen>
 </resources>

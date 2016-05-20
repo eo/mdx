@@ -3,17 +3,25 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/icon_group_header_horizontal_padding"
+    android:paddingStart="@dimen/icon_group_header_horizontal_padding"
+    android:paddingRight="@dimen/icon_group_header_horizontal_padding"
+    android:paddingEnd="@dimen/icon_group_header_horizontal_padding"
+    android:paddingTop="@dimen/icon_group_header_vertical_padding"
+    android:paddingBottom="@dimen/icon_group_header_vertical_padding">
 
     <TextView
         android:id="@+id/group_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/icon_count"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
 
 </LinearLayout>
