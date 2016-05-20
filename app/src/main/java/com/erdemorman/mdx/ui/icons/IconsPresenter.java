@@ -3,15 +3,18 @@ package com.erdemorman.mdx.ui.icons;
 import android.text.TextUtils;
 
 import com.erdemorman.mdx.data.DataManager;
+import com.erdemorman.mdx.data.model.MaterialIcon;
 import com.erdemorman.mdx.data.model.MaterialIconGroup;
 import com.erdemorman.mdx.ui.base.BasePresenter;
+import com.google.common.base.Predicate;
+import com.google.common.collect.Collections2;
+import com.google.common.collect.Lists;
 
 import java.util.List;
 
 import javax.inject.Inject;
 
 import rx.Observable;
-import rx.Subscriber;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
@@ -73,11 +76,36 @@ public class IconsPresenter extends BasePresenter<IconsView> {
 
     private void filterAndLoadIcons(final CharSequence query) {
         Observable.from(mIconGroupsCache)
+                .map(new Func1<MaterialIconGroup, MaterialIconGroup>() {
+                    @Override
+                    public MaterialIconGroup call(MaterialIconGroup materialIconGroup) {
+                        final String lowercaseQuery = String.valueOf(query).toLowerCase();
+                        MaterialIconGroup filteredIconGroup = materialIconGroup;
+
+                        if (!materialIconGroup.getName().toLowerCase().contains(lowercaseQuery)) {
+                            List<MaterialIcon> filteredIcons = Lists.newArrayList(
+                                    Collections2.filter(
+                                            materialIconGroup.getIcons(),
+                                            new Predicate<MaterialIcon>() {
+                                                @Override
+                                                public boolean apply(MaterialIcon icon) {
+                                                    return icon.getName().contains(lowercaseQuery);
+                                                }
+                                            }
+                                    )
+                            );
+
+                            filteredIconGroup = new MaterialIconGroup(materialIconGroup.getName(),
+                                    filteredIcons);
+                        }
+
+                        return filteredIconGroup;
+                    }
+                })
                 .filter(new Func1<MaterialIconGroup, Boolean>() {
                     @Override
                     public Boolean call(MaterialIconGroup materialIconGroup) {
-                        return materialIconGroup.getName().toLowerCase().contains(
-                                String.valueOf(query).toLowerCase());
+                        return materialIconGroup.getIconCount() > 0;
                     }
                 })
                 .toList()
