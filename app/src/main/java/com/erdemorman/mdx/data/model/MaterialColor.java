@@ -11,16 +11,24 @@ public class MaterialColor implements Parcelable {
     @SerializedName("name")
     private final String mName;
 
+    @SerializedName("primaryColor")
+    private final String mPrimaryColor;
+
     @SerializedName("tones")
     private final List<MaterialColorTone> mTones;
 
-    public MaterialColor(String name, List<MaterialColorTone> tones) {
+    public MaterialColor(String name, String primaryColor, List<MaterialColorTone> tones) {
         mName = name;
+        mPrimaryColor = primaryColor;
         mTones = tones;
     }
 
     public String getName() {
         return mName;
+    }
+
+    public String getPrimaryColor() {
+        return mPrimaryColor;
     }
 
     public List<MaterialColorTone> getTones() {
@@ -35,11 +43,13 @@ public class MaterialColor implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.mName);
+        dest.writeString(this.mPrimaryColor);
         dest.writeTypedList(this.mTones);
     }
 
     protected MaterialColor(Parcel in) {
         this.mName = in.readString();
+        this.mPrimaryColor = in.readString();
         this.mTones = in.createTypedArrayList(MaterialColorTone.CREATOR);
     }
 

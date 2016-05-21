@@ -1,6 +1,7 @@
 [
   {
     "name": "Amber",
+    "primaryColor": "#FFC107",
     "tones": [
       {
         "name": "50",
@@ -62,6 +63,7 @@
   },
   {
     "name": "Blue",
+    "primaryColor": "#2196F3",
     "tones": [
       {
         "name": "50",
@@ -131,6 +133,7 @@
   },
   {
     "name": "Blue Grey",
+    "primaryColor": "#607D8B",
     "tones": [
       {
         "name": "50",
@@ -182,6 +185,7 @@
   },
   {
     "name": "Brown",
+    "primaryColor": "#795548",
     "tones": [
       {
         "name": "50",
@@ -234,6 +238,7 @@
   },
   {
     "name": "Cyan",
+    "primaryColor": "#00BCD4",
     "tones": [
       {
         "name": "50",
@@ -298,6 +303,7 @@
   },
   {
     "name": "Deep Orange",
+    "primaryColor": "#FF5722",
     "tones": [
       {
         "name": "50",
@@ -366,6 +372,7 @@
   },
   {
     "name": "Deep Purple",
+    "primaryColor": "#673AB7",
     "tones": [
       {
         "name": "50",
@@ -437,6 +444,7 @@
   },
   {
     "name": "Green",
+    "primaryColor": "#4CAF50",
     "tones": [
       {
         "name": "50",
@@ -502,6 +510,7 @@
   },
   {
     "name": "Grey",
+    "primaryColor": "#9E9E9E",
     "tones": [
       {
         "name": "50",
@@ -551,6 +560,7 @@
   },
   {
     "name": "Indigo",
+    "primaryColor": "#3F51B5",
     "tones": [
       {
         "name": "50",
@@ -622,6 +632,7 @@
   },
   {
     "name": "Light Blue",
+    "primaryColor": "#03A9F4",
     "tones": [
       {
         "name": "50",
@@ -688,6 +699,7 @@
   },
   {
     "name": "Light Green",
+    "primaryColor": "#8BC34A",
     "tones": [
       {
         "name": "50",
@@ -752,6 +764,7 @@
   },
   {
     "name": "Lime",
+    "primaryColor": "#CDDC39",
     "tones": [
       {
         "name": "50",
@@ -814,6 +827,7 @@
   },
   {
     "name": "Orange",
+    "primaryColor": "#FF9800",
     "tones": [
       {
         "name": "50",
@@ -877,6 +891,7 @@
   },
   {
     "name": "Pink",
+    "primaryColor": "#E91E63",
     "tones": [
       {
         "name": "50",
@@ -948,6 +963,7 @@
   },
   {
     "name": "Purple",
+    "primaryColor": "#9C27B0",
     "tones": [
       {
         "name": "50",
@@ -1019,6 +1035,7 @@
   },
   {
     "name": "Red",
+    "primaryColor": "#F44336",
     "tones": [
       {
         "name": "50",
@@ -1089,6 +1106,7 @@
   },
   {
     "name": "Teal",
+    "primaryColor": "#009688",
     "tones": [
       {
         "name": "50",
@@ -1155,6 +1173,7 @@
   },
   {
     "name": "Yellow",
+    "primaryColor": "#FFEB3B",
     "tones": [
       {
         "name": "50",
