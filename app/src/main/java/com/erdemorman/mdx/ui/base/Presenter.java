@@ -6,7 +6,7 @@ package com.erdemorman.mdx.ui.base;
  */
 public interface Presenter<T extends BaseView> {
 
-    void attachView(T mvpView);
+    void attachView(T view);
 
     void detachView();
 }

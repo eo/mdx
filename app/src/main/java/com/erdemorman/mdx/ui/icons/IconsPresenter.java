@@ -32,11 +32,6 @@ public class IconsPresenter extends BasePresenter<IconsView> {
     }
 
     @Override
-    public void attachView(IconsView mvpView) {
-        super.attachView(mvpView);
-    }
-
-    @Override
     public void detachView() {
         super.detachView();
 
