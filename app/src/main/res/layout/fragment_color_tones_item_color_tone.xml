@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tone_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/color_tone_container_height"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/color_tone_container_horizontal_padding"
+    android:paddingStart="@dimen/color_tone_container_horizontal_padding"
+    android:paddingRight="@dimen/color_tone_container_horizontal_padding"
+    android:paddingEnd="@dimen/color_tone_container_horizontal_padding"
+    android:layout_marginTop="@dimen/color_tone_container_vertical_margin"
+    android:layout_marginBottom="@dimen/color_tone_container_vertical_margin"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tone_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        tools:text="50"/>
+
+    <TextView
+        android:id="@+id/tone_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="#FFEBEE"/>
+
+</LinearLayout>

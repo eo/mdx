@@ -1,7 +1,9 @@
 package com.erdemorman.mdx.ui.main;
 
 import android.os.Bundle;
+import android.support.annotation.StringRes;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -11,6 +13,7 @@ import android.view.MenuItem;
 
 import com.erdemorman.mdx.R;
 import com.erdemorman.mdx.ui.base.BaseActivity;
+import com.erdemorman.mdx.ui.colors.ColorsFragment;
 import com.erdemorman.mdx.ui.icons.IconsFragment;
 
 import butterknife.Bind;
@@ -49,23 +52,28 @@ public class MainActivity extends BaseActivity
         }
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
+        @StringRes int titleStringRes;
+        Fragment fragment;
 
-        if (id == R.id.nav_colors) {
-            // TODO: replace fragment
-            setTitle(R.string.colors_title);
-        } else if (id == R.id.nav_icons) {
-            // Insert the fragment by replacing any existing fragment
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame, new IconsFragment())
-                    .commit();
-            setTitle(R.string.icons_title);
+        switch (item.getItemId()) {
+            case R.id.nav_icons:
+                titleStringRes = R.string.icons_title;
+                fragment = new IconsFragment();
+                break;
+            case R.id.nav_colors:
+            default:
+                titleStringRes = R.string.colors_title;
+                fragment = new ColorsFragment();
         }
+
+        // Insert the fragment by replacing any existing fragment
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.content_frame, fragment)
+                .commit();
+        setTitle(titleStringRes);
 
         mDrawer.closeDrawer(GravityCompat.START);
         return true;

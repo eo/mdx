@@ -15,4 +15,8 @@
     <dimen name="icon_group_header_font_size">14sp</dimen>
     <dimen name="icon_group_header_horizontal_padding">16dp</dimen>
     <dimen name="icon_group_header_vertical_padding">8dp</dimen>
+
+    <dimen name="color_tone_container_height">48dp</dimen>
+    <dimen name="color_tone_container_horizontal_padding">12dp</dimen>
+    <dimen name="color_tone_container_vertical_margin">2dp</dimen>
 </resources>
