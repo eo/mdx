@@ -31,8 +31,8 @@ public class ColorsFragmentPagerAdapter extends FragmentPagerAdapter {
         return mMaterialColors.size();
     }
 
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return mMaterialColors.get(position).getName();
-    }
+//    @Override
+//    public CharSequence getPageTitle(int position) {
+//        return mMaterialColors.get(position).getName();
+//    }
 }

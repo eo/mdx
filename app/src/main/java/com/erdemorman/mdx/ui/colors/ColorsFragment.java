@@ -1,9 +1,13 @@
 package com.erdemorman.mdx.ui.colors;
 
+import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,8 +57,6 @@ public class ColorsFragment extends Fragment implements ColorsView {
         ButterKnife.bind(this, fragmentView);
         mColorsPresenter.attachView(this);
 
-        mTabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
-
         return fragmentView;
     }
 
@@ -65,5 +67,17 @@ public class ColorsFragment extends Fragment implements ColorsView {
         mViewPager.setAdapter(pagerAdapter);
 
         mTabLayout.setupWithViewPager(mViewPager);
+        setTabIcons(colors);
+    }
+
+    private void setTabIcons(List<MaterialColor> colors) {
+        for (int index = 0; index < mTabLayout.getTabCount(); index++) {
+            MaterialColor materialColor = colors.get(index);
+            Drawable icon = ContextCompat.getDrawable(getContext(), R.drawable.colors_tab_icon);
+
+            icon.setColorFilter(Color.parseColor(materialColor.getPrimaryColor()),
+                    PorterDuff.Mode.SRC_ATOP);
+            mTabLayout.getTabAt(index).setIcon(icon);
+        }
     }
 }
