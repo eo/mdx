@@ -46,7 +46,7 @@ public class ColorTonesFragment extends Fragment {
         ButterKnife.bind(this, fragmentView);
 
         mTonesRecycler.setHasFixedSize(true);
-        mTonesRecycler.setAdapter(new ColorTonesAdapter(mMaterialColor.getTones()));
+        mTonesRecycler.setAdapter(new ColorTonesAdapter(getContext(), mMaterialColor.getTones()));
         return fragmentView;
     }
 }

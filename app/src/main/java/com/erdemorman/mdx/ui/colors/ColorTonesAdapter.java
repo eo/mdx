@@ -1,6 +1,8 @@
 package com.erdemorman.mdx.ui.colors;
 
+import android.content.Context;
 import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,9 +18,11 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class ColorTonesAdapter extends RecyclerView.Adapter<ColorTonesAdapter.ColorToneViewHolder> {
+    private Context mContext;
     private final List<MaterialColorTone> mColorTones;
 
-    public ColorTonesAdapter(List<MaterialColorTone> colorTones) {
+    public ColorTonesAdapter(Context context, List<MaterialColorTone> colorTones) {
+        mContext = context;
         mColorTones = colorTones;
     }
 
@@ -33,9 +37,15 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<ColorTonesAdapter.Co
     @Override
     public void onBindViewHolder(ColorToneViewHolder holder, int position) {
         MaterialColorTone colorTone = mColorTones.get(position);
+        int textColor = ContextCompat.getColor(mContext,
+                colorTone.isWhiteText() ? R.color.tone_white_text : R.color.tone_black_text);
 
         holder.toneName.setText(colorTone.getName());
         holder.toneColor.setText(colorTone.getColor());
+
+        holder.toneName.setTextColor(textColor);
+        holder.toneColor.setTextColor(textColor);
+
         holder.toneContainer.setBackgroundColor(
                 Color.parseColor(colorTone.getColor())
         );
