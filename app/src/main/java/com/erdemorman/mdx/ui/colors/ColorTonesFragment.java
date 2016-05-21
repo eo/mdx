@@ -47,6 +47,7 @@ public class ColorTonesFragment extends Fragment {
 
         mTonesRecycler.setHasFixedSize(true);
         mTonesRecycler.setAdapter(new ColorTonesAdapter(getContext(), mMaterialColor.getTones()));
+
         return fragmentView;
     }
 }

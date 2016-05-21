@@ -1,7 +1,10 @@
 package com.erdemorman.mdx.ui.colors;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.graphics.Color;
+import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -56,7 +59,7 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<ColorTonesAdapter.Co
         return mColorTones.size();
     }
 
-    class ColorToneViewHolder extends RecyclerView.ViewHolder {
+    class ColorToneViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         @Bind(R.id.tone_container) View toneContainer;
         @Bind(R.id.tone_name) TextView toneName;
         @Bind(R.id.tone_color) TextView toneColor;
@@ -64,6 +67,31 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<ColorTonesAdapter.Co
         public ColorToneViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            MaterialColorTone colorTone = mColorTones.get(getAdapterPosition());
+
+            copyColorToClipboard(colorTone);
+            showColorCopiedMessage(view, colorTone);
+        }
+
+        private void copyColorToClipboard(MaterialColorTone colorTone) {
+            ClipboardManager clipboard = (ClipboardManager) mContext.getSystemService(
+                    Context.CLIPBOARD_SERVICE);
+            String clipDataLabel = mContext.getString(R.string.tone_copied_clipboard_label);
+
+            ClipData clip = ClipData.newPlainText(clipDataLabel, colorTone.getColor());
+            clipboard.setPrimaryClip(clip);
+        }
+
+        private void showColorCopiedMessage(View view, MaterialColorTone colorTone) {
+            String messageText = mContext.getString(R.string.tone_copied_to_clipboard,
+                    colorTone.getColor());
+            Snackbar.make(view, messageText, Snackbar.LENGTH_SHORT).show();
         }
     }
 }

@@ -20,4 +20,7 @@
     <string name="action_search">Search</string>
 
     <string name="icon_search_hint">Search icons…</string>
+
+    <string name="tone_copied_clipboard_label">Material Color</string>
+    <string name="tone_copied_to_clipboard">%1$s is copied to clipboard!</string>
 </resources>
