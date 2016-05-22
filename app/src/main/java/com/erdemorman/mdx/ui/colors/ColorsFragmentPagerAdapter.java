@@ -2,19 +2,14 @@ package com.erdemorman.mdx.ui.colors;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.erdemorman.mdx.data.model.MaterialColor;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class ColorsFragmentPagerAdapter extends FragmentPagerAdapter {
+public class ColorsFragmentPagerAdapter extends FragmentStatePagerAdapter {
     private List<MaterialColor> mMaterialColors;
-
-    public ColorsFragmentPagerAdapter(FragmentManager fm) {
-        this(fm, new ArrayList<MaterialColor>());
-    }
 
     public ColorsFragmentPagerAdapter(FragmentManager fm, List<MaterialColor> materialColors) {
         super(fm);
@@ -30,9 +25,4 @@ public class ColorsFragmentPagerAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return mMaterialColors.size();
     }
-
-//    @Override
-//    public CharSequence getPageTitle(int position) {
-//        return mMaterialColors.get(position).getName();
-//    }
 }
