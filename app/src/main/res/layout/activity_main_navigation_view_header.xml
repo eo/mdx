@@ -16,5 +16,6 @@
         android:layout_height="match_parent"
         android:text="@string/app_name_short"
         android:gravity="center"
+        android:textStyle="bold"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 </FrameLayout>

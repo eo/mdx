@@ -4,7 +4,6 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.graphics.Color;
-import android.support.annotation.LayoutRes;
 import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
@@ -23,9 +22,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
-    private final static int VIEW_TYPE_ICON_NAME = 0;
-    private final static int VIEW_TYPE_ICON_TONE = 1;
-
     private Context mContext;
     private final String mColorName;
     private final List<MaterialColorTone> mColorTones;
@@ -38,14 +34,10 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        @LayoutRes int layoutRes = (viewType == VIEW_TYPE_ICON_NAME ?
-                R.layout.fragment_color_tones_item_color_name :
-                R.layout.fragment_color_tones_item_color_tone);
-
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(layoutRes, parent, false);
+                .inflate(viewType, parent, false);
 
-        return (viewType == VIEW_TYPE_ICON_NAME ?
+        return (viewType == ColorNameViewHolder.TYPE ?
                 new ColorNameViewHolder(itemView) : new ColorToneViewHolder(itemView));
     }
 
@@ -74,7 +66,7 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
     @Override
     public int getItemViewType(int position) {
-        return position == 0 ? VIEW_TYPE_ICON_NAME : VIEW_TYPE_ICON_TONE;
+        return position == 0 ? ColorNameViewHolder.TYPE : ColorToneViewHolder.TYPE;
     }
 
     @Override
@@ -87,6 +79,8 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     }
 
     class ColorNameViewHolder extends RecyclerView.ViewHolder {
+        static final int TYPE = R.layout.fragment_color_tones_item_color_name;
+
         @Bind(R.id.color_name) TextView colorName;
 
         public ColorNameViewHolder(View itemView) {
@@ -96,6 +90,8 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     }
 
     class ColorToneViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        static final int TYPE = R.layout.fragment_color_tones_item_color_tone;
+
         @Bind(R.id.tone_container) View toneContainer;
         @Bind(R.id.tone_name) TextView toneName;
         @Bind(R.id.tone_color) TextView toneColor;

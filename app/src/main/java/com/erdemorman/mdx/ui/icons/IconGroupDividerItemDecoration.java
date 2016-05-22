@@ -6,14 +6,7 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
-
-import java.util.logging.Logger;
-
-import timber.log.Timber;
-
-import static java.util.logging.Logger.*;
 
 public class IconGroupDividerItemDecoration extends RecyclerView.ItemDecoration {
     private Drawable mDivider;
@@ -57,6 +50,7 @@ public class IconGroupDividerItemDecoration extends RecyclerView.ItemDecoration 
         int adapterPosition = parent.getChildAdapterPosition(child);
 
         if (adapterPosition != 0) {
+            // TODO: remove access to adapter, use view holder
             IconsAdapter iconsAdapter = (IconsAdapter) parent.getAdapter();
             shouldDraw = iconsAdapter.isGroupHeader(adapterPosition);
         }
