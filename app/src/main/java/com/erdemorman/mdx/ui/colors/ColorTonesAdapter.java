@@ -4,6 +4,7 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.graphics.Color;
+import android.support.annotation.LayoutRes;
 import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
@@ -13,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.erdemorman.mdx.R;
+import com.erdemorman.mdx.data.model.MaterialColor;
 import com.erdemorman.mdx.data.model.MaterialColorTone;
 
 import java.util.List;
@@ -20,43 +22,75 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class ColorTonesAdapter extends RecyclerView.Adapter<ColorTonesAdapter.ColorToneViewHolder> {
+public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+    private final static int VIEW_TYPE_ICON_NAME = 0;
+    private final static int VIEW_TYPE_ICON_TONE = 1;
+
     private Context mContext;
+    private final String mColorName;
     private final List<MaterialColorTone> mColorTones;
 
-    public ColorTonesAdapter(Context context, List<MaterialColorTone> colorTones) {
+    public ColorTonesAdapter(Context context, MaterialColor materialColor) {
         mContext = context;
-        mColorTones = colorTones;
+        mColorName = materialColor.getName();
+        mColorTones = materialColor.getTones();
     }
 
     @Override
-    public ColorToneViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        @LayoutRes int layoutRes = (viewType == VIEW_TYPE_ICON_NAME ?
+                R.layout.fragment_color_tones_item_color_name :
+                R.layout.fragment_color_tones_item_color_tone);
+
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.fragment_color_tones_item_color_tone, parent, false);
+                .inflate(layoutRes, parent, false);
 
-        return new ColorToneViewHolder(itemView);
+        return (viewType == VIEW_TYPE_ICON_NAME ?
+                new ColorNameViewHolder(itemView) : new ColorToneViewHolder(itemView));
     }
 
     @Override
-    public void onBindViewHolder(ColorToneViewHolder holder, int position) {
-        MaterialColorTone colorTone = mColorTones.get(position);
-        int textColor = ContextCompat.getColor(mContext,
-                colorTone.isWhiteText() ? R.color.tone_white_text : R.color.tone_black_text);
+    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+        if (holder instanceof ColorNameViewHolder) {
+            ColorNameViewHolder viewHolder = (ColorNameViewHolder) holder;
+            viewHolder.colorName.setText(mColorName);
+        } else {
+            ColorToneViewHolder viewHolder = (ColorToneViewHolder) holder;
+            MaterialColorTone colorTone = mColorTones.get(position - 1);
+            int textColor = ContextCompat.getColor(mContext,
+                    colorTone.isWhiteText() ? R.color.tone_white_text : R.color.tone_black_text);
 
-        holder.toneName.setText(colorTone.getName());
-        holder.toneColor.setText(colorTone.getColor());
+            viewHolder.toneName.setText(colorTone.getName());
+            viewHolder.toneColor.setText(colorTone.getColor());
 
-        holder.toneName.setTextColor(textColor);
-        holder.toneColor.setTextColor(textColor);
+            viewHolder.toneName.setTextColor(textColor);
+            viewHolder.toneColor.setTextColor(textColor);
 
-        holder.toneContainer.setBackgroundColor(
-                Color.parseColor(colorTone.getColor())
-        );
+            viewHolder.toneContainer.setBackgroundColor(
+                    Color.parseColor(colorTone.getColor())
+            );
+        }
+
+
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        return position == 0 ? VIEW_TYPE_ICON_NAME : VIEW_TYPE_ICON_TONE;
     }
 
     @Override
     public int getItemCount() {
-        return mColorTones.size();
+        return mColorTones.size() + 1;
+    }
+
+    class ColorNameViewHolder extends RecyclerView.ViewHolder {
+        @Bind(R.id.color_name) TextView colorName;
+
+        public ColorNameViewHolder(View itemView) {
+            super(itemView);
+            ButterKnife.bind(this, itemView);
+        }
     }
 
     class ColorToneViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {

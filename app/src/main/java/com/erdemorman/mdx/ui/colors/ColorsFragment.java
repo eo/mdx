@@ -61,13 +61,28 @@ public class ColorsFragment extends Fragment implements ColorsView {
     }
 
     @Override
-    public void showColors(List<MaterialColor> colors) {
+    public void showColors(final List<MaterialColor> colors) {
         ColorsFragmentPagerAdapter pagerAdapter = new ColorsFragmentPagerAdapter(
                 getFragmentManager(), colors);
         mViewPager.setAdapter(pagerAdapter);
 
         mTabLayout.setupWithViewPager(mViewPager);
         setTabIcons(colors);
+
+        updateTabIndicatorColor(colors, mTabLayout.getSelectedTabPosition());
+
+        mViewPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+            @Override
+            public void onPageSelected(int position) {
+                updateTabIndicatorColor(colors, position);
+            }
+        });
+    }
+
+    private void updateTabIndicatorColor(List<MaterialColor> colors, int position) {
+        MaterialColor materialColor = colors.get(position);
+        mTabLayout.setSelectedTabIndicatorColor(Color.parseColor(
+                materialColor.getPrimaryColor()));
     }
 
     private void setTabIcons(List<MaterialColor> colors) {
@@ -77,7 +92,11 @@ public class ColorsFragment extends Fragment implements ColorsView {
 
             icon.setColorFilter(Color.parseColor(materialColor.getPrimaryColor()),
                     PorterDuff.Mode.SRC_ATOP);
-            mTabLayout.getTabAt(index).setIcon(icon);
+
+            TabLayout.Tab tab = mTabLayout.getTabAt(index);
+            if (tab != null) {
+                tab.setIcon(icon);
+            }
         }
     }
 }
