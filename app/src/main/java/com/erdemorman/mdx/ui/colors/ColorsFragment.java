@@ -1,5 +1,6 @@
 package com.erdemorman.mdx.ui.colors;
 
+import android.content.Context;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
@@ -58,6 +59,12 @@ public class ColorsFragment extends Fragment implements ColorsView {
         mColorsPresenter.attachView(this);
 
         return fragmentView;
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        getActivity().setTitle(R.string.colors_title);
     }
 
     @Override

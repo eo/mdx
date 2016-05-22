@@ -1,7 +1,6 @@
 package com.erdemorman.mdx.ui.main;
 
 import android.os.Bundle;
-import android.support.annotation.StringRes;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -41,6 +40,11 @@ public class MainActivity extends BaseActivity
         toggle.syncState();
 
         mNavigationView.setNavigationItemSelectedListener(this);
+
+        if (savedInstanceState == null) {
+            mNavigationView.setCheckedItem(R.id.nav_colors);
+            onNavigationItemSelected(mNavigationView.getMenu().findItem(R.id.nav_colors));
+        }
     }
 
     @Override
@@ -54,17 +58,14 @@ public class MainActivity extends BaseActivity
 
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        @StringRes int titleStringRes;
         Fragment fragment;
 
         switch (item.getItemId()) {
             case R.id.nav_icons:
-                titleStringRes = R.string.icons_title;
                 fragment = new IconsFragment();
                 break;
             case R.id.nav_colors:
             default:
-                titleStringRes = R.string.colors_title;
                 fragment = new ColorsFragment();
         }
 
@@ -73,7 +74,6 @@ public class MainActivity extends BaseActivity
         fragmentManager.beginTransaction()
                 .replace(R.id.content_frame, fragment)
                 .commit();
-        setTitle(titleStringRes);
 
         mDrawer.closeDrawer(GravityCompat.START);
         return true;

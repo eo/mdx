@@ -1,5 +1,6 @@
 package com.erdemorman.mdx.ui.icons;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -26,10 +27,8 @@ import javax.inject.Inject;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
-import rx.schedulers.Schedulers;
 
 public class IconsFragment extends Fragment implements IconsView {
     @Inject IconsPresenter mIconsPresenter;
@@ -80,6 +79,13 @@ public class IconsFragment extends Fragment implements IconsView {
     public void onDestroyView() {
         super.onDestroyView();
         mIconsPresenter.detachView();
+    }
+
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        getActivity().setTitle(R.string.icons_title);
     }
 
     @Override
