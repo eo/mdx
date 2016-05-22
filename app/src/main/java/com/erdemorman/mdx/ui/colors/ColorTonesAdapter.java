@@ -56,7 +56,7 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
             viewHolder.colorName.setText(mColorName);
         } else {
             ColorToneViewHolder viewHolder = (ColorToneViewHolder) holder;
-            MaterialColorTone colorTone = mColorTones.get(position - 1);
+            MaterialColorTone colorTone = getColorToneAtAdapterPosition(position);
             int textColor = ContextCompat.getColor(mContext,
                     colorTone.isWhiteText() ? R.color.tone_white_text : R.color.tone_black_text);
 
@@ -70,8 +70,6 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                     Color.parseColor(colorTone.getColor())
             );
         }
-
-
     }
 
     @Override
@@ -82,6 +80,10 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     @Override
     public int getItemCount() {
         return mColorTones.size() + 1;
+    }
+
+    private MaterialColorTone getColorToneAtAdapterPosition(int adapterPosition) {
+        return mColorTones.get(adapterPosition - 1);
     }
 
     class ColorNameViewHolder extends RecyclerView.ViewHolder {
@@ -107,7 +109,7 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
         @Override
         public void onClick(View view) {
-            MaterialColorTone colorTone = mColorTones.get(getAdapterPosition());
+            MaterialColorTone colorTone = getColorToneAtAdapterPosition(getAdapterPosition());
 
             copyColorToClipboard(colorTone);
             showColorCopiedMessage(view, colorTone);
