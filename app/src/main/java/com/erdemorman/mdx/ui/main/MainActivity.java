@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.erdemorman.mdx.R;
+import com.erdemorman.mdx.ui.about.AboutDialog;
 import com.erdemorman.mdx.ui.base.BaseActivity;
 import com.erdemorman.mdx.ui.colors.ColorsFragment;
 import com.erdemorman.mdx.ui.icons.IconsFragment;
@@ -58,11 +59,14 @@ public class MainActivity extends BaseActivity
 
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        Fragment fragment;
+        Fragment fragment = null;
 
         switch (item.getItemId()) {
             case R.id.nav_icons:
                 fragment = new IconsFragment();
+                break;
+            case R.id.nav_about:
+                AboutDialog.show(this);
                 break;
             case R.id.nav_colors:
             default:
@@ -70,10 +74,13 @@ public class MainActivity extends BaseActivity
         }
 
         // Insert the fragment by replacing any existing fragment
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction()
-                .replace(R.id.content_frame, fragment)
-                .commit();
+        if (fragment != null) {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame, fragment)
+                    .commit();
+        }
+
 
         mDrawer.closeDrawer(GravityCompat.START);
         return true;

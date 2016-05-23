@@ -26,4 +26,16 @@
 
     <string name="tone_copied_clipboard_label">Material Color</string>
     <string name="tone_copied_to_clipboard">%1$s is copied to clipboard!</string>
+
+    <string name="about_content_html"><![CDATA[
+        Material Design Explorer, <b>MDX</b>, is an app built by
+        <a href=\'https://www.linkedin.com/in/erdemorman\'>Erdem Orman</a>
+        for developers and designers.<br/><br/>
+
+        Source code is available on Github
+        <a href=\'https://github.com/erdemorman/mdx\'>github.com/erdemorman/mdx</a>
+    ]]></string>
+
+    <string name="dismiss">Dismiss</string>
+
 </resources>
