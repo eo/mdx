@@ -41,6 +41,7 @@ public class IconsFragment extends Fragment implements IconsView {
         super.onCreate(savedInstanceState);
         ((BaseActivity) getActivity()).getActivityComponent().inject(this);
 
+        setRetainInstance(true);
         setHasOptionsMenu(true);
     }
 
@@ -100,6 +101,7 @@ public class IconsFragment extends Fragment implements IconsView {
 
         RxSearchView.queryTextChanges(searchView)
                 .debounce(200, TimeUnit.MILLISECONDS)
+                .skip(1)    // skip initial unnecessary change
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Action1<CharSequence>() {
                     @Override

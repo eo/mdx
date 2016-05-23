@@ -43,8 +43,9 @@ public class ColorsFragment extends Fragment implements ColorsView {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         ((BaseActivity) getActivity()).getActivityComponent().inject(this);
+
+        setRetainInstance(true);
         setHasOptionsMenu(true);
     }
 

@@ -24,7 +24,7 @@ import rx.schedulers.Schedulers;
 public class IconsPresenter extends BasePresenter<IconsView> {
     private final DataManager mDataManager;
     private Subscription mSubscription;
-    private List<MaterialIconGroup> mIconGroupsCache;
+    private Observable<List<MaterialIconGroup>> mIconGroupsCache = Observable.empty();
 
     @Inject
     public IconsPresenter(DataManager dataManager) {
@@ -46,31 +46,37 @@ public class IconsPresenter extends BasePresenter<IconsView> {
 
     public void loadIcons(final CharSequence query) {
         checkViewAttached();
-        if (mIconGroupsCache == null) {
-            mSubscription = mDataManager.getMaterialIconGroups()
-                    .subscribeOn(Schedulers.io())
-                    .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe(new Action1<List<MaterialIconGroup>>() {
-                        @Override
-                        public void call(List<MaterialIconGroup> iconGroups) {
-                            mIconGroupsCache = iconGroups;
 
-                            if (!TextUtils.isEmpty(query)) {
-                                filterAndLoadIcons(query);
-                            } else {
-                                getView().showIconGroups(iconGroups);
-                            }
+        mSubscription = Observable.concat(mIconGroupsCache, mDataManager.getMaterialIconGroups())
+                .first()
+                .doOnNext(new Action1<List<MaterialIconGroup>>() {
+                    @Override
+                    public void call(List<MaterialIconGroup> iconGroups) {
+                        mIconGroupsCache = Observable.just(iconGroups);
+                    }
+                })
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Action1<List<MaterialIconGroup>>() {
+                    @Override
+                    public void call(List<MaterialIconGroup> iconGroups) {
+                        if (!TextUtils.isEmpty(query)) {
+                            filterAndLoadIcons(query);
+                        } else {
+                            getView().showIconGroups(iconGroups);
                         }
-                    });
-        } else if (!TextUtils.isEmpty(query)) {
-            filterAndLoadIcons(query);
-        } else {
-            getView().showIconGroups(mIconGroupsCache);
-        }
+                    }
+                });
     }
 
     private void filterAndLoadIcons(final CharSequence query) {
-        Observable.from(mIconGroupsCache)
+        mIconGroupsCache
+                .flatMap(new Func1<List<MaterialIconGroup>, Observable<MaterialIconGroup>>() {
+                    @Override
+                    public Observable<MaterialIconGroup> call(List<MaterialIconGroup> iconGroups) {
+                        return Observable.from(iconGroups);
+                    }
+                })
                 .map(new Func1<MaterialIconGroup, MaterialIconGroup>() {
                     @Override
                     public MaterialIconGroup call(MaterialIconGroup materialIconGroup) {
