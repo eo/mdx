@@ -5,18 +5,24 @@ import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.erdemorman.mdx.R;
+import com.erdemorman.mdx.data.local.PreferencesService;
 import com.erdemorman.mdx.data.model.MaterialColor;
 import com.erdemorman.mdx.ui.base.BaseActivity;
+import com.erdemorman.mdx.util.ColorFormatUtil.ColorFormat;
 
 import java.util.List;
 
@@ -27,15 +33,19 @@ import butterknife.ButterKnife;
 
 public class ColorsFragment extends Fragment implements ColorsView {
     @Inject ColorsPresenter mColorsPresenter;
+    @Inject PreferencesService mPreferencesService;
 
     @Bind(R.id.tab_layout) TabLayout mTabLayout;
     @Bind(R.id.view_pager) ViewPager mViewPager;
+
+    ColorsFragmentPagerAdapter mPagerAdapter;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         ((BaseActivity) getActivity()).getActivityComponent().inject(this);
+        setHasOptionsMenu(true);
     }
 
     @Override
@@ -68,31 +78,63 @@ public class ColorsFragment extends Fragment implements ColorsView {
     }
 
     @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.fragment_colors, menu);
+
+        @IdRes int colorFormatResId = mPreferencesService.getColorFormat() == ColorFormat.HEX ?
+                R.id.action_hex_format : R.id.action_rgb_format;
+        menu.findItem(colorFormatResId).setChecked(true);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_hex_format:
+                if (!item.isChecked()) {
+                    item.setChecked(true);
+                    mPreferencesService.setColorFormat(ColorFormat.HEX);
+                }
+                return true;
+
+            case R.id.action_rgb_format:
+                if (!item.isChecked()) {
+                    item.setChecked(true);
+                    mPreferencesService.setColorFormat(ColorFormat.RGB);
+                }
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
     public void showColors(final List<MaterialColor> colors) {
-        ColorsFragmentPagerAdapter pagerAdapter = new ColorsFragmentPagerAdapter(
-                getFragmentManager(), colors);
-        mViewPager.setAdapter(pagerAdapter);
+        mPagerAdapter = new ColorsFragmentPagerAdapter(getFragmentManager(), colors);
+        mViewPager.setAdapter(mPagerAdapter);
 
         mTabLayout.setupWithViewPager(mViewPager);
-        setTabIcons(colors);
-
-        updateTabIndicatorColor(colors, mTabLayout.getSelectedTabPosition());
 
         mViewPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
-                updateTabIndicatorColor(colors, position);
+                updateTabIndicatorColor();
             }
         });
+
+        setTabIcons();
+        updateTabIndicatorColor();
     }
 
-    private void updateTabIndicatorColor(List<MaterialColor> colors, int position) {
-        MaterialColor materialColor = colors.get(position);
-        mTabLayout.setSelectedTabIndicatorColor(Color.parseColor(
-                materialColor.getPrimaryColor()));
+    private void updateTabIndicatorColor() {
+        List<MaterialColor> colors = mPagerAdapter.getColors();
+        MaterialColor currentColor = colors.get(mTabLayout.getSelectedTabPosition());
+        mTabLayout.setSelectedTabIndicatorColor(Color.parseColor(currentColor.getPrimaryColor()));
     }
 
-    private void setTabIcons(List<MaterialColor> colors) {
+    private void setTabIcons() {
+        List<MaterialColor> colors = mPagerAdapter.getColors();
+
         for (int index = 0; index < mTabLayout.getTabCount(); index++) {
             MaterialColor materialColor = colors.get(index);
             Drawable icon = ContextCompat.getDrawable(getContext(), R.drawable.colors_tab_icon);

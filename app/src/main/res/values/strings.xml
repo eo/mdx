@@ -18,6 +18,9 @@
 
     <!-- Toolbar action titles -->
     <string name="action_search">Search</string>
+    <string name="action_color_format">Color format</string>
+    <string name="action_hex_format">#FFFFFF</string>
+    <string name="action_rgb_format">rgb(255, 255, 255)</string>
 
     <string name="icon_search_hint">Search icons…</string>
 

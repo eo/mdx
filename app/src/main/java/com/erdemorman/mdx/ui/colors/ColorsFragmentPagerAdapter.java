@@ -9,20 +9,24 @@ import com.erdemorman.mdx.data.model.MaterialColor;
 import java.util.List;
 
 public class ColorsFragmentPagerAdapter extends FragmentStatePagerAdapter {
-    private List<MaterialColor> mMaterialColors;
+    private List<MaterialColor> mColors;
 
     public ColorsFragmentPagerAdapter(FragmentManager fm, List<MaterialColor> materialColors) {
         super(fm);
-        mMaterialColors = materialColors;
+        mColors = materialColors;
+    }
+
+    public List<MaterialColor> getColors() {
+        return mColors;
     }
 
     @Override
     public Fragment getItem(int position) {
-        return ColorTonesFragment.newInstance(mMaterialColors.get(position));
+        return ColorTonesFragment.newInstance(mColors.get(position));
     }
 
     @Override
     public int getCount() {
-        return mMaterialColors.size();
+        return mColors.size();
     }
 }

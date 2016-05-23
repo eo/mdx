@@ -12,24 +12,47 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.erdemorman.mdx.MdxApplication;
 import com.erdemorman.mdx.R;
+import com.erdemorman.mdx.data.local.PreferencesService;
 import com.erdemorman.mdx.data.model.MaterialColor;
 import com.erdemorman.mdx.data.model.MaterialColorTone;
+import com.erdemorman.mdx.util.ColorFormatUtil;
+import com.erdemorman.mdx.util.ColorFormatUtil.ColorFormat;
 
 import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import rx.functions.Action1;
 
 public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private Context mContext;
     private final String mColorName;
     private final List<MaterialColorTone> mColorTones;
 
+    private ColorFormat mColorFormat;
+
+    private final PreferencesService mPreferencesService;
+
     public ColorTonesAdapter(Context context, MaterialColor materialColor) {
         mContext = context;
         mColorName = materialColor.getName();
         mColorTones = materialColor.getTones();
+
+        mPreferencesService = MdxApplication.get(context)
+                .getApplicationComponent()
+                .preferencesService();
+        mColorFormat = mPreferencesService.getColorFormat();
+
+        mPreferencesService.observeColorFormat()
+                .subscribe(new Action1<ColorFormat>() {
+                    @Override
+                    public void call(ColorFormat colorFormat) {
+                        mColorFormat = colorFormat;
+                        notifyDataSetChanged();
+                    }
+                });
     }
 
     @Override
@@ -53,7 +76,7 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                     colorTone.isWhiteText() ? R.color.tone_white_text : R.color.tone_black_text);
 
             viewHolder.toneName.setText(colorTone.getName());
-            viewHolder.toneColor.setText(colorTone.getColor());
+            viewHolder.toneColor.setText(getFormattedToneColorText(colorTone));
 
             viewHolder.toneName.setTextColor(textColor);
             viewHolder.toneColor.setTextColor(textColor);
@@ -72,6 +95,11 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     @Override
     public int getItemCount() {
         return mColorTones.size() + 1;
+    }
+
+    private String getFormattedToneColorText(MaterialColorTone tone) {
+        return (mColorFormat == ColorFormat.RGB ?
+                ColorFormatUtil.toRgb(tone.getColor()) : tone.getColor());
     }
 
     private MaterialColorTone getColorToneAtAdapterPosition(int adapterPosition) {
@@ -122,7 +150,7 @@ public class ColorTonesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
         private void showColorCopiedMessage(View view, MaterialColorTone colorTone) {
             String messageText = mContext.getString(R.string.tone_copied_to_clipboard,
-                    colorTone.getColor());
+                    getFormattedToneColorText(colorTone));
             Snackbar.make(view, messageText, Snackbar.LENGTH_SHORT).show();
         }
     }

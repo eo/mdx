@@ -5,6 +5,7 @@ import android.content.Context;
 
 import com.erdemorman.mdx.data.DataManager;
 import com.erdemorman.mdx.data.local.AssetDataService;
+import com.erdemorman.mdx.data.local.PreferencesService;
 import com.erdemorman.mdx.injection.ApplicationContext;
 import com.erdemorman.mdx.injection.module.ApplicationModule;
 
@@ -19,4 +20,5 @@ public interface ApplicationComponent {
     Application application();
     DataManager dataManager();
     AssetDataService assetDataService();
+    PreferencesService preferencesService();
 }
