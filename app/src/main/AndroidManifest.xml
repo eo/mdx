@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.erdemorman.mdx">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:name=".MdxApplication"
         android:allowBackup="true"

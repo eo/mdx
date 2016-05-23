@@ -4,7 +4,6 @@ import android.app.Application;
 import android.content.Context;
 
 import com.erdemorman.mdx.data.model.MaterialIcon;
-import com.erdemorman.mdx.data.remote.MdxService;
 import com.erdemorman.mdx.injection.ApplicationContext;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -35,13 +34,7 @@ public class ApplicationModule {
     Context provideContext() {
         return mApplication;
     }
-
-    @Provides
-    @Singleton
-    MdxService provideMdxService() {
-        return MdxService.Creator.newMdxService();
-    }
-
+    
     @Provides
     @Singleton
     Gson provideGson() {
