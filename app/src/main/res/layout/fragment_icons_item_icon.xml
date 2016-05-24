@@ -23,8 +23,8 @@
         android:layout_marginRight="@dimen/icon_name_horizontal_margin"
         android:layout_marginEnd="@dimen/icon_name_horizontal_margin"
         android:layout_marginTop="@dimen/icon_name_margin_top"
-        android:maxLines="1"
-        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:ellipsize="end"
         android:textColor="?android:attr/textColorSecondary"
         android:textSize="@dimen/icon_name_font_size"
         tools:text="face"/>

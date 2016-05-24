@@ -6,7 +6,15 @@
         android:top="16dp"
         android:bottom="16dp"
         android:left="8dp"
-        android:right="8dp"
-        android:drawable="?android:attr/listDivider" />
+        android:right="8dp">
+
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#1f000000" />
+            <size
+                android:height="1dp"
+                android:width="1dp" />
+        </shape>
+
+    </item>
 
 </layer-list>
