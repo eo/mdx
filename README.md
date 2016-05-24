@@ -1,6 +1,8 @@
 # MDX - Material Design Explorer
 
-<img alt="App Icon" src="/art/icon.png" width="120" />
+<p align="center">
+  <img alt="App Icon" src="/art/icon.png" width="120" />
+</p>
 
 ![Screenshots](/art/screenshots.png)
 
@@ -12,6 +14,17 @@ You can either download the latest APK from [releases](https://github.com/erdemo
   <img alt="Get it on Google Play"
        src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="100"/>
 </a>
+
+## Libraries
+
+ * Dagger - http://google.github.io/dagger/
+ * RxJava - https://github.com/ReactiveX/RxJava
+ * RxAndroid - https://github.com/ReactiveX/RxAndroid
+ * RxBinding - https://github.com/JakeWharton/RxBinding
+ * ButterKnife - http://jakewharton.github.io/butterknife
+ * Guava - https://github.com/google/guava
+ * Gson - https://github.com/google/gson
+ * material-dialogs - https://github.com/afollestad/material-dialogs
 
 ## Licence
 
